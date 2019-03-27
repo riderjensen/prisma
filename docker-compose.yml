@@ -13,5 +13,5 @@ services:
         databases:
           default:
             connector: mongo
-            uri: >-
-              mongodb+srv://riderjensen:miggler3!@nodecourse-zfafv.mongodb.net/redditDays?retryWrites=true
+            uri: mongodb+srv://riderjensen:myNewPasswordHere@nodecourse-zfafv.mongodb.net/redditDays?retryWrites=true
+            database:redditDAys

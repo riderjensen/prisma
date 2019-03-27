@@ -7,1492 +7,1059 @@ type Daysave @db(name: "daysaves") {
 }
 
 type DaysaveItem @embedded {
-  r/4chan: DaysaveItemR/4chan
-  r/AbandonedPorn: DaysaveItemR/AbandonedPorn
-  r/AdviceAnimals: DaysaveItemR/AdviceAnimal
-  r/Android: DaysaveItemR/Android
-  r/AnimalsBeingBros: DaysaveItemR/AnimalsBeingBro
-  r/AnimalsBeingDerps: DaysaveItemR/AnimalsBeingDerp
-  r/AnimalsBeingJerks: DaysaveItemR/AnimalsBeingJerk
-  r/anime: DaysaveItemR/anime
-  r/apple: DaysaveItemR/apple
-  r/Art: DaysaveItemR/Art
-  r/AskHistorians: DaysaveItemR/AskHistorian
-  r/AskMen: DaysaveItemR/AskMan
-  r/AskReddit: DaysaveItemR/AskReddit
-  r/askscience: DaysaveItemR/askscience
-  r/AskWomen: DaysaveItemR/AskWoman
-  r/assholedesign: DaysaveItemR/assholedesign
-  r/ATBGE: DaysaveItemR/ATBGE
-  r/atheism: DaysaveItemR/atheism
-  r/aww: DaysaveItemR/aww
-  r/Awwducational: DaysaveItemR/Awwducational
-  r/backpacking: DaysaveItemR/backpacking
-  r/baseball: DaysaveItemR/baseball
-  r/battlestations: DaysaveItemR/battlestation
-  r/BeAmazed: DaysaveItemR/BeAmazed
-  r/bestof: DaysaveItemR/bestof
-  r/BetterEveryLoop: DaysaveItemR/BetterEveryLoop
-  r/BikiniBottomTwitter: DaysaveItemR/BikiniBottomTwitter
-  r/Bitcoin: DaysaveItemR/Bitcoin
-  r/blackmagicfuckery: DaysaveItemR/blackmagicfuckery
-  r/BlackPeopleTwitter: DaysaveItemR/BlackPeopleTwitter
-  r/boardgames: DaysaveItemR/boardgame
-  r/bodyweightfitness: DaysaveItemR/bodyweightfitness
-  r/books: DaysaveItemR/book
-  r/buildapc: DaysaveItemR/buildapc
-  r/BustyPetite: DaysaveItemR/BustyPetite
-  r/cars: DaysaveItemR/car
-  r/cats: DaysaveItemR/cat
-  r/changemyview: DaysaveItemR/changemyview
-  r/ChildrenFallingOver: DaysaveItemR/ChildrenFallingOver
-  r/ChoosingBeggars: DaysaveItemR/ChoosingBeggar
-  r/comicbooks: DaysaveItemR/comicbook
-  r/comics: DaysaveItemR/comic
-  r/confession: DaysaveItemR/confession
-  r/conspiracy: DaysaveItemR/conspiracy
-  r/ContagiousLaughter: DaysaveItemR/ContagiousLaughter
-  r/Cooking: DaysaveItemR/Cooking
-  r/CrappyDesign: DaysaveItemR/CrappyDesign
-  r/creepy: DaysaveItemR/creepy
-  r/cringe: DaysaveItemR/cringe
-  r/cringepics: DaysaveItemR/cringepic
-  r/CryptoCurrency: DaysaveItemR/CryptoCurrency
-  r/dadjokes: DaysaveItemR/dadjoke
-  r/Damnthatsinteresting: DaysaveItemR/Damnthatsinteresting
-  r/dankmemes: DaysaveItemR/dankmeme
-  r/dataisbeautiful: DaysaveItemR/dataisbeautiful
-  r/DestinyTheGame: DaysaveItemR/DestinyTheGame
-  r/DIY: DaysaveItemR/DIY
-  r/DnD: DaysaveItemR/DnD
-  r/Documentaries: DaysaveItemR/Documentary
-  r/dogs: DaysaveItemR/dog
-  r/drawing: DaysaveItemR/drawing
-  r/DunderMifflin: DaysaveItemR/DunderMifflin
-  r/EarthPorn: DaysaveItemR/EarthPorn
-  r/EatCheapAndHealthy: DaysaveItemR/EatCheapAndHealthy
-  r/educationalgifs: DaysaveItemR/educationalgif
-  r/entertainment: DaysaveItemR/entertainment
-  r/europe: DaysaveItemR/europe
-  r/explainlikeimfive: DaysaveItemR/explainlikeimfive
-  r/Eyebleach: DaysaveItemR/Eyebleach
-  r/facepalm: DaysaveItemR/facepalm
-  r/femalefashionadvice: DaysaveItemR/femalefashionadvice
-  r/FiftyFifty: DaysaveItemR/FiftyFifty
-  r/Fitness: DaysaveItemR/Fitness
-  r/food: DaysaveItemR/food
-  r/FoodPorn: DaysaveItemR/FoodPorn
-  r/FortNiteBR: DaysaveItemR/FortNiteBR
-  r/Frugal: DaysaveItemR/Frugal
-  r/frugalmalefashion: DaysaveItemR/frugalmalefashion
-  r/funny: DaysaveItemR/funny
-  r/Futurology: DaysaveItemR/Futurology
-  r/gadgets: DaysaveItemR/gadget
-  r/gameofthrones: DaysaveItemR/gameofthrone
-  r/GamePhysics: DaysaveItemR/GamePhysic
-  r/Games: DaysaveItemR/Game
-  r/gaming: DaysaveItemR/gaming
-  r/gardening: DaysaveItemR/gardening
-  r/GetMotivated: DaysaveItemR/GetMotivated
-  r/GifRecipes: DaysaveItemR/GifRecipe
-  r/gifs: DaysaveItemR/gif
-  r/GlobalOffensive: DaysaveItemR/GlobalOffensive
-  r/gonewild: DaysaveItemR/gonewild
-  r/hearthstone: DaysaveItemR/hearthstone
-  r/HighQualityGifs: DaysaveItemR/HighQualityGif
-  r/hiphopheads: DaysaveItemR/hiphophead
-  r/history: DaysaveItemR/history
-  r/HistoryPorn: DaysaveItemR/HistoryPorn
-  r/hmmm: DaysaveItemR/hmmm
-  r/hockey: DaysaveItemR/hockey
-  r/holdmybeer: DaysaveItemR/holdmybeer
-  r/holdthemoan: DaysaveItemR/holdthemoan
-  r/horror: DaysaveItemR/horror
-  r/howto: DaysaveItemR/howto
-  r/HumansBeingBros: DaysaveItemR/HumansBeingBro
-  r/humor: DaysaveItemR/humor
-  r/IAmA: DaysaveItemR/IAmA
-  r/iamverysmart: DaysaveItemR/iamverysmart
-  r/ImGoingToHellForThis: DaysaveItemR/ImGoingToHellForThi
-  r/insanepeoplefacebook: DaysaveItemR/insanepeoplefacebook
-  r/instant_regret: DaysaveItemR/instant_regret
-  r/interestingasfuck: DaysaveItemR/interestingasfuck
-  r/iphone: DaysaveItemR/iphone
-  r/itookapicture: DaysaveItemR/itookapicture
-  r/Jokes: DaysaveItemR/Joke
-  r/keto: DaysaveItemR/keto
-  r/leagueoflegends: DaysaveItemR/leagueoflegend
-  r/learnprogramming: DaysaveItemR/learnprogramming
-  r/legaladvice: DaysaveItemR/legaladvice
-  r/lifehacks: DaysaveItemR/lifehack
-  r/LifeProTips: DaysaveItemR/LifeProTip
-  r/listentothis: DaysaveItemR/listentothi
-  r/loseit: DaysaveItemR/loseit
-  r/MadeMeSmile: DaysaveItemR/MadeMeSmile
-  r/madlads: DaysaveItemR/madlad
-  r/MakeupAddiction: DaysaveItemR/MakeupAddiction
-  r/malefashionadvice: DaysaveItemR/malefashionadvice
-  r/manga: DaysaveItemR/manga
-  r/math: DaysaveItemR/math
-  r/me_irl: DaysaveItemR/me_irl
-  r/MealPrepSunday: DaysaveItemR/MealPrepSunday
-  r/MemeEconomy: DaysaveItemR/MemeEconomy
-  r/memes: DaysaveItemR/meme
-  r/mildlyinfuriating: DaysaveItemR/mildlyinfuriating
-  r/mildlyinteresting: DaysaveItemR/mildlyinteresting
-  r/Minecraft: DaysaveItemR/Minecraft
-  r/MMA: DaysaveItemR/MMA
-  r/MovieDetails: DaysaveItemR/MovieDetail
-  r/movies: DaysaveItemR/movie
-  r/MurderedByWords: DaysaveItemR/MurderedByWord
-  r/Music: DaysaveItemR/Music
-  r/NatureIsFuckingLit: DaysaveItemR/NatureIsFuckingLit
-  r/natureismetal: DaysaveItemR/natureismetal
-  r/nba: DaysaveItemR/nba
-  r/NetflixBestOf: DaysaveItemR/NetflixBestOf
-  r/nevertellmetheodds: DaysaveItemR/nevertellmetheodd
-  r/news: DaysaveItemR/new
-  r/nfl: DaysaveItemR/nfl
-  r/niceguys: DaysaveItemR/niceguy
-  r/nintendo: DaysaveItemR/nintendo
-  r/NintendoSwitch: DaysaveItemR/NintendoSwitch
-  r/nononono: DaysaveItemR/nononono
-  r/nonononoyes: DaysaveItemR/nonononoye
-  r/nosleep: DaysaveItemR/nosleep
-  r/NoStupidQuestions: DaysaveItemR/NoStupidQuestion
-  r/nottheonion: DaysaveItemR/nottheonion
-  r/nsfw: DaysaveItemR/nsfw
-  r/NSFW_GIF: DaysaveItemR/NSFW_GIF
-  r/oddlysatisfying: DaysaveItemR/oddlysatisfying
-  r/offmychest: DaysaveItemR/offmychest
-  r/oldpeoplefacebook: DaysaveItemR/oldpeoplefacebook
-  r/OldSchoolCool: DaysaveItemR/OldSchoolCool
-  r/OopsDidntMeanTo: DaysaveItemR/OopsDidntMeanTo
-  r/OutOfTheLoop: DaysaveItemR/OutOfTheLoop
-  r/Overwatch: DaysaveItemR/Overwatch
-  r/pcgaming: DaysaveItemR/pcgaming
-  r/pcmasterrace: DaysaveItemR/pcmasterrace
-  r/PeopleFuckingDying: DaysaveItemR/PeopleFuckingDying
-  r/PerfectTiming: DaysaveItemR/PerfectTiming
-  r/personalfinance: DaysaveItemR/personalfinance
-  r/PewdiepieSubmissions: DaysaveItemR/PewdiepieSubmission
-  r/philosophy: DaysaveItemR/philosophy
-  r/photography: DaysaveItemR/photography
-  r/photoshopbattles: DaysaveItemR/photoshopbattle
-  r/pics: DaysaveItemR/pic
-  r/pokemon: DaysaveItemR/pokemon
-  r/pokemongo: DaysaveItemR/pokemongo
-  r/politics: DaysaveItemR/politic
-  r/PrequelMemes: DaysaveItemR/PrequelMeme
-  r/ProgrammerHumor: DaysaveItemR/ProgrammerHumor
-  r/programming: DaysaveItemR/programming
-  r/PS4: DaysaveItemR/PS4
-  r/PUBATTLEGROUNDS: DaysaveItemR/PUBATTLEGROUND
-  r/quityourbullshit: DaysaveItemR/quityourbullshit
-  r/rarepuppers: DaysaveItemR/rarepupper
-  r/raspberry_pi: DaysaveItemR/raspberry_pi
-  r/reactiongifs: DaysaveItemR/reactiongif
-  r/RealGirls: DaysaveItemR/RealGirl
-  r/reallifedoodles: DaysaveItemR/reallifedoodle
-  r/recipes: DaysaveItemR/recipe
-  r/relationship_advice: DaysaveItemR/relationship_advice
-  r/relationships: DaysaveItemR/relationship
-  r/rickandmorty: DaysaveItemR/rickandmorty
-  r/Roadcam: DaysaveItemR/Roadcam
-  r/RoastMe: DaysaveItemR/RoastMe
-  r/RoomPorn: DaysaveItemR/RoomPorn
-  r/savedyouaclick: DaysaveItemR/savedyouaclick
-  r/science: DaysaveItemR/science
-  r/scifi: DaysaveItemR/scifi
-  r/sex: DaysaveItemR/sex
-  r/shittyaskscience: DaysaveItemR/shittyaskscience
-  r/shittyfoodporn: DaysaveItemR/shittyfoodporn
-  r/Showerthoughts: DaysaveItemR/Showerthought
-  r/SkincareAddiction: DaysaveItemR/SkincareAddiction
-  r/slowcooking: DaysaveItemR/slowcooking
-  r/soccer: DaysaveItemR/soccer
-  r/socialskills: DaysaveItemR/socialskill
-  r/space: DaysaveItemR/space
-  r/sports: DaysaveItemR/sport
-  r/starterpacks: DaysaveItemR/starterpack
-  r/StarWars: DaysaveItemR/StarWar
-  r/streetwear: DaysaveItemR/streetwear
-  r/tattoos: DaysaveItemR/tattoo
-  r/technology: DaysaveItemR/technology
-  r/teenagers: DaysaveItemR/teenager
-  r/television: DaysaveItemR/television
-  r/thatHappened: DaysaveItemR/thatHappened
-  r/The_Donald: DaysaveItemR/The_Donald
-  r/therewasanattempt: DaysaveItemR/therewasanattempt
-  r/tifu: DaysaveItemR/tifu
-  r/Tinder: DaysaveItemR/Tinder
-  r/todayilearned: DaysaveItemR/todayilearned
-  r/trashy: DaysaveItemR/trashy
-  r/travel: DaysaveItemR/travel
-  r/trees: DaysaveItemR/tree
-  r/trippinthroughtime: DaysaveItemR/trippinthroughtime
-  r/TrollXChromosomes: DaysaveItemR/TrollXChromosome
-  r/TrollYChromosome: DaysaveItemR/TrollYChromosome
-  r/TwoXChromosomes: DaysaveItemR/TwoXChromosome
-  r/Unexpected: DaysaveItemR/Unexpected
-  r/UpliftingNews: DaysaveItemR/UpliftingNew
-  r/urbanexploration: DaysaveItemR/urbanexploration
-  r/videos: DaysaveItemR/video
-  r/wallpaper: DaysaveItemR/wallpaper
-  r/WatchPeopleDieInside: DaysaveItemR/WatchPeopleDieInside
-  r/Wellthatsucks: DaysaveItemR/Wellthatsuck
-  r/Whatcouldgowrong: DaysaveItemR/Whatcouldgowrong
-  r/whatisthisthing: DaysaveItemR/whatisthisthing
-  r/WhitePeopleTwitter: DaysaveItemR/WhitePeopleTwitter
-  r/wholesomememes: DaysaveItemR/wholesomememe
-  r/woahdude: DaysaveItemR/woahdude
-  r/woodworking: DaysaveItemR/woodworking
-  r/worldnews: DaysaveItemR/worldnew
-  r/wow: DaysaveItemR/wow
-  r/WritingPrompts: DaysaveItemR/WritingPrompt
-  r/WTF: DaysaveItemR/WTF
-  r/xboxone: DaysaveItemR/xboxone
-  r/youseeingthisshit: DaysaveItemR/youseeingthisshit
-  r/YouShouldKnow: DaysaveItemR/YouShouldKnow
-  r/youtubehaiku: DaysaveItemR/youtubehaiku
+  AbandonedPorn: DaysaveItemAbandonedPorn
+  AdviceAnimals: DaysaveItemAdviceAnimal
+  Android: DaysaveItemAndroid
+  AnimalsBeingJerks: DaysaveItemAnimalsBeingJerk
+  anime: DaysaveItemAnime
+  apple: DaysaveItemApple
+  Art: DaysaveItemArt
+  AskMen: DaysaveItemAskMan
+  AskReddit: DaysaveItemAskReddit
+  askscience: DaysaveItemAskscience
+  AskWomen: DaysaveItemAskWoman
+  assholedesign: DaysaveItemAssholedesign
+  atheism: DaysaveItemAtheism
+  aww: DaysaveItemAww
+  backpacking: DaysaveItemBackpacking
+  baseball: DaysaveItemBaseball
+  battlestations: DaysaveItemBattlestation
+  BeAmazed: DaysaveItemBeAmazed
+  bestof: DaysaveItemBestof
+  BetterEveryLoop: DaysaveItemBetterEveryLoop
+  BikiniBottomTwitter: DaysaveItemBikiniBottomTwitter
+  BlackPeopleTwitter: DaysaveItemBlackPeopleTwitter
+  boardgames: DaysaveItemBoardgame
+  books: DaysaveItemBook
+  buildapc: DaysaveItemBuildapc
+  cars: DaysaveItemCar
+  cats: DaysaveItemCat
+  changemyview: DaysaveItemChangemyview
+  ChoosingBeggars: DaysaveItemChoosingBeggar
+  comicbooks: DaysaveItemComicbook
+  comics: DaysaveItemComic
+  confession: DaysaveItemConfession
+  conspiracy: DaysaveItemConspiracy
+  Cooking: DaysaveItemCooking
+  CrappyDesign: DaysaveItemCrappyDesign
+  creepy: DaysaveItemCreepy
+  cringe: DaysaveItemCringe
+  CryptoCurrency: DaysaveItemCryptoCurrency
+  Damnthatsinteresting: DaysaveItemDamnthatsinteresting
+  dankmemes: DaysaveItemDankmeme
+  DestinyTheGame: DaysaveItemDestinyTheGame
+  DnD: DaysaveItemDnD
+  Documentaries: DaysaveItemDocumentary
+  drawing: DaysaveItemDrawing
+  DunderMifflin: DaysaveItemDunderMifflin
+  EarthPorn: DaysaveItemEarthPorn
+  educationalgifs: DaysaveItemEducationalgif
+  entertainment: DaysaveItemEntertainment
+  europe: DaysaveItemEurope
+  explainlikeimfive: DaysaveItemExplainlikeimfive
+  Eyebleach: DaysaveItemEyebleach
+  facepalm: DaysaveItemFacepalm
+  femalefashionadvice: DaysaveItemFemalefashionadvice
+  Fitness: DaysaveItemFitness
+  food: DaysaveItemFood
+  FoodPorn: DaysaveItemFoodPorn
+  FortNiteBR: DaysaveItemFortNiteBR
+  Frugal: DaysaveItemFrugal
+  frugalmalefashion: DaysaveItemFrugalmalefashion
+  funny: DaysaveItemFunny
+  Futurology: DaysaveItemFuturology
+  gadgets: DaysaveItemGadget
+  Games: DaysaveItemGame
+  gaming: DaysaveItemGaming
+  gardening: DaysaveItemGardening
+  gifs: DaysaveItemGif
+  GlobalOffensive: DaysaveItemGlobalOffensive
+  gonewild: DaysaveItemGonewild
+  hearthstone: DaysaveItemHearthstone
+  HighQualityGifs: DaysaveItemHighQualityGif
+  hiphopheads: DaysaveItemHiphophead
+  hmmm: DaysaveItemHmmm
+  hockey: DaysaveItemHockey
+  HumansBeingBros: DaysaveItemHumansBeingBro
+  iamverysmart: DaysaveItemIamverysmart
+  insanepeoplefacebook: DaysaveItemInsanepeoplefacebook
+  instant_regret: DaysaveItemInstant_regret
+  interestingasfuck: DaysaveItemInterestingasfuck
+  iphone: DaysaveItemIphone
+  Jokes: DaysaveItemJoke
+  keto: DaysaveItemKeto
+  leagueoflegends: DaysaveItemLeagueoflegend
+  legaladvice: DaysaveItemLegaladvice
+  lifehacks: DaysaveItemLifehack
+  LifeProTips: DaysaveItemLifeProTip
+  listentothis: DaysaveItemListentothi
+  loseit: DaysaveItemLoseit
+  MakeupAddiction: DaysaveItemMakeupAddiction
+  malefashionadvice: DaysaveItemMalefashionadvice
+  manga: DaysaveItemManga
+  me_irl: DaysaveItemMe_irl
+  MealPrepSunday: DaysaveItemMealPrepSunday
+  MemeEconomy: DaysaveItemMemeEconomy
+  memes: DaysaveItemMeme
+  mildlyinfuriating: DaysaveItemMildlyinfuriating
+  mildlyinteresting: DaysaveItemMildlyinteresting
+  Minecraft: DaysaveItemMinecraft
+  MMA: DaysaveItemMMA
+  MovieDetails: DaysaveItemMovieDetail
+  movies: DaysaveItemMovie
+  MurderedByWords: DaysaveItemMurderedByWord
+  Music: DaysaveItemMusic
+  NatureIsFuckingLit: DaysaveItemNatureIsFuckingLit
+  natureismetal: DaysaveItemNatureismetal
+  nba: DaysaveItemNba
+  news: DaysaveItemNews
+  nfl: DaysaveItemNfl
+  niceguys: DaysaveItemNiceguy
+  NintendoSwitch: DaysaveItemNintendoSwitch
+  nononono: DaysaveItemNononono
+  nosleep: DaysaveItemNosleep
+  NoStupidQuestions: DaysaveItemNoStupidQuestion
+  nottheonion: DaysaveItemNottheonion
+  oddlysatisfying: DaysaveItemOddlysatisfying
+  oldpeoplefacebook: DaysaveItemOldpeoplefacebook
+  OldSchoolCool: DaysaveItemOldSchoolCool
+  Overwatch: DaysaveItemOverwatch
+  pcgaming: DaysaveItemPcgaming
+  pcmasterrace: DaysaveItemPcmasterrace
+  personalfinance: DaysaveItemPersonalfinance
+  PewdiepieSubmissions: DaysaveItemPewdiepieSubmission
+  photography: DaysaveItemPhotography
+  pics: DaysaveItemPic
+  pokemon: DaysaveItemPokemon
+  pokemongo: DaysaveItemPokemongo
+  politics: DaysaveItemPolitic
+  PrequelMemes: DaysaveItemPrequelMeme
+  ProgrammerHumor: DaysaveItemProgrammerHumor
+  PS4: DaysaveItemPS4
+  reactiongifs: DaysaveItemReactiongif
+  RealGirls: DaysaveItemRealGirl
+  relationship_advice: DaysaveItemRelationship_advice
+  relationships: DaysaveItemRelationship
+  rickandmorty: DaysaveItemRickandmorty
+  Roadcam: DaysaveItemRoadcam
+  RoastMe: DaysaveItemRoastMe
+  science: DaysaveItemScience
+  sex: DaysaveItemSex
+  Showerthoughts: DaysaveItemShowerthought
+  soccer: DaysaveItemSoccer
+  socialskills: DaysaveItemSocialskill
+  space: DaysaveItemSpace
+  sports: DaysaveItemSport
+  starterpacks: DaysaveItemStarterpack
+  StarWars: DaysaveItemStarWar
+  technology: DaysaveItemTechnology
+  teenagers: DaysaveItemTeenager
+  television: DaysaveItemTelevision
+  thatHappened: DaysaveItemThatHappened
+  The_Donald: DaysaveItemThe_Donald
+  therewasanattempt: DaysaveItemTherewasanattempt
+  tifu: DaysaveItemTifu
+  Tinder: DaysaveItemTinder
+  todayilearned: DaysaveItemTodayilearned
+  trashy: DaysaveItemTrashy
+  travel: DaysaveItemTravel
+  trees: DaysaveItemTree
+  TwoXChromosomes: DaysaveItemTwoXChromosome
+  Unexpected: DaysaveItemUnexpected
+  UpliftingNews: DaysaveItemUpliftingNew
+  videos: DaysaveItemVideo
+  WatchPeopleDieInside: DaysaveItemWatchPeopleDieInside
+  Wellthatsucks: DaysaveItemWellthatsuck
+  Whatcouldgowrong: DaysaveItemWhatcouldgowrong
+  whatisthisthing: DaysaveItemWhatisthisthing
+  WhitePeopleTwitter: DaysaveItemWhitePeopleTwitter
+  wholesomememes: DaysaveItemWholesomememe
+  woahdude: DaysaveItemWoahdude
+  woodworking: DaysaveItemWoodworking
+  worldnews: DaysaveItemWorldnew
+  wow: DaysaveItemWow
+  WritingPrompts: DaysaveItemWritingPrompt
+  WTF: DaysaveItemWTF
+  xboxone: DaysaveItemXboxone
+  YouShouldKnow: DaysaveItemYouShouldKnow
 }
 
-type DaysaveItemR/4chan @embedded {
+type DaysaveItem4chan @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/ATBGE @embedded {
+type DaysaveItemAbandonedPorn @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AbandonedPorn @embedded {
+type DaysaveItemAdviceAnimal @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AdviceAnimal @embedded {
+type DaysaveItemAndroid @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Android @embedded {
+type DaysaveItemAnimalsBeingJerk @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AnimalsBeingBro @embedded {
+type DaysaveItemAnime @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AnimalsBeingDerp @embedded {
+type DaysaveItemApple @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AnimalsBeingJerk @embedded {
+type DaysaveItemArt @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Art @embedded {
+type DaysaveItemAskMan @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AskHistorian @embedded {
+type DaysaveItemAskReddit @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AskMan @embedded {
+type DaysaveItemAskWoman @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AskReddit @embedded {
+type DaysaveItemAskscience @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/AskWoman @embedded {
+type DaysaveItemAssholedesign @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Awwducational @embedded {
+type DaysaveItemAtheism @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/BeAmazed @embedded {
+type DaysaveItemAww @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/BetterEveryLoop @embedded {
+type DaysaveItemBackpacking @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/BikiniBottomTwitter @embedded {
+type DaysaveItemBaseball @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Bitcoin @embedded {
+type DaysaveItemBattlestation @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/BlackPeopleTwitter @embedded {
+type DaysaveItemBeAmazed @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/BustyPetite @embedded {
+type DaysaveItemBestof @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/ChildrenFallingOver @embedded {
+type DaysaveItemBetterEveryLoop @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/ChoosingBeggar @embedded {
+type DaysaveItemBikiniBottomTwitter @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/ContagiousLaughter @embedded {
+type DaysaveItemBlackPeopleTwitter @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Cooking @embedded {
+type DaysaveItemBoardgame @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/CrappyDesign @embedded {
+type DaysaveItemBook @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/CryptoCurrency @embedded {
+type DaysaveItemBuildapc @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/DIY @embedded {
+type DaysaveItemCar @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Damnthatsinteresting @embedded {
+type DaysaveItemCat @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/DestinyTheGame @embedded {
+type DaysaveItemChangemyview @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/DnD @embedded {
+type DaysaveItemChoosingBeggar @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Documentary @embedded {
+type DaysaveItemComic @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/DunderMifflin @embedded {
+type DaysaveItemComicbook @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/EarthPorn @embedded {
+type DaysaveItemConfession @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/EatCheapAndHealthy @embedded {
+type DaysaveItemConspiracy @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Eyebleach @embedded {
+type DaysaveItemCooking @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/FiftyFifty @embedded {
+type DaysaveItemCrappyDesign @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Fitness @embedded {
+type DaysaveItemCreepy @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/FoodPorn @embedded {
+type DaysaveItemCringe @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/FortNiteBR @embedded {
+type DaysaveItemCryptoCurrency @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Frugal @embedded {
+type DaysaveItemDamnthatsinteresting @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Futurology @embedded {
+type DaysaveItemDankmeme @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Game @embedded {
+type DaysaveItemDestinyTheGame @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/GamePhysic @embedded {
+type DaysaveItemDnD @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/GetMotivated @embedded {
+type DaysaveItemDocumentary @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/GifRecipe @embedded {
+type DaysaveItemDrawing @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/GlobalOffensive @embedded {
+type DaysaveItemDunderMifflin @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/HighQualityGif @embedded {
+type DaysaveItemEarthPorn @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/HistoryPorn @embedded {
+type DaysaveItemEducationalgif @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/HumansBeingBro @embedded {
+type DaysaveItemEntertainment @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/IAmA @embedded {
+type DaysaveItemEurope @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/ImGoingToHellForThi @embedded {
+type DaysaveItemExplainlikeimfive @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Joke @embedded {
+type DaysaveItemEyebleach @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/LifeProTip @embedded {
+type DaysaveItemFacepalm @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MMA @embedded {
+type DaysaveItemFemalefashionadvice @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MadeMeSmile @embedded {
+type DaysaveItemFitness @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MakeupAddiction @embedded {
+type DaysaveItemFood @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MealPrepSunday @embedded {
+type DaysaveItemFoodPorn @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MemeEconomy @embedded {
+type DaysaveItemFortNiteBR @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Minecraft @embedded {
+type DaysaveItemFrugal @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MovieDetail @embedded {
+type DaysaveItemFrugalmalefashion @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/MurderedByWord @embedded {
+type DaysaveItemFunny @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Music @embedded {
+type DaysaveItemFuturology @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/NSFW_GIF @embedded {
+type DaysaveItemGadget @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/NatureIsFuckingLit @embedded {
+type DaysaveItemGame @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/NetflixBestOf @embedded {
+type DaysaveItemGaming @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/NintendoSwitch @embedded {
+type DaysaveItemGardening @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/NoStupidQuestion @embedded {
+type DaysaveItemGif @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/OldSchoolCool @embedded {
+type DaysaveItemGlobalOffensive @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/OopsDidntMeanTo @embedded {
+type DaysaveItemGonewild @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/OutOfTheLoop @embedded {
+type DaysaveItemHearthstone @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Overwatch @embedded {
+type DaysaveItemHighQualityGif @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/PS4 @embedded {
+type DaysaveItemHiphophead @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/PUBATTLEGROUND @embedded {
+type DaysaveItemHmmm @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/PeopleFuckingDying @embedded {
+type DaysaveItemHockey @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/PerfectTiming @embedded {
+type DaysaveItemHumansBeingBro @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/PewdiepieSubmission @embedded {
+type DaysaveItemIamverysmart @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/PrequelMeme @embedded {
+type DaysaveItemInsanepeoplefacebook @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/ProgrammerHumor @embedded {
+type DaysaveItemInstant_regret @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/RealGirl @embedded {
+type DaysaveItemInterestingasfuck @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Roadcam @embedded {
+type DaysaveItemIphone @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/RoastMe @embedded {
+type DaysaveItemJoke @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/RoomPorn @embedded {
+type DaysaveItemKeto @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Showerthought @embedded {
+type DaysaveItemLeagueoflegend @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/SkincareAddiction @embedded {
+type DaysaveItemLegaladvice @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/StarWar @embedded {
+type DaysaveItemLifeProTip @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/The_Donald @embedded {
+type DaysaveItemLifehack @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Tinder @embedded {
+type DaysaveItemListentothi @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/TrollXChromosome @embedded {
+type DaysaveItemLoseit @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/TrollYChromosome @embedded {
+type DaysaveItemMMA @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/TwoXChromosome @embedded {
+type DaysaveItemMakeupAddiction @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Unexpected @embedded {
+type DaysaveItemMalefashionadvice @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/UpliftingNew @embedded {
+type DaysaveItemManga @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/WTF @embedded {
+type DaysaveItemMe_irl @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/WatchPeopleDieInside @embedded {
+type DaysaveItemMealPrepSunday @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Wellthatsuck @embedded {
+type DaysaveItemMeme @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/Whatcouldgowrong @embedded {
+type DaysaveItemMemeEconomy @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/WhitePeopleTwitter @embedded {
+type DaysaveItemMildlyinfuriating @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/WritingPrompt @embedded {
+type DaysaveItemMildlyinteresting @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/YouShouldKnow @embedded {
+type DaysaveItemMinecraft @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/anime @embedded {
+type DaysaveItemMovie @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/apple @embedded {
+type DaysaveItemMovieDetail @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/askscience @embedded {
+type DaysaveItemMurderedByWord @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/assholedesign @embedded {
+type DaysaveItemMusic @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/atheism @embedded {
+type DaysaveItemNatureIsFuckingLit @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/aww @embedded {
+type DaysaveItemNatureismetal @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/backpacking @embedded {
+type DaysaveItemNba @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/baseball @embedded {
+type DaysaveItemNews @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/battlestation @embedded {
+type DaysaveItemNfl @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/bestof @embedded {
+type DaysaveItemNiceguy @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/blackmagicfuckery @embedded {
+type DaysaveItemNintendoSwitch @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/boardgame @embedded {
+type DaysaveItemNoStupidQuestion @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/bodyweightfitness @embedded {
+type DaysaveItemNononono @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/book @embedded {
+type DaysaveItemNosleep @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/buildapc @embedded {
+type DaysaveItemNottheonion @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/car @embedded {
+type DaysaveItemOddlysatisfying @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/cat @embedded {
+type DaysaveItemOldSchoolCool @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/changemyview @embedded {
+type DaysaveItemOldpeoplefacebook @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/comic @embedded {
+type DaysaveItemOverwatch @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/comicbook @embedded {
+type DaysaveItemPS4 @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/confession @embedded {
+type DaysaveItemPcgaming @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/conspiracy @embedded {
+type DaysaveItemPcmasterrace @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/creepy @embedded {
+type DaysaveItemPersonalfinance @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/cringe @embedded {
+type DaysaveItemPewdiepieSubmission @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/cringepic @embedded {
+type DaysaveItemPhotography @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/dadjoke @embedded {
+type DaysaveItemPic @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/dankmeme @embedded {
+type DaysaveItemPokemon @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/dataisbeautiful @embedded {
+type DaysaveItemPokemongo @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/dog @embedded {
+type DaysaveItemPolitic @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/drawing @embedded {
+type DaysaveItemPrequelMeme @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/educationalgif @embedded {
+type DaysaveItemProgrammerHumor @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/entertainment @embedded {
+type DaysaveItemReactiongif @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/europe @embedded {
+type DaysaveItemRealGirl @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/explainlikeimfive @embedded {
+type DaysaveItemRelationship @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/facepalm @embedded {
+type DaysaveItemRelationship_advice @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/femalefashionadvice @embedded {
+type DaysaveItemRickandmorty @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/food @embedded {
+type DaysaveItemRoadcam @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/frugalmalefashion @embedded {
+type DaysaveItemRoastMe @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/funny @embedded {
+type DaysaveItemScience @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/gadget @embedded {
+type DaysaveItemSex @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/gameofthrone @embedded {
+type DaysaveItemShowerthought @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/gaming @embedded {
+type DaysaveItemSoccer @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/gardening @embedded {
+type DaysaveItemSocialskill @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/gif @embedded {
+type DaysaveItemSpace @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/gonewild @embedded {
+type DaysaveItemSport @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/hearthstone @embedded {
+type DaysaveItemStarWar @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/hiphophead @embedded {
+type DaysaveItemStarterpack @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/history @embedded {
+type DaysaveItemTechnology @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/hmmm @embedded {
+type DaysaveItemTeenager @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/hockey @embedded {
+type DaysaveItemTelevision @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/holdmybeer @embedded {
+type DaysaveItemThatHappened @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/holdthemoan @embedded {
+type DaysaveItemThe_Donald @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/horror @embedded {
+type DaysaveItemTherewasanattempt @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/howto @embedded {
+type DaysaveItemTifu @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/humor @embedded {
+type DaysaveItemTinder @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/iamverysmart @embedded {
+type DaysaveItemTodayilearned @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/insanepeoplefacebook @embedded {
+type DaysaveItemTrashy @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/instant_regret @embedded {
+type DaysaveItemTravel @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/interestingasfuck @embedded {
+type DaysaveItemTree @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/iphone @embedded {
+type DaysaveItemTwoXChromosome @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/itookapicture @embedded {
+type DaysaveItemUnexpected @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/keto @embedded {
+type DaysaveItemUpliftingNew @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/leagueoflegend @embedded {
+type DaysaveItemVideo @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/learnprogramming @embedded {
+type DaysaveItemWTF @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/legaladvice @embedded {
+type DaysaveItemWatchPeopleDieInside @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/lifehack @embedded {
+type DaysaveItemWellthatsuck @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/listentothi @embedded {
+type DaysaveItemWhatcouldgowrong @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/loseit @embedded {
+type DaysaveItemWhatisthisthing @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/madlad @embedded {
+type DaysaveItemWhitePeopleTwitter @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/malefashionadvice @embedded {
+type DaysaveItemWholesomememe @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/manga @embedded {
+type DaysaveItemWoahdude @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/math @embedded {
+type DaysaveItemWoodworking @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/me_irl @embedded {
+type DaysaveItemWorldnew @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/meme @embedded {
+type DaysaveItemWow @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/mildlyinfuriating @embedded {
+type DaysaveItemWritingPrompt @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/mildlyinteresting @embedded {
+type DaysaveItemXboxone @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemR/movie @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/natureismetal @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nba @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nevertellmetheodd @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/new @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nfl @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/niceguy @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nintendo @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nononono @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nonononoye @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nosleep @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nottheonion @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/nsfw @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/oddlysatisfying @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/offmychest @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/oldpeoplefacebook @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/pcgaming @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/pcmasterrace @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/personalfinance @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/philosophy @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/photography @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/photoshopbattle @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/pic @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/pokemon @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/pokemongo @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/politic @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/programming @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/quityourbullshit @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/rarepupper @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/raspberry_pi @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/reactiongif @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/reallifedoodle @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/recipe @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/relationship @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/relationship_advice @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/rickandmorty @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/savedyouaclick @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/science @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/scifi @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/sex @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/shittyaskscience @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/shittyfoodporn @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/slowcooking @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/soccer @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/socialskill @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/space @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/sport @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/starterpack @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/streetwear @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/tattoo @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/technology @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/teenager @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/television @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/thatHappened @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/therewasanattempt @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/tifu @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/todayilearned @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/trashy @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/travel @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/tree @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/trippinthroughtime @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/urbanexploration @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/video @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/wallpaper @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/whatisthisthing @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/wholesomememe @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/woahdude @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/woodworking @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/worldnew @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/wow @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/xboxone @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/youseeingthisshit @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemR/youtubehaiku @embedded {
+type DaysaveItemYouShouldKnow @embedded {
   com: Int
   found: Int
 }

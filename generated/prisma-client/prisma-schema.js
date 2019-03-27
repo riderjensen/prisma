@@ -40,65 +40,45 @@ type DaysaveEdge {
 }
 
 type DaysaveItem {
-  AbandonedPorn: DaysaveItemAbandonedPorn
   AdviceAnimals: DaysaveItemAdviceAnimal
   Android: DaysaveItemAndroid
+  AnimalsBeingDerps: DaysaveItemAnimalsBeingDerp
   AnimalsBeingJerks: DaysaveItemAnimalsBeingJerk
   anime: DaysaveItemAnime
   apple: DaysaveItemApple
-  Art: DaysaveItemArt
   AskMen: DaysaveItemAskMan
   AskReddit: DaysaveItemAskReddit
   askscience: DaysaveItemAskscience
   AskWomen: DaysaveItemAskWoman
   assholedesign: DaysaveItemAssholedesign
-  atheism: DaysaveItemAtheism
   aww: DaysaveItemAww
-  backpacking: DaysaveItemBackpacking
   baseball: DaysaveItemBaseball
-  battlestations: DaysaveItemBattlestation
-  BeAmazed: DaysaveItemBeAmazed
-  bestof: DaysaveItemBestof
-  BetterEveryLoop: DaysaveItemBetterEveryLoop
-  BikiniBottomTwitter: DaysaveItemBikiniBottomTwitter
   BlackPeopleTwitter: DaysaveItemBlackPeopleTwitter
   boardgames: DaysaveItemBoardgame
-  books: DaysaveItemBook
   buildapc: DaysaveItemBuildapc
   cars: DaysaveItemCar
   cats: DaysaveItemCat
-  changemyview: DaysaveItemChangemyview
   ChoosingBeggars: DaysaveItemChoosingBeggar
-  comicbooks: DaysaveItemComicbook
   comics: DaysaveItemComic
-  confession: DaysaveItemConfession
   conspiracy: DaysaveItemConspiracy
   Cooking: DaysaveItemCooking
   CrappyDesign: DaysaveItemCrappyDesign
-  creepy: DaysaveItemCreepy
-  cringe: DaysaveItemCringe
-  CryptoCurrency: DaysaveItemCryptoCurrency
-  Damnthatsinteresting: DaysaveItemDamnthatsinteresting
   dankmemes: DaysaveItemDankmeme
   DestinyTheGame: DaysaveItemDestinyTheGame
   DnD: DaysaveItemDnD
   Documentaries: DaysaveItemDocumentary
+  dogs: DaysaveItemDog
   drawing: DaysaveItemDrawing
   DunderMifflin: DaysaveItemDunderMifflin
   EarthPorn: DaysaveItemEarthPorn
-  educationalgifs: DaysaveItemEducationalgif
-  entertainment: DaysaveItemEntertainment
   europe: DaysaveItemEurope
   explainlikeimfive: DaysaveItemExplainlikeimfive
   Eyebleach: DaysaveItemEyebleach
-  facepalm: DaysaveItemFacepalm
-  femalefashionadvice: DaysaveItemFemalefashionadvice
   Fitness: DaysaveItemFitness
   food: DaysaveItemFood
   FoodPorn: DaysaveItemFoodPorn
   FortNiteBR: DaysaveItemFortNiteBR
   Frugal: DaysaveItemFrugal
-  frugalmalefashion: DaysaveItemFrugalmalefashion
   funny: DaysaveItemFunny
   Futurology: DaysaveItemFuturology
   gadgets: DaysaveItemGadget
@@ -106,32 +86,19 @@ type DaysaveItem {
   gaming: DaysaveItemGaming
   gardening: DaysaveItemGardening
   gifs: DaysaveItemGif
-  GlobalOffensive: DaysaveItemGlobalOffensive
   gonewild: DaysaveItemGonewild
-  hearthstone: DaysaveItemHearthstone
-  HighQualityGifs: DaysaveItemHighQualityGif
   hiphopheads: DaysaveItemHiphophead
-  hmmm: DaysaveItemHmmm
   hockey: DaysaveItemHockey
-  HumansBeingBros: DaysaveItemHumansBeingBro
   iamverysmart: DaysaveItemIamverysmart
-  insanepeoplefacebook: DaysaveItemInsanepeoplefacebook
   instant_regret: DaysaveItemInstant_regret
   interestingasfuck: DaysaveItemInterestingasfuck
-  iphone: DaysaveItemIphone
   Jokes: DaysaveItemJoke
-  keto: DaysaveItemKeto
   leagueoflegends: DaysaveItemLeagueoflegend
   legaladvice: DaysaveItemLegaladvice
-  lifehacks: DaysaveItemLifehack
   LifeProTips: DaysaveItemLifeProTip
   listentothis: DaysaveItemListentothi
-  loseit: DaysaveItemLoseit
-  MakeupAddiction: DaysaveItemMakeupAddiction
-  malefashionadvice: DaysaveItemMalefashionadvice
-  manga: DaysaveItemManga
+  MadeMeSmile: DaysaveItemMadeMeSmile
   me_irl: DaysaveItemMe_irl
-  MealPrepSunday: DaysaveItemMealPrepSunday
   MemeEconomy: DaysaveItemMemeEconomy
   memes: DaysaveItemMeme
   mildlyinfuriating: DaysaveItemMildlyinfuriating
@@ -141,20 +108,17 @@ type DaysaveItem {
   MovieDetails: DaysaveItemMovieDetail
   movies: DaysaveItemMovie
   MurderedByWords: DaysaveItemMurderedByWord
-  Music: DaysaveItemMusic
-  NatureIsFuckingLit: DaysaveItemNatureIsFuckingLit
   natureismetal: DaysaveItemNatureismetal
   nba: DaysaveItemNba
+  nevertellmetheodds: DaysaveItemNevertellmetheodd
   news: DaysaveItemNews
   nfl: DaysaveItemNfl
   niceguys: DaysaveItemNiceguy
   NintendoSwitch: DaysaveItemNintendoSwitch
-  nononono: DaysaveItemNononono
   nosleep: DaysaveItemNosleep
   NoStupidQuestions: DaysaveItemNoStupidQuestion
   nottheonion: DaysaveItemNottheonion
   oddlysatisfying: DaysaveItemOddlysatisfying
-  oldpeoplefacebook: DaysaveItemOldpeoplefacebook
   OldSchoolCool: DaysaveItemOldSchoolCool
   Overwatch: DaysaveItemOverwatch
   pcgaming: DaysaveItemPcgaming
@@ -164,13 +128,10 @@ type DaysaveItem {
   photography: DaysaveItemPhotography
   pics: DaysaveItemPic
   pokemon: DaysaveItemPokemon
-  pokemongo: DaysaveItemPokemongo
   politics: DaysaveItemPolitic
   PrequelMemes: DaysaveItemPrequelMeme
-  ProgrammerHumor: DaysaveItemProgrammerHumor
   PS4: DaysaveItemPS4
   reactiongifs: DaysaveItemReactiongif
-  RealGirls: DaysaveItemRealGirl
   relationship_advice: DaysaveItemRelationship_advice
   relationships: DaysaveItemRelationship
   rickandmorty: DaysaveItemRickandmorty
@@ -178,20 +139,21 @@ type DaysaveItem {
   RoastMe: DaysaveItemRoastMe
   science: DaysaveItemScience
   sex: DaysaveItemSex
+  shittyfoodporn: DaysaveItemShittyfoodporn
   Showerthoughts: DaysaveItemShowerthought
-  soccer: DaysaveItemSoccer
-  socialskills: DaysaveItemSocialskill
+  SkincareAddiction: DaysaveItemSkincareAddiction
+  slowcooking: DaysaveItemSlowcooking
   space: DaysaveItemSpace
   sports: DaysaveItemSport
   starterpacks: DaysaveItemStarterpack
   StarWars: DaysaveItemStarWar
-  technology: DaysaveItemTechnology
+  streetwear: DaysaveItemStreetwear
+  tattoos: DaysaveItemTattoo
   teenagers: DaysaveItemTeenager
   television: DaysaveItemTelevision
   thatHappened: DaysaveItemThatHappened
   The_Donald: DaysaveItemThe_Donald
   therewasanattempt: DaysaveItemTherewasanattempt
-  tifu: DaysaveItemTifu
   Tinder: DaysaveItemTinder
   todayilearned: DaysaveItemTodayilearned
   trashy: DaysaveItemTrashy
@@ -199,74 +161,18 @@ type DaysaveItem {
   trees: DaysaveItemTree
   TwoXChromosomes: DaysaveItemTwoXChromosome
   Unexpected: DaysaveItemUnexpected
-  UpliftingNews: DaysaveItemUpliftingNew
   videos: DaysaveItemVideo
   WatchPeopleDieInside: DaysaveItemWatchPeopleDieInside
   Wellthatsucks: DaysaveItemWellthatsuck
   Whatcouldgowrong: DaysaveItemWhatcouldgowrong
-  whatisthisthing: DaysaveItemWhatisthisthing
   WhitePeopleTwitter: DaysaveItemWhitePeopleTwitter
   wholesomememes: DaysaveItemWholesomememe
-  woahdude: DaysaveItemWoahdude
   woodworking: DaysaveItemWoodworking
   worldnews: DaysaveItemWorldnew
-  wow: DaysaveItemWow
   WritingPrompts: DaysaveItemWritingPrompt
   WTF: DaysaveItemWTF
   xboxone: DaysaveItemXboxone
   YouShouldKnow: DaysaveItemYouShouldKnow
-}
-
-type DaysaveItemAbandonedPorn {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemAbandonedPornCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemAbandonedPornCreateOneInput {
-  create: DaysaveItemAbandonedPornCreateInput
-}
-
-input DaysaveItemAbandonedPornUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemAbandonedPornUpdateOneInput {
-  create: DaysaveItemAbandonedPornCreateInput
-  update: DaysaveItemAbandonedPornUpdateDataInput
-  upsert: DaysaveItemAbandonedPornUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemAbandonedPornUpsertNestedInput {
-  update: DaysaveItemAbandonedPornUpdateDataInput!
-  create: DaysaveItemAbandonedPornCreateInput!
-}
-
-input DaysaveItemAbandonedPornWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemAbandonedPornWhereInput!]
 }
 
 type DaysaveItemAdviceAnimal {
@@ -371,6 +277,58 @@ input DaysaveItemAndroidWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemAndroidWhereInput!]
+}
+
+type DaysaveItemAnimalsBeingDerp {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemAnimalsBeingDerpCreateInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemAnimalsBeingDerpCreateOneInput {
+  create: DaysaveItemAnimalsBeingDerpCreateInput
+}
+
+input DaysaveItemAnimalsBeingDerpUpdateDataInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemAnimalsBeingDerpUpdateOneInput {
+  create: DaysaveItemAnimalsBeingDerpCreateInput
+  update: DaysaveItemAnimalsBeingDerpUpdateDataInput
+  upsert: DaysaveItemAnimalsBeingDerpUpsertNestedInput
+  delete: Boolean
+  disconnect: Boolean
+}
+
+input DaysaveItemAnimalsBeingDerpUpsertNestedInput {
+  update: DaysaveItemAnimalsBeingDerpUpdateDataInput!
+  create: DaysaveItemAnimalsBeingDerpCreateInput!
+}
+
+input DaysaveItemAnimalsBeingDerpWhereInput {
+  com: Int
+  com_not: Int
+  com_in: [Int!]
+  com_not_in: [Int!]
+  com_lt: Int
+  com_lte: Int
+  com_gt: Int
+  com_gte: Int
+  found: Int
+  found_not: Int
+  found_in: [Int!]
+  found_not_in: [Int!]
+  found_lt: Int
+  found_lte: Int
+  found_gt: Int
+  found_gte: Int
+  AND: [DaysaveItemAnimalsBeingDerpWhereInput!]
 }
 
 type DaysaveItemAnimalsBeingJerk {
@@ -527,58 +485,6 @@ input DaysaveItemAppleWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemAppleWhereInput!]
-}
-
-type DaysaveItemArt {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemArtCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemArtCreateOneInput {
-  create: DaysaveItemArtCreateInput
-}
-
-input DaysaveItemArtUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemArtUpdateOneInput {
-  create: DaysaveItemArtCreateInput
-  update: DaysaveItemArtUpdateDataInput
-  upsert: DaysaveItemArtUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemArtUpsertNestedInput {
-  update: DaysaveItemArtUpdateDataInput!
-  create: DaysaveItemArtCreateInput!
-}
-
-input DaysaveItemArtWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemArtWhereInput!]
 }
 
 type DaysaveItemAskMan {
@@ -841,58 +747,6 @@ input DaysaveItemAssholedesignWhereInput {
   AND: [DaysaveItemAssholedesignWhereInput!]
 }
 
-type DaysaveItemAtheism {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemAtheismCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemAtheismCreateOneInput {
-  create: DaysaveItemAtheismCreateInput
-}
-
-input DaysaveItemAtheismUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemAtheismUpdateOneInput {
-  create: DaysaveItemAtheismCreateInput
-  update: DaysaveItemAtheismUpdateDataInput
-  upsert: DaysaveItemAtheismUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemAtheismUpsertNestedInput {
-  update: DaysaveItemAtheismUpdateDataInput!
-  create: DaysaveItemAtheismCreateInput!
-}
-
-input DaysaveItemAtheismWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemAtheismWhereInput!]
-}
-
 type DaysaveItemAww {
   com: Int
   found: Int
@@ -945,58 +799,6 @@ input DaysaveItemAwwWhereInput {
   AND: [DaysaveItemAwwWhereInput!]
 }
 
-type DaysaveItemBackpacking {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBackpackingCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBackpackingCreateOneInput {
-  create: DaysaveItemBackpackingCreateInput
-}
-
-input DaysaveItemBackpackingUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBackpackingUpdateOneInput {
-  create: DaysaveItemBackpackingCreateInput
-  update: DaysaveItemBackpackingUpdateDataInput
-  upsert: DaysaveItemBackpackingUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBackpackingUpsertNestedInput {
-  update: DaysaveItemBackpackingUpdateDataInput!
-  create: DaysaveItemBackpackingCreateInput!
-}
-
-input DaysaveItemBackpackingWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBackpackingWhereInput!]
-}
-
 type DaysaveItemBaseball {
   com: Int
   found: Int
@@ -1047,266 +849,6 @@ input DaysaveItemBaseballWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemBaseballWhereInput!]
-}
-
-type DaysaveItemBattlestation {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBattlestationCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBattlestationCreateOneInput {
-  create: DaysaveItemBattlestationCreateInput
-}
-
-input DaysaveItemBattlestationUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBattlestationUpdateOneInput {
-  create: DaysaveItemBattlestationCreateInput
-  update: DaysaveItemBattlestationUpdateDataInput
-  upsert: DaysaveItemBattlestationUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBattlestationUpsertNestedInput {
-  update: DaysaveItemBattlestationUpdateDataInput!
-  create: DaysaveItemBattlestationCreateInput!
-}
-
-input DaysaveItemBattlestationWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBattlestationWhereInput!]
-}
-
-type DaysaveItemBeAmazed {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBeAmazedCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBeAmazedCreateOneInput {
-  create: DaysaveItemBeAmazedCreateInput
-}
-
-input DaysaveItemBeAmazedUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBeAmazedUpdateOneInput {
-  create: DaysaveItemBeAmazedCreateInput
-  update: DaysaveItemBeAmazedUpdateDataInput
-  upsert: DaysaveItemBeAmazedUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBeAmazedUpsertNestedInput {
-  update: DaysaveItemBeAmazedUpdateDataInput!
-  create: DaysaveItemBeAmazedCreateInput!
-}
-
-input DaysaveItemBeAmazedWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBeAmazedWhereInput!]
-}
-
-type DaysaveItemBestof {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBestofCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBestofCreateOneInput {
-  create: DaysaveItemBestofCreateInput
-}
-
-input DaysaveItemBestofUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBestofUpdateOneInput {
-  create: DaysaveItemBestofCreateInput
-  update: DaysaveItemBestofUpdateDataInput
-  upsert: DaysaveItemBestofUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBestofUpsertNestedInput {
-  update: DaysaveItemBestofUpdateDataInput!
-  create: DaysaveItemBestofCreateInput!
-}
-
-input DaysaveItemBestofWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBestofWhereInput!]
-}
-
-type DaysaveItemBetterEveryLoop {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBetterEveryLoopCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBetterEveryLoopCreateOneInput {
-  create: DaysaveItemBetterEveryLoopCreateInput
-}
-
-input DaysaveItemBetterEveryLoopUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBetterEveryLoopUpdateOneInput {
-  create: DaysaveItemBetterEveryLoopCreateInput
-  update: DaysaveItemBetterEveryLoopUpdateDataInput
-  upsert: DaysaveItemBetterEveryLoopUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBetterEveryLoopUpsertNestedInput {
-  update: DaysaveItemBetterEveryLoopUpdateDataInput!
-  create: DaysaveItemBetterEveryLoopCreateInput!
-}
-
-input DaysaveItemBetterEveryLoopWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBetterEveryLoopWhereInput!]
-}
-
-type DaysaveItemBikiniBottomTwitter {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBikiniBottomTwitterCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBikiniBottomTwitterCreateOneInput {
-  create: DaysaveItemBikiniBottomTwitterCreateInput
-}
-
-input DaysaveItemBikiniBottomTwitterUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBikiniBottomTwitterUpdateOneInput {
-  create: DaysaveItemBikiniBottomTwitterCreateInput
-  update: DaysaveItemBikiniBottomTwitterUpdateDataInput
-  upsert: DaysaveItemBikiniBottomTwitterUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBikiniBottomTwitterUpsertNestedInput {
-  update: DaysaveItemBikiniBottomTwitterUpdateDataInput!
-  create: DaysaveItemBikiniBottomTwitterCreateInput!
-}
-
-input DaysaveItemBikiniBottomTwitterWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBikiniBottomTwitterWhereInput!]
 }
 
 type DaysaveItemBlackPeopleTwitter {
@@ -1411,58 +953,6 @@ input DaysaveItemBoardgameWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemBoardgameWhereInput!]
-}
-
-type DaysaveItemBook {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBookCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBookCreateOneInput {
-  create: DaysaveItemBookCreateInput
-}
-
-input DaysaveItemBookUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemBookUpdateOneInput {
-  create: DaysaveItemBookCreateInput
-  update: DaysaveItemBookUpdateDataInput
-  upsert: DaysaveItemBookUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemBookUpsertNestedInput {
-  update: DaysaveItemBookUpdateDataInput!
-  create: DaysaveItemBookCreateInput!
-}
-
-input DaysaveItemBookWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemBookWhereInput!]
 }
 
 type DaysaveItemBuildapc {
@@ -1621,58 +1111,6 @@ input DaysaveItemCatWhereInput {
   AND: [DaysaveItemCatWhereInput!]
 }
 
-type DaysaveItemChangemyview {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemChangemyviewCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemChangemyviewCreateOneInput {
-  create: DaysaveItemChangemyviewCreateInput
-}
-
-input DaysaveItemChangemyviewUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemChangemyviewUpdateOneInput {
-  create: DaysaveItemChangemyviewCreateInput
-  update: DaysaveItemChangemyviewUpdateDataInput
-  upsert: DaysaveItemChangemyviewUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemChangemyviewUpsertNestedInput {
-  update: DaysaveItemChangemyviewUpdateDataInput!
-  create: DaysaveItemChangemyviewCreateInput!
-}
-
-input DaysaveItemChangemyviewWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemChangemyviewWhereInput!]
-}
-
 type DaysaveItemChoosingBeggar {
   com: Int
   found: Int
@@ -1730,58 +1168,6 @@ type DaysaveItemComic {
   found: Int
 }
 
-type DaysaveItemComicbook {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemComicbookCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemComicbookCreateOneInput {
-  create: DaysaveItemComicbookCreateInput
-}
-
-input DaysaveItemComicbookUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemComicbookUpdateOneInput {
-  create: DaysaveItemComicbookCreateInput
-  update: DaysaveItemComicbookUpdateDataInput
-  upsert: DaysaveItemComicbookUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemComicbookUpsertNestedInput {
-  update: DaysaveItemComicbookUpdateDataInput!
-  create: DaysaveItemComicbookCreateInput!
-}
-
-input DaysaveItemComicbookWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemComicbookWhereInput!]
-}
-
 input DaysaveItemComicCreateInput {
   com: Int
   found: Int
@@ -1827,58 +1213,6 @@ input DaysaveItemComicWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemComicWhereInput!]
-}
-
-type DaysaveItemConfession {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemConfessionCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemConfessionCreateOneInput {
-  create: DaysaveItemConfessionCreateInput
-}
-
-input DaysaveItemConfessionUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemConfessionUpdateOneInput {
-  create: DaysaveItemConfessionCreateInput
-  update: DaysaveItemConfessionUpdateDataInput
-  upsert: DaysaveItemConfessionUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemConfessionUpsertNestedInput {
-  update: DaysaveItemConfessionUpdateDataInput!
-  create: DaysaveItemConfessionCreateInput!
-}
-
-input DaysaveItemConfessionWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemConfessionWhereInput!]
 }
 
 type DaysaveItemConspiracy {
@@ -2038,65 +1372,45 @@ input DaysaveItemCrappyDesignWhereInput {
 }
 
 input DaysaveItemCreateInput {
-  AbandonedPorn: DaysaveItemAbandonedPornCreateOneInput
   AdviceAnimals: DaysaveItemAdviceAnimalCreateOneInput
   Android: DaysaveItemAndroidCreateOneInput
+  AnimalsBeingDerps: DaysaveItemAnimalsBeingDerpCreateOneInput
   AnimalsBeingJerks: DaysaveItemAnimalsBeingJerkCreateOneInput
   anime: DaysaveItemAnimeCreateOneInput
   apple: DaysaveItemAppleCreateOneInput
-  Art: DaysaveItemArtCreateOneInput
   AskMen: DaysaveItemAskManCreateOneInput
   AskReddit: DaysaveItemAskRedditCreateOneInput
   askscience: DaysaveItemAskscienceCreateOneInput
   AskWomen: DaysaveItemAskWomanCreateOneInput
   assholedesign: DaysaveItemAssholedesignCreateOneInput
-  atheism: DaysaveItemAtheismCreateOneInput
   aww: DaysaveItemAwwCreateOneInput
-  backpacking: DaysaveItemBackpackingCreateOneInput
   baseball: DaysaveItemBaseballCreateOneInput
-  battlestations: DaysaveItemBattlestationCreateOneInput
-  BeAmazed: DaysaveItemBeAmazedCreateOneInput
-  bestof: DaysaveItemBestofCreateOneInput
-  BetterEveryLoop: DaysaveItemBetterEveryLoopCreateOneInput
-  BikiniBottomTwitter: DaysaveItemBikiniBottomTwitterCreateOneInput
   BlackPeopleTwitter: DaysaveItemBlackPeopleTwitterCreateOneInput
   boardgames: DaysaveItemBoardgameCreateOneInput
-  books: DaysaveItemBookCreateOneInput
   buildapc: DaysaveItemBuildapcCreateOneInput
   cars: DaysaveItemCarCreateOneInput
   cats: DaysaveItemCatCreateOneInput
-  changemyview: DaysaveItemChangemyviewCreateOneInput
   ChoosingBeggars: DaysaveItemChoosingBeggarCreateOneInput
-  comicbooks: DaysaveItemComicbookCreateOneInput
   comics: DaysaveItemComicCreateOneInput
-  confession: DaysaveItemConfessionCreateOneInput
   conspiracy: DaysaveItemConspiracyCreateOneInput
   Cooking: DaysaveItemCookingCreateOneInput
   CrappyDesign: DaysaveItemCrappyDesignCreateOneInput
-  creepy: DaysaveItemCreepyCreateOneInput
-  cringe: DaysaveItemCringeCreateOneInput
-  CryptoCurrency: DaysaveItemCryptoCurrencyCreateOneInput
-  Damnthatsinteresting: DaysaveItemDamnthatsinterestingCreateOneInput
   dankmemes: DaysaveItemDankmemeCreateOneInput
   DestinyTheGame: DaysaveItemDestinyTheGameCreateOneInput
   DnD: DaysaveItemDnDCreateOneInput
   Documentaries: DaysaveItemDocumentaryCreateOneInput
+  dogs: DaysaveItemDogCreateOneInput
   drawing: DaysaveItemDrawingCreateOneInput
   DunderMifflin: DaysaveItemDunderMifflinCreateOneInput
   EarthPorn: DaysaveItemEarthPornCreateOneInput
-  educationalgifs: DaysaveItemEducationalgifCreateOneInput
-  entertainment: DaysaveItemEntertainmentCreateOneInput
   europe: DaysaveItemEuropeCreateOneInput
   explainlikeimfive: DaysaveItemExplainlikeimfiveCreateOneInput
   Eyebleach: DaysaveItemEyebleachCreateOneInput
-  facepalm: DaysaveItemFacepalmCreateOneInput
-  femalefashionadvice: DaysaveItemFemalefashionadviceCreateOneInput
   Fitness: DaysaveItemFitnessCreateOneInput
   food: DaysaveItemFoodCreateOneInput
   FoodPorn: DaysaveItemFoodPornCreateOneInput
   FortNiteBR: DaysaveItemFortNiteBRCreateOneInput
   Frugal: DaysaveItemFrugalCreateOneInput
-  frugalmalefashion: DaysaveItemFrugalmalefashionCreateOneInput
   funny: DaysaveItemFunnyCreateOneInput
   Futurology: DaysaveItemFuturologyCreateOneInput
   gadgets: DaysaveItemGadgetCreateOneInput
@@ -2104,32 +1418,19 @@ input DaysaveItemCreateInput {
   gaming: DaysaveItemGamingCreateOneInput
   gardening: DaysaveItemGardeningCreateOneInput
   gifs: DaysaveItemGifCreateOneInput
-  GlobalOffensive: DaysaveItemGlobalOffensiveCreateOneInput
   gonewild: DaysaveItemGonewildCreateOneInput
-  hearthstone: DaysaveItemHearthstoneCreateOneInput
-  HighQualityGifs: DaysaveItemHighQualityGifCreateOneInput
   hiphopheads: DaysaveItemHiphopheadCreateOneInput
-  hmmm: DaysaveItemHmmmCreateOneInput
   hockey: DaysaveItemHockeyCreateOneInput
-  HumansBeingBros: DaysaveItemHumansBeingBroCreateOneInput
   iamverysmart: DaysaveItemIamverysmartCreateOneInput
-  insanepeoplefacebook: DaysaveItemInsanepeoplefacebookCreateOneInput
   instant_regret: DaysaveItemInstant_regretCreateOneInput
   interestingasfuck: DaysaveItemInterestingasfuckCreateOneInput
-  iphone: DaysaveItemIphoneCreateOneInput
   Jokes: DaysaveItemJokeCreateOneInput
-  keto: DaysaveItemKetoCreateOneInput
   leagueoflegends: DaysaveItemLeagueoflegendCreateOneInput
   legaladvice: DaysaveItemLegaladviceCreateOneInput
-  lifehacks: DaysaveItemLifehackCreateOneInput
   LifeProTips: DaysaveItemLifeProTipCreateOneInput
   listentothis: DaysaveItemListentothiCreateOneInput
-  loseit: DaysaveItemLoseitCreateOneInput
-  MakeupAddiction: DaysaveItemMakeupAddictionCreateOneInput
-  malefashionadvice: DaysaveItemMalefashionadviceCreateOneInput
-  manga: DaysaveItemMangaCreateOneInput
+  MadeMeSmile: DaysaveItemMadeMeSmileCreateOneInput
   me_irl: DaysaveItemMe_irlCreateOneInput
-  MealPrepSunday: DaysaveItemMealPrepSundayCreateOneInput
   MemeEconomy: DaysaveItemMemeEconomyCreateOneInput
   memes: DaysaveItemMemeCreateOneInput
   mildlyinfuriating: DaysaveItemMildlyinfuriatingCreateOneInput
@@ -2139,20 +1440,17 @@ input DaysaveItemCreateInput {
   MovieDetails: DaysaveItemMovieDetailCreateOneInput
   movies: DaysaveItemMovieCreateOneInput
   MurderedByWords: DaysaveItemMurderedByWordCreateOneInput
-  Music: DaysaveItemMusicCreateOneInput
-  NatureIsFuckingLit: DaysaveItemNatureIsFuckingLitCreateOneInput
   natureismetal: DaysaveItemNatureismetalCreateOneInput
   nba: DaysaveItemNbaCreateOneInput
+  nevertellmetheodds: DaysaveItemNevertellmetheoddCreateOneInput
   news: DaysaveItemNewsCreateOneInput
   nfl: DaysaveItemNflCreateOneInput
   niceguys: DaysaveItemNiceguyCreateOneInput
   NintendoSwitch: DaysaveItemNintendoSwitchCreateOneInput
-  nononono: DaysaveItemNonononoCreateOneInput
   nosleep: DaysaveItemNosleepCreateOneInput
   NoStupidQuestions: DaysaveItemNoStupidQuestionCreateOneInput
   nottheonion: DaysaveItemNottheonionCreateOneInput
   oddlysatisfying: DaysaveItemOddlysatisfyingCreateOneInput
-  oldpeoplefacebook: DaysaveItemOldpeoplefacebookCreateOneInput
   OldSchoolCool: DaysaveItemOldSchoolCoolCreateOneInput
   Overwatch: DaysaveItemOverwatchCreateOneInput
   pcgaming: DaysaveItemPcgamingCreateOneInput
@@ -2162,13 +1460,10 @@ input DaysaveItemCreateInput {
   photography: DaysaveItemPhotographyCreateOneInput
   pics: DaysaveItemPicCreateOneInput
   pokemon: DaysaveItemPokemonCreateOneInput
-  pokemongo: DaysaveItemPokemongoCreateOneInput
   politics: DaysaveItemPoliticCreateOneInput
   PrequelMemes: DaysaveItemPrequelMemeCreateOneInput
-  ProgrammerHumor: DaysaveItemProgrammerHumorCreateOneInput
   PS4: DaysaveItemPS4CreateOneInput
   reactiongifs: DaysaveItemReactiongifCreateOneInput
-  RealGirls: DaysaveItemRealGirlCreateOneInput
   relationship_advice: DaysaveItemRelationship_adviceCreateOneInput
   relationships: DaysaveItemRelationshipCreateOneInput
   rickandmorty: DaysaveItemRickandmortyCreateOneInput
@@ -2176,20 +1471,21 @@ input DaysaveItemCreateInput {
   RoastMe: DaysaveItemRoastMeCreateOneInput
   science: DaysaveItemScienceCreateOneInput
   sex: DaysaveItemSexCreateOneInput
+  shittyfoodporn: DaysaveItemShittyfoodpornCreateOneInput
   Showerthoughts: DaysaveItemShowerthoughtCreateOneInput
-  soccer: DaysaveItemSoccerCreateOneInput
-  socialskills: DaysaveItemSocialskillCreateOneInput
+  SkincareAddiction: DaysaveItemSkincareAddictionCreateOneInput
+  slowcooking: DaysaveItemSlowcookingCreateOneInput
   space: DaysaveItemSpaceCreateOneInput
   sports: DaysaveItemSportCreateOneInput
   starterpacks: DaysaveItemStarterpackCreateOneInput
   StarWars: DaysaveItemStarWarCreateOneInput
-  technology: DaysaveItemTechnologyCreateOneInput
+  streetwear: DaysaveItemStreetwearCreateOneInput
+  tattoos: DaysaveItemTattooCreateOneInput
   teenagers: DaysaveItemTeenagerCreateOneInput
   television: DaysaveItemTelevisionCreateOneInput
   thatHappened: DaysaveItemThatHappenedCreateOneInput
   The_Donald: DaysaveItemThe_DonaldCreateOneInput
   therewasanattempt: DaysaveItemTherewasanattemptCreateOneInput
-  tifu: DaysaveItemTifuCreateOneInput
   Tinder: DaysaveItemTinderCreateOneInput
   todayilearned: DaysaveItemTodayilearnedCreateOneInput
   trashy: DaysaveItemTrashyCreateOneInput
@@ -2197,18 +1493,14 @@ input DaysaveItemCreateInput {
   trees: DaysaveItemTreeCreateOneInput
   TwoXChromosomes: DaysaveItemTwoXChromosomeCreateOneInput
   Unexpected: DaysaveItemUnexpectedCreateOneInput
-  UpliftingNews: DaysaveItemUpliftingNewCreateOneInput
   videos: DaysaveItemVideoCreateOneInput
   WatchPeopleDieInside: DaysaveItemWatchPeopleDieInsideCreateOneInput
   Wellthatsucks: DaysaveItemWellthatsuckCreateOneInput
   Whatcouldgowrong: DaysaveItemWhatcouldgowrongCreateOneInput
-  whatisthisthing: DaysaveItemWhatisthisthingCreateOneInput
   WhitePeopleTwitter: DaysaveItemWhitePeopleTwitterCreateOneInput
   wholesomememes: DaysaveItemWholesomememeCreateOneInput
-  woahdude: DaysaveItemWoahdudeCreateOneInput
   woodworking: DaysaveItemWoodworkingCreateOneInput
   worldnews: DaysaveItemWorldnewCreateOneInput
-  wow: DaysaveItemWowCreateOneInput
   WritingPrompts: DaysaveItemWritingPromptCreateOneInput
   WTF: DaysaveItemWTFCreateOneInput
   xboxone: DaysaveItemXboxoneCreateOneInput
@@ -2217,214 +1509,6 @@ input DaysaveItemCreateInput {
 
 input DaysaveItemCreateOneInput {
   create: DaysaveItemCreateInput
-}
-
-type DaysaveItemCreepy {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCreepyCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCreepyCreateOneInput {
-  create: DaysaveItemCreepyCreateInput
-}
-
-input DaysaveItemCreepyUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCreepyUpdateOneInput {
-  create: DaysaveItemCreepyCreateInput
-  update: DaysaveItemCreepyUpdateDataInput
-  upsert: DaysaveItemCreepyUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemCreepyUpsertNestedInput {
-  update: DaysaveItemCreepyUpdateDataInput!
-  create: DaysaveItemCreepyCreateInput!
-}
-
-input DaysaveItemCreepyWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemCreepyWhereInput!]
-}
-
-type DaysaveItemCringe {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCringeCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCringeCreateOneInput {
-  create: DaysaveItemCringeCreateInput
-}
-
-input DaysaveItemCringeUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCringeUpdateOneInput {
-  create: DaysaveItemCringeCreateInput
-  update: DaysaveItemCringeUpdateDataInput
-  upsert: DaysaveItemCringeUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemCringeUpsertNestedInput {
-  update: DaysaveItemCringeUpdateDataInput!
-  create: DaysaveItemCringeCreateInput!
-}
-
-input DaysaveItemCringeWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemCringeWhereInput!]
-}
-
-type DaysaveItemCryptoCurrency {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCryptoCurrencyCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCryptoCurrencyCreateOneInput {
-  create: DaysaveItemCryptoCurrencyCreateInput
-}
-
-input DaysaveItemCryptoCurrencyUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemCryptoCurrencyUpdateOneInput {
-  create: DaysaveItemCryptoCurrencyCreateInput
-  update: DaysaveItemCryptoCurrencyUpdateDataInput
-  upsert: DaysaveItemCryptoCurrencyUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemCryptoCurrencyUpsertNestedInput {
-  update: DaysaveItemCryptoCurrencyUpdateDataInput!
-  create: DaysaveItemCryptoCurrencyCreateInput!
-}
-
-input DaysaveItemCryptoCurrencyWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemCryptoCurrencyWhereInput!]
-}
-
-type DaysaveItemDamnthatsinteresting {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemDamnthatsinterestingCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemDamnthatsinterestingCreateOneInput {
-  create: DaysaveItemDamnthatsinterestingCreateInput
-}
-
-input DaysaveItemDamnthatsinterestingUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemDamnthatsinterestingUpdateOneInput {
-  create: DaysaveItemDamnthatsinterestingCreateInput
-  update: DaysaveItemDamnthatsinterestingUpdateDataInput
-  upsert: DaysaveItemDamnthatsinterestingUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemDamnthatsinterestingUpsertNestedInput {
-  update: DaysaveItemDamnthatsinterestingUpdateDataInput!
-  create: DaysaveItemDamnthatsinterestingCreateInput!
-}
-
-input DaysaveItemDamnthatsinterestingWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemDamnthatsinterestingWhereInput!]
 }
 
 type DaysaveItemDankmeme {
@@ -2635,6 +1719,58 @@ input DaysaveItemDocumentaryWhereInput {
   AND: [DaysaveItemDocumentaryWhereInput!]
 }
 
+type DaysaveItemDog {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemDogCreateInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemDogCreateOneInput {
+  create: DaysaveItemDogCreateInput
+}
+
+input DaysaveItemDogUpdateDataInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemDogUpdateOneInput {
+  create: DaysaveItemDogCreateInput
+  update: DaysaveItemDogUpdateDataInput
+  upsert: DaysaveItemDogUpsertNestedInput
+  delete: Boolean
+  disconnect: Boolean
+}
+
+input DaysaveItemDogUpsertNestedInput {
+  update: DaysaveItemDogUpdateDataInput!
+  create: DaysaveItemDogCreateInput!
+}
+
+input DaysaveItemDogWhereInput {
+  com: Int
+  com_not: Int
+  com_in: [Int!]
+  com_not_in: [Int!]
+  com_lt: Int
+  com_lte: Int
+  com_gt: Int
+  com_gte: Int
+  found: Int
+  found_not: Int
+  found_in: [Int!]
+  found_not_in: [Int!]
+  found_lt: Int
+  found_lte: Int
+  found_gt: Int
+  found_gte: Int
+  AND: [DaysaveItemDogWhereInput!]
+}
+
 type DaysaveItemDrawing {
   com: Int
   found: Int
@@ -2791,110 +1927,6 @@ input DaysaveItemEarthPornWhereInput {
   AND: [DaysaveItemEarthPornWhereInput!]
 }
 
-type DaysaveItemEducationalgif {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemEducationalgifCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemEducationalgifCreateOneInput {
-  create: DaysaveItemEducationalgifCreateInput
-}
-
-input DaysaveItemEducationalgifUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemEducationalgifUpdateOneInput {
-  create: DaysaveItemEducationalgifCreateInput
-  update: DaysaveItemEducationalgifUpdateDataInput
-  upsert: DaysaveItemEducationalgifUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemEducationalgifUpsertNestedInput {
-  update: DaysaveItemEducationalgifUpdateDataInput!
-  create: DaysaveItemEducationalgifCreateInput!
-}
-
-input DaysaveItemEducationalgifWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemEducationalgifWhereInput!]
-}
-
-type DaysaveItemEntertainment {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemEntertainmentCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemEntertainmentCreateOneInput {
-  create: DaysaveItemEntertainmentCreateInput
-}
-
-input DaysaveItemEntertainmentUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemEntertainmentUpdateOneInput {
-  create: DaysaveItemEntertainmentCreateInput
-  update: DaysaveItemEntertainmentUpdateDataInput
-  upsert: DaysaveItemEntertainmentUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemEntertainmentUpsertNestedInput {
-  update: DaysaveItemEntertainmentUpdateDataInput!
-  create: DaysaveItemEntertainmentCreateInput!
-}
-
-input DaysaveItemEntertainmentWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemEntertainmentWhereInput!]
-}
-
 type DaysaveItemEurope {
   com: Int
   found: Int
@@ -3049,110 +2081,6 @@ input DaysaveItemEyebleachWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemEyebleachWhereInput!]
-}
-
-type DaysaveItemFacepalm {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFacepalmCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFacepalmCreateOneInput {
-  create: DaysaveItemFacepalmCreateInput
-}
-
-input DaysaveItemFacepalmUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFacepalmUpdateOneInput {
-  create: DaysaveItemFacepalmCreateInput
-  update: DaysaveItemFacepalmUpdateDataInput
-  upsert: DaysaveItemFacepalmUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemFacepalmUpsertNestedInput {
-  update: DaysaveItemFacepalmUpdateDataInput!
-  create: DaysaveItemFacepalmCreateInput!
-}
-
-input DaysaveItemFacepalmWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemFacepalmWhereInput!]
-}
-
-type DaysaveItemFemalefashionadvice {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFemalefashionadviceCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFemalefashionadviceCreateOneInput {
-  create: DaysaveItemFemalefashionadviceCreateInput
-}
-
-input DaysaveItemFemalefashionadviceUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFemalefashionadviceUpdateOneInput {
-  create: DaysaveItemFemalefashionadviceCreateInput
-  update: DaysaveItemFemalefashionadviceUpdateDataInput
-  upsert: DaysaveItemFemalefashionadviceUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemFemalefashionadviceUpsertNestedInput {
-  update: DaysaveItemFemalefashionadviceUpdateDataInput!
-  create: DaysaveItemFemalefashionadviceCreateInput!
-}
-
-input DaysaveItemFemalefashionadviceWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemFemalefashionadviceWhereInput!]
 }
 
 type DaysaveItemFitness {
@@ -3375,58 +2303,6 @@ input DaysaveItemFrugalCreateInput {
 
 input DaysaveItemFrugalCreateOneInput {
   create: DaysaveItemFrugalCreateInput
-}
-
-type DaysaveItemFrugalmalefashion {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFrugalmalefashionCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFrugalmalefashionCreateOneInput {
-  create: DaysaveItemFrugalmalefashionCreateInput
-}
-
-input DaysaveItemFrugalmalefashionUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemFrugalmalefashionUpdateOneInput {
-  create: DaysaveItemFrugalmalefashionCreateInput
-  update: DaysaveItemFrugalmalefashionUpdateDataInput
-  upsert: DaysaveItemFrugalmalefashionUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemFrugalmalefashionUpsertNestedInput {
-  update: DaysaveItemFrugalmalefashionUpdateDataInput!
-  create: DaysaveItemFrugalmalefashionCreateInput!
-}
-
-input DaysaveItemFrugalmalefashionWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemFrugalmalefashionWhereInput!]
 }
 
 input DaysaveItemFrugalUpdateDataInput {
@@ -3831,58 +2707,6 @@ input DaysaveItemGifWhereInput {
   AND: [DaysaveItemGifWhereInput!]
 }
 
-type DaysaveItemGlobalOffensive {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemGlobalOffensiveCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemGlobalOffensiveCreateOneInput {
-  create: DaysaveItemGlobalOffensiveCreateInput
-}
-
-input DaysaveItemGlobalOffensiveUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemGlobalOffensiveUpdateOneInput {
-  create: DaysaveItemGlobalOffensiveCreateInput
-  update: DaysaveItemGlobalOffensiveUpdateDataInput
-  upsert: DaysaveItemGlobalOffensiveUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemGlobalOffensiveUpsertNestedInput {
-  update: DaysaveItemGlobalOffensiveUpdateDataInput!
-  create: DaysaveItemGlobalOffensiveCreateInput!
-}
-
-input DaysaveItemGlobalOffensiveWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemGlobalOffensiveWhereInput!]
-}
-
 type DaysaveItemGonewild {
   com: Int
   found: Int
@@ -3933,110 +2757,6 @@ input DaysaveItemGonewildWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemGonewildWhereInput!]
-}
-
-type DaysaveItemHearthstone {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHearthstoneCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHearthstoneCreateOneInput {
-  create: DaysaveItemHearthstoneCreateInput
-}
-
-input DaysaveItemHearthstoneUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHearthstoneUpdateOneInput {
-  create: DaysaveItemHearthstoneCreateInput
-  update: DaysaveItemHearthstoneUpdateDataInput
-  upsert: DaysaveItemHearthstoneUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemHearthstoneUpsertNestedInput {
-  update: DaysaveItemHearthstoneUpdateDataInput!
-  create: DaysaveItemHearthstoneCreateInput!
-}
-
-input DaysaveItemHearthstoneWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemHearthstoneWhereInput!]
-}
-
-type DaysaveItemHighQualityGif {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHighQualityGifCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHighQualityGifCreateOneInput {
-  create: DaysaveItemHighQualityGifCreateInput
-}
-
-input DaysaveItemHighQualityGifUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHighQualityGifUpdateOneInput {
-  create: DaysaveItemHighQualityGifCreateInput
-  update: DaysaveItemHighQualityGifUpdateDataInput
-  upsert: DaysaveItemHighQualityGifUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemHighQualityGifUpsertNestedInput {
-  update: DaysaveItemHighQualityGifUpdateDataInput!
-  create: DaysaveItemHighQualityGifCreateInput!
-}
-
-input DaysaveItemHighQualityGifWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemHighQualityGifWhereInput!]
 }
 
 type DaysaveItemHiphophead {
@@ -4091,58 +2811,6 @@ input DaysaveItemHiphopheadWhereInput {
   AND: [DaysaveItemHiphopheadWhereInput!]
 }
 
-type DaysaveItemHmmm {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHmmmCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHmmmCreateOneInput {
-  create: DaysaveItemHmmmCreateInput
-}
-
-input DaysaveItemHmmmUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHmmmUpdateOneInput {
-  create: DaysaveItemHmmmCreateInput
-  update: DaysaveItemHmmmUpdateDataInput
-  upsert: DaysaveItemHmmmUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemHmmmUpsertNestedInput {
-  update: DaysaveItemHmmmUpdateDataInput!
-  create: DaysaveItemHmmmCreateInput!
-}
-
-input DaysaveItemHmmmWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemHmmmWhereInput!]
-}
-
 type DaysaveItemHockey {
   com: Int
   found: Int
@@ -4195,58 +2863,6 @@ input DaysaveItemHockeyWhereInput {
   AND: [DaysaveItemHockeyWhereInput!]
 }
 
-type DaysaveItemHumansBeingBro {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHumansBeingBroCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHumansBeingBroCreateOneInput {
-  create: DaysaveItemHumansBeingBroCreateInput
-}
-
-input DaysaveItemHumansBeingBroUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemHumansBeingBroUpdateOneInput {
-  create: DaysaveItemHumansBeingBroCreateInput
-  update: DaysaveItemHumansBeingBroUpdateDataInput
-  upsert: DaysaveItemHumansBeingBroUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemHumansBeingBroUpsertNestedInput {
-  update: DaysaveItemHumansBeingBroUpdateDataInput!
-  create: DaysaveItemHumansBeingBroCreateInput!
-}
-
-input DaysaveItemHumansBeingBroWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemHumansBeingBroWhereInput!]
-}
-
 type DaysaveItemIamverysmart {
   com: Int
   found: Int
@@ -4297,58 +2913,6 @@ input DaysaveItemIamverysmartWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemIamverysmartWhereInput!]
-}
-
-type DaysaveItemInsanepeoplefacebook {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemInsanepeoplefacebookCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemInsanepeoplefacebookCreateOneInput {
-  create: DaysaveItemInsanepeoplefacebookCreateInput
-}
-
-input DaysaveItemInsanepeoplefacebookUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemInsanepeoplefacebookUpdateOneInput {
-  create: DaysaveItemInsanepeoplefacebookCreateInput
-  update: DaysaveItemInsanepeoplefacebookUpdateDataInput
-  upsert: DaysaveItemInsanepeoplefacebookUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemInsanepeoplefacebookUpsertNestedInput {
-  update: DaysaveItemInsanepeoplefacebookUpdateDataInput!
-  create: DaysaveItemInsanepeoplefacebookCreateInput!
-}
-
-input DaysaveItemInsanepeoplefacebookWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemInsanepeoplefacebookWhereInput!]
 }
 
 type DaysaveItemInstant_regret {
@@ -4455,58 +3019,6 @@ input DaysaveItemInterestingasfuckWhereInput {
   AND: [DaysaveItemInterestingasfuckWhereInput!]
 }
 
-type DaysaveItemIphone {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemIphoneCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemIphoneCreateOneInput {
-  create: DaysaveItemIphoneCreateInput
-}
-
-input DaysaveItemIphoneUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemIphoneUpdateOneInput {
-  create: DaysaveItemIphoneCreateInput
-  update: DaysaveItemIphoneUpdateDataInput
-  upsert: DaysaveItemIphoneUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemIphoneUpsertNestedInput {
-  update: DaysaveItemIphoneUpdateDataInput!
-  create: DaysaveItemIphoneCreateInput!
-}
-
-input DaysaveItemIphoneWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemIphoneWhereInput!]
-}
-
 type DaysaveItemJoke {
   com: Int
   found: Int
@@ -4557,58 +3069,6 @@ input DaysaveItemJokeWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemJokeWhereInput!]
-}
-
-type DaysaveItemKeto {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemKetoCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemKetoCreateOneInput {
-  create: DaysaveItemKetoCreateInput
-}
-
-input DaysaveItemKetoUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemKetoUpdateOneInput {
-  create: DaysaveItemKetoCreateInput
-  update: DaysaveItemKetoUpdateDataInput
-  upsert: DaysaveItemKetoUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemKetoUpsertNestedInput {
-  update: DaysaveItemKetoUpdateDataInput!
-  create: DaysaveItemKetoCreateInput!
-}
-
-input DaysaveItemKetoWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemKetoWhereInput!]
 }
 
 type DaysaveItemLeagueoflegend {
@@ -4715,58 +3175,6 @@ input DaysaveItemLegaladviceWhereInput {
   AND: [DaysaveItemLegaladviceWhereInput!]
 }
 
-type DaysaveItemLifehack {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemLifehackCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemLifehackCreateOneInput {
-  create: DaysaveItemLifehackCreateInput
-}
-
-input DaysaveItemLifehackUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemLifehackUpdateOneInput {
-  create: DaysaveItemLifehackCreateInput
-  update: DaysaveItemLifehackUpdateDataInput
-  upsert: DaysaveItemLifehackUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemLifehackUpsertNestedInput {
-  update: DaysaveItemLifehackUpdateDataInput!
-  create: DaysaveItemLifehackCreateInput!
-}
-
-input DaysaveItemLifehackWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemLifehackWhereInput!]
-}
-
 type DaysaveItemLifeProTip {
   com: Int
   found: Int
@@ -4871,39 +3279,39 @@ input DaysaveItemListentothiWhereInput {
   AND: [DaysaveItemListentothiWhereInput!]
 }
 
-type DaysaveItemLoseit {
+type DaysaveItemMadeMeSmile {
   com: Int
   found: Int
 }
 
-input DaysaveItemLoseitCreateInput {
+input DaysaveItemMadeMeSmileCreateInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemLoseitCreateOneInput {
-  create: DaysaveItemLoseitCreateInput
+input DaysaveItemMadeMeSmileCreateOneInput {
+  create: DaysaveItemMadeMeSmileCreateInput
 }
 
-input DaysaveItemLoseitUpdateDataInput {
+input DaysaveItemMadeMeSmileUpdateDataInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemLoseitUpdateOneInput {
-  create: DaysaveItemLoseitCreateInput
-  update: DaysaveItemLoseitUpdateDataInput
-  upsert: DaysaveItemLoseitUpsertNestedInput
+input DaysaveItemMadeMeSmileUpdateOneInput {
+  create: DaysaveItemMadeMeSmileCreateInput
+  update: DaysaveItemMadeMeSmileUpdateDataInput
+  upsert: DaysaveItemMadeMeSmileUpsertNestedInput
   delete: Boolean
   disconnect: Boolean
 }
 
-input DaysaveItemLoseitUpsertNestedInput {
-  update: DaysaveItemLoseitUpdateDataInput!
-  create: DaysaveItemLoseitCreateInput!
+input DaysaveItemMadeMeSmileUpsertNestedInput {
+  update: DaysaveItemMadeMeSmileUpdateDataInput!
+  create: DaysaveItemMadeMeSmileCreateInput!
 }
 
-input DaysaveItemLoseitWhereInput {
+input DaysaveItemMadeMeSmileWhereInput {
   com: Int
   com_not: Int
   com_in: [Int!]
@@ -4920,163 +3328,7 @@ input DaysaveItemLoseitWhereInput {
   found_lte: Int
   found_gt: Int
   found_gte: Int
-  AND: [DaysaveItemLoseitWhereInput!]
-}
-
-type DaysaveItemMakeupAddiction {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMakeupAddictionCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMakeupAddictionCreateOneInput {
-  create: DaysaveItemMakeupAddictionCreateInput
-}
-
-input DaysaveItemMakeupAddictionUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMakeupAddictionUpdateOneInput {
-  create: DaysaveItemMakeupAddictionCreateInput
-  update: DaysaveItemMakeupAddictionUpdateDataInput
-  upsert: DaysaveItemMakeupAddictionUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemMakeupAddictionUpsertNestedInput {
-  update: DaysaveItemMakeupAddictionUpdateDataInput!
-  create: DaysaveItemMakeupAddictionCreateInput!
-}
-
-input DaysaveItemMakeupAddictionWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemMakeupAddictionWhereInput!]
-}
-
-type DaysaveItemMalefashionadvice {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMalefashionadviceCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMalefashionadviceCreateOneInput {
-  create: DaysaveItemMalefashionadviceCreateInput
-}
-
-input DaysaveItemMalefashionadviceUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMalefashionadviceUpdateOneInput {
-  create: DaysaveItemMalefashionadviceCreateInput
-  update: DaysaveItemMalefashionadviceUpdateDataInput
-  upsert: DaysaveItemMalefashionadviceUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemMalefashionadviceUpsertNestedInput {
-  update: DaysaveItemMalefashionadviceUpdateDataInput!
-  create: DaysaveItemMalefashionadviceCreateInput!
-}
-
-input DaysaveItemMalefashionadviceWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemMalefashionadviceWhereInput!]
-}
-
-type DaysaveItemManga {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMangaCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMangaCreateOneInput {
-  create: DaysaveItemMangaCreateInput
-}
-
-input DaysaveItemMangaUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMangaUpdateOneInput {
-  create: DaysaveItemMangaCreateInput
-  update: DaysaveItemMangaUpdateDataInput
-  upsert: DaysaveItemMangaUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemMangaUpsertNestedInput {
-  update: DaysaveItemMangaUpdateDataInput!
-  create: DaysaveItemMangaCreateInput!
-}
-
-input DaysaveItemMangaWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemMangaWhereInput!]
+  AND: [DaysaveItemMadeMeSmileWhereInput!]
 }
 
 type DaysaveItemMe_irl {
@@ -5129,58 +3381,6 @@ input DaysaveItemMe_irlWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemMe_irlWhereInput!]
-}
-
-type DaysaveItemMealPrepSunday {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMealPrepSundayCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMealPrepSundayCreateOneInput {
-  create: DaysaveItemMealPrepSundayCreateInput
-}
-
-input DaysaveItemMealPrepSundayUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMealPrepSundayUpdateOneInput {
-  create: DaysaveItemMealPrepSundayCreateInput
-  update: DaysaveItemMealPrepSundayUpdateDataInput
-  upsert: DaysaveItemMealPrepSundayUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemMealPrepSundayUpsertNestedInput {
-  update: DaysaveItemMealPrepSundayUpdateDataInput!
-  create: DaysaveItemMealPrepSundayCreateInput!
-}
-
-input DaysaveItemMealPrepSundayWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemMealPrepSundayWhereInput!]
 }
 
 type DaysaveItemMeme {
@@ -5651,110 +3851,6 @@ input DaysaveItemMurderedByWordWhereInput {
   AND: [DaysaveItemMurderedByWordWhereInput!]
 }
 
-type DaysaveItemMusic {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMusicCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMusicCreateOneInput {
-  create: DaysaveItemMusicCreateInput
-}
-
-input DaysaveItemMusicUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemMusicUpdateOneInput {
-  create: DaysaveItemMusicCreateInput
-  update: DaysaveItemMusicUpdateDataInput
-  upsert: DaysaveItemMusicUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemMusicUpsertNestedInput {
-  update: DaysaveItemMusicUpdateDataInput!
-  create: DaysaveItemMusicCreateInput!
-}
-
-input DaysaveItemMusicWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemMusicWhereInput!]
-}
-
-type DaysaveItemNatureIsFuckingLit {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemNatureIsFuckingLitCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemNatureIsFuckingLitCreateOneInput {
-  create: DaysaveItemNatureIsFuckingLitCreateInput
-}
-
-input DaysaveItemNatureIsFuckingLitUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemNatureIsFuckingLitUpdateOneInput {
-  create: DaysaveItemNatureIsFuckingLitCreateInput
-  update: DaysaveItemNatureIsFuckingLitUpdateDataInput
-  upsert: DaysaveItemNatureIsFuckingLitUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemNatureIsFuckingLitUpsertNestedInput {
-  update: DaysaveItemNatureIsFuckingLitUpdateDataInput!
-  create: DaysaveItemNatureIsFuckingLitCreateInput!
-}
-
-input DaysaveItemNatureIsFuckingLitWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemNatureIsFuckingLitWhereInput!]
-}
-
 type DaysaveItemNatureismetal {
   com: Int
   found: Int
@@ -5857,6 +3953,58 @@ input DaysaveItemNbaWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemNbaWhereInput!]
+}
+
+type DaysaveItemNevertellmetheodd {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemNevertellmetheoddCreateInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemNevertellmetheoddCreateOneInput {
+  create: DaysaveItemNevertellmetheoddCreateInput
+}
+
+input DaysaveItemNevertellmetheoddUpdateDataInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemNevertellmetheoddUpdateOneInput {
+  create: DaysaveItemNevertellmetheoddCreateInput
+  update: DaysaveItemNevertellmetheoddUpdateDataInput
+  upsert: DaysaveItemNevertellmetheoddUpsertNestedInput
+  delete: Boolean
+  disconnect: Boolean
+}
+
+input DaysaveItemNevertellmetheoddUpsertNestedInput {
+  update: DaysaveItemNevertellmetheoddUpdateDataInput!
+  create: DaysaveItemNevertellmetheoddCreateInput!
+}
+
+input DaysaveItemNevertellmetheoddWhereInput {
+  com: Int
+  com_not: Int
+  com_in: [Int!]
+  com_not_in: [Int!]
+  com_lt: Int
+  com_lte: Int
+  com_gt: Int
+  com_gte: Int
+  found: Int
+  found_not: Int
+  found_in: [Int!]
+  found_not_in: [Int!]
+  found_lt: Int
+  found_lte: Int
+  found_gt: Int
+  found_gte: Int
+  AND: [DaysaveItemNevertellmetheoddWhereInput!]
 }
 
 type DaysaveItemNews {
@@ -6067,58 +4215,6 @@ input DaysaveItemNintendoSwitchWhereInput {
   AND: [DaysaveItemNintendoSwitchWhereInput!]
 }
 
-type DaysaveItemNononono {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemNonononoCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemNonononoCreateOneInput {
-  create: DaysaveItemNonononoCreateInput
-}
-
-input DaysaveItemNonononoUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemNonononoUpdateOneInput {
-  create: DaysaveItemNonononoCreateInput
-  update: DaysaveItemNonononoUpdateDataInput
-  upsert: DaysaveItemNonononoUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemNonononoUpsertNestedInput {
-  update: DaysaveItemNonononoUpdateDataInput!
-  create: DaysaveItemNonononoCreateInput!
-}
-
-input DaysaveItemNonononoWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemNonononoWhereInput!]
-}
-
 type DaysaveItemNosleep {
   com: Int
   found: Int
@@ -6325,58 +4421,6 @@ input DaysaveItemOddlysatisfyingWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemOddlysatisfyingWhereInput!]
-}
-
-type DaysaveItemOldpeoplefacebook {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemOldpeoplefacebookCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemOldpeoplefacebookCreateOneInput {
-  create: DaysaveItemOldpeoplefacebookCreateInput
-}
-
-input DaysaveItemOldpeoplefacebookUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemOldpeoplefacebookUpdateOneInput {
-  create: DaysaveItemOldpeoplefacebookCreateInput
-  update: DaysaveItemOldpeoplefacebookUpdateDataInput
-  upsert: DaysaveItemOldpeoplefacebookUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemOldpeoplefacebookUpsertNestedInput {
-  update: DaysaveItemOldpeoplefacebookUpdateDataInput!
-  create: DaysaveItemOldpeoplefacebookCreateInput!
-}
-
-input DaysaveItemOldpeoplefacebookWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemOldpeoplefacebookWhereInput!]
 }
 
 type DaysaveItemOldSchoolCool {
@@ -6809,58 +4853,6 @@ input DaysaveItemPokemonCreateOneInput {
   create: DaysaveItemPokemonCreateInput
 }
 
-type DaysaveItemPokemongo {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemPokemongoCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemPokemongoCreateOneInput {
-  create: DaysaveItemPokemongoCreateInput
-}
-
-input DaysaveItemPokemongoUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemPokemongoUpdateOneInput {
-  create: DaysaveItemPokemongoCreateInput
-  update: DaysaveItemPokemongoUpdateDataInput
-  upsert: DaysaveItemPokemongoUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemPokemongoUpsertNestedInput {
-  update: DaysaveItemPokemongoUpdateDataInput!
-  create: DaysaveItemPokemongoCreateInput!
-}
-
-input DaysaveItemPokemongoWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemPokemongoWhereInput!]
-}
-
 input DaysaveItemPokemonUpdateDataInput {
   com: Int
   found: Int
@@ -7003,58 +4995,6 @@ input DaysaveItemPrequelMemeWhereInput {
   AND: [DaysaveItemPrequelMemeWhereInput!]
 }
 
-type DaysaveItemProgrammerHumor {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemProgrammerHumorCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemProgrammerHumorCreateOneInput {
-  create: DaysaveItemProgrammerHumorCreateInput
-}
-
-input DaysaveItemProgrammerHumorUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemProgrammerHumorUpdateOneInput {
-  create: DaysaveItemProgrammerHumorCreateInput
-  update: DaysaveItemProgrammerHumorUpdateDataInput
-  upsert: DaysaveItemProgrammerHumorUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemProgrammerHumorUpsertNestedInput {
-  update: DaysaveItemProgrammerHumorUpdateDataInput!
-  create: DaysaveItemProgrammerHumorCreateInput!
-}
-
-input DaysaveItemProgrammerHumorWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemProgrammerHumorWhereInput!]
-}
-
 type DaysaveItemPS4 {
   com: Int
   found: Int
@@ -7157,58 +5097,6 @@ input DaysaveItemReactiongifWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemReactiongifWhereInput!]
-}
-
-type DaysaveItemRealGirl {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemRealGirlCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemRealGirlCreateOneInput {
-  create: DaysaveItemRealGirlCreateInput
-}
-
-input DaysaveItemRealGirlUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemRealGirlUpdateOneInput {
-  create: DaysaveItemRealGirlCreateInput
-  update: DaysaveItemRealGirlUpdateDataInput
-  upsert: DaysaveItemRealGirlUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemRealGirlUpsertNestedInput {
-  update: DaysaveItemRealGirlUpdateDataInput!
-  create: DaysaveItemRealGirlCreateInput!
-}
-
-input DaysaveItemRealGirlWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemRealGirlWhereInput!]
 }
 
 type DaysaveItemRelationship {
@@ -7575,6 +5463,58 @@ input DaysaveItemSexWhereInput {
   AND: [DaysaveItemSexWhereInput!]
 }
 
+type DaysaveItemShittyfoodporn {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemShittyfoodpornCreateInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemShittyfoodpornCreateOneInput {
+  create: DaysaveItemShittyfoodpornCreateInput
+}
+
+input DaysaveItemShittyfoodpornUpdateDataInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemShittyfoodpornUpdateOneInput {
+  create: DaysaveItemShittyfoodpornCreateInput
+  update: DaysaveItemShittyfoodpornUpdateDataInput
+  upsert: DaysaveItemShittyfoodpornUpsertNestedInput
+  delete: Boolean
+  disconnect: Boolean
+}
+
+input DaysaveItemShittyfoodpornUpsertNestedInput {
+  update: DaysaveItemShittyfoodpornUpdateDataInput!
+  create: DaysaveItemShittyfoodpornCreateInput!
+}
+
+input DaysaveItemShittyfoodpornWhereInput {
+  com: Int
+  com_not: Int
+  com_in: [Int!]
+  com_not_in: [Int!]
+  com_lt: Int
+  com_lte: Int
+  com_gt: Int
+  com_gte: Int
+  found: Int
+  found_not: Int
+  found_in: [Int!]
+  found_not_in: [Int!]
+  found_lt: Int
+  found_lte: Int
+  found_gt: Int
+  found_gte: Int
+  AND: [DaysaveItemShittyfoodpornWhereInput!]
+}
+
 type DaysaveItemShowerthought {
   com: Int
   found: Int
@@ -7627,39 +5567,39 @@ input DaysaveItemShowerthoughtWhereInput {
   AND: [DaysaveItemShowerthoughtWhereInput!]
 }
 
-type DaysaveItemSoccer {
+type DaysaveItemSkincareAddiction {
   com: Int
   found: Int
 }
 
-input DaysaveItemSoccerCreateInput {
+input DaysaveItemSkincareAddictionCreateInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemSoccerCreateOneInput {
-  create: DaysaveItemSoccerCreateInput
+input DaysaveItemSkincareAddictionCreateOneInput {
+  create: DaysaveItemSkincareAddictionCreateInput
 }
 
-input DaysaveItemSoccerUpdateDataInput {
+input DaysaveItemSkincareAddictionUpdateDataInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemSoccerUpdateOneInput {
-  create: DaysaveItemSoccerCreateInput
-  update: DaysaveItemSoccerUpdateDataInput
-  upsert: DaysaveItemSoccerUpsertNestedInput
+input DaysaveItemSkincareAddictionUpdateOneInput {
+  create: DaysaveItemSkincareAddictionCreateInput
+  update: DaysaveItemSkincareAddictionUpdateDataInput
+  upsert: DaysaveItemSkincareAddictionUpsertNestedInput
   delete: Boolean
   disconnect: Boolean
 }
 
-input DaysaveItemSoccerUpsertNestedInput {
-  update: DaysaveItemSoccerUpdateDataInput!
-  create: DaysaveItemSoccerCreateInput!
+input DaysaveItemSkincareAddictionUpsertNestedInput {
+  update: DaysaveItemSkincareAddictionUpdateDataInput!
+  create: DaysaveItemSkincareAddictionCreateInput!
 }
 
-input DaysaveItemSoccerWhereInput {
+input DaysaveItemSkincareAddictionWhereInput {
   com: Int
   com_not: Int
   com_in: [Int!]
@@ -7676,42 +5616,42 @@ input DaysaveItemSoccerWhereInput {
   found_lte: Int
   found_gt: Int
   found_gte: Int
-  AND: [DaysaveItemSoccerWhereInput!]
+  AND: [DaysaveItemSkincareAddictionWhereInput!]
 }
 
-type DaysaveItemSocialskill {
+type DaysaveItemSlowcooking {
   com: Int
   found: Int
 }
 
-input DaysaveItemSocialskillCreateInput {
+input DaysaveItemSlowcookingCreateInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemSocialskillCreateOneInput {
-  create: DaysaveItemSocialskillCreateInput
+input DaysaveItemSlowcookingCreateOneInput {
+  create: DaysaveItemSlowcookingCreateInput
 }
 
-input DaysaveItemSocialskillUpdateDataInput {
+input DaysaveItemSlowcookingUpdateDataInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemSocialskillUpdateOneInput {
-  create: DaysaveItemSocialskillCreateInput
-  update: DaysaveItemSocialskillUpdateDataInput
-  upsert: DaysaveItemSocialskillUpsertNestedInput
+input DaysaveItemSlowcookingUpdateOneInput {
+  create: DaysaveItemSlowcookingCreateInput
+  update: DaysaveItemSlowcookingUpdateDataInput
+  upsert: DaysaveItemSlowcookingUpsertNestedInput
   delete: Boolean
   disconnect: Boolean
 }
 
-input DaysaveItemSocialskillUpsertNestedInput {
-  update: DaysaveItemSocialskillUpdateDataInput!
-  create: DaysaveItemSocialskillCreateInput!
+input DaysaveItemSlowcookingUpsertNestedInput {
+  update: DaysaveItemSlowcookingUpdateDataInput!
+  create: DaysaveItemSlowcookingCreateInput!
 }
 
-input DaysaveItemSocialskillWhereInput {
+input DaysaveItemSlowcookingWhereInput {
   com: Int
   com_not: Int
   com_in: [Int!]
@@ -7728,7 +5668,7 @@ input DaysaveItemSocialskillWhereInput {
   found_lte: Int
   found_gt: Int
   found_gte: Int
-  AND: [DaysaveItemSocialskillWhereInput!]
+  AND: [DaysaveItemSlowcookingWhereInput!]
 }
 
 type DaysaveItemSpace {
@@ -7939,39 +5879,39 @@ input DaysaveItemStarWarWhereInput {
   AND: [DaysaveItemStarWarWhereInput!]
 }
 
-type DaysaveItemTechnology {
+type DaysaveItemStreetwear {
   com: Int
   found: Int
 }
 
-input DaysaveItemTechnologyCreateInput {
+input DaysaveItemStreetwearCreateInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemTechnologyCreateOneInput {
-  create: DaysaveItemTechnologyCreateInput
+input DaysaveItemStreetwearCreateOneInput {
+  create: DaysaveItemStreetwearCreateInput
 }
 
-input DaysaveItemTechnologyUpdateDataInput {
+input DaysaveItemStreetwearUpdateDataInput {
   com: Int
   found: Int
 }
 
-input DaysaveItemTechnologyUpdateOneInput {
-  create: DaysaveItemTechnologyCreateInput
-  update: DaysaveItemTechnologyUpdateDataInput
-  upsert: DaysaveItemTechnologyUpsertNestedInput
+input DaysaveItemStreetwearUpdateOneInput {
+  create: DaysaveItemStreetwearCreateInput
+  update: DaysaveItemStreetwearUpdateDataInput
+  upsert: DaysaveItemStreetwearUpsertNestedInput
   delete: Boolean
   disconnect: Boolean
 }
 
-input DaysaveItemTechnologyUpsertNestedInput {
-  update: DaysaveItemTechnologyUpdateDataInput!
-  create: DaysaveItemTechnologyCreateInput!
+input DaysaveItemStreetwearUpsertNestedInput {
+  update: DaysaveItemStreetwearUpdateDataInput!
+  create: DaysaveItemStreetwearCreateInput!
 }
 
-input DaysaveItemTechnologyWhereInput {
+input DaysaveItemStreetwearWhereInput {
   com: Int
   com_not: Int
   com_in: [Int!]
@@ -7988,7 +5928,59 @@ input DaysaveItemTechnologyWhereInput {
   found_lte: Int
   found_gt: Int
   found_gte: Int
-  AND: [DaysaveItemTechnologyWhereInput!]
+  AND: [DaysaveItemStreetwearWhereInput!]
+}
+
+type DaysaveItemTattoo {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemTattooCreateInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemTattooCreateOneInput {
+  create: DaysaveItemTattooCreateInput
+}
+
+input DaysaveItemTattooUpdateDataInput {
+  com: Int
+  found: Int
+}
+
+input DaysaveItemTattooUpdateOneInput {
+  create: DaysaveItemTattooCreateInput
+  update: DaysaveItemTattooUpdateDataInput
+  upsert: DaysaveItemTattooUpsertNestedInput
+  delete: Boolean
+  disconnect: Boolean
+}
+
+input DaysaveItemTattooUpsertNestedInput {
+  update: DaysaveItemTattooUpdateDataInput!
+  create: DaysaveItemTattooCreateInput!
+}
+
+input DaysaveItemTattooWhereInput {
+  com: Int
+  com_not: Int
+  com_in: [Int!]
+  com_not_in: [Int!]
+  com_lt: Int
+  com_lte: Int
+  com_gt: Int
+  com_gte: Int
+  found: Int
+  found_not: Int
+  found_in: [Int!]
+  found_not_in: [Int!]
+  found_lt: Int
+  found_lte: Int
+  found_gt: Int
+  found_gte: Int
+  AND: [DaysaveItemTattooWhereInput!]
 }
 
 type DaysaveItemTeenager {
@@ -8249,58 +6241,6 @@ input DaysaveItemTherewasanattemptWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemTherewasanattemptWhereInput!]
-}
-
-type DaysaveItemTifu {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemTifuCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemTifuCreateOneInput {
-  create: DaysaveItemTifuCreateInput
-}
-
-input DaysaveItemTifuUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemTifuUpdateOneInput {
-  create: DaysaveItemTifuCreateInput
-  update: DaysaveItemTifuUpdateDataInput
-  upsert: DaysaveItemTifuUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemTifuUpsertNestedInput {
-  update: DaysaveItemTifuUpdateDataInput!
-  create: DaysaveItemTifuCreateInput!
-}
-
-input DaysaveItemTifuWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemTifuWhereInput!]
 }
 
 type DaysaveItemTinder {
@@ -8668,65 +6608,45 @@ input DaysaveItemUnexpectedWhereInput {
 }
 
 input DaysaveItemUpdateDataInput {
-  AbandonedPorn: DaysaveItemAbandonedPornUpdateOneInput
   AdviceAnimals: DaysaveItemAdviceAnimalUpdateOneInput
   Android: DaysaveItemAndroidUpdateOneInput
+  AnimalsBeingDerps: DaysaveItemAnimalsBeingDerpUpdateOneInput
   AnimalsBeingJerks: DaysaveItemAnimalsBeingJerkUpdateOneInput
   anime: DaysaveItemAnimeUpdateOneInput
   apple: DaysaveItemAppleUpdateOneInput
-  Art: DaysaveItemArtUpdateOneInput
   AskMen: DaysaveItemAskManUpdateOneInput
   AskReddit: DaysaveItemAskRedditUpdateOneInput
   askscience: DaysaveItemAskscienceUpdateOneInput
   AskWomen: DaysaveItemAskWomanUpdateOneInput
   assholedesign: DaysaveItemAssholedesignUpdateOneInput
-  atheism: DaysaveItemAtheismUpdateOneInput
   aww: DaysaveItemAwwUpdateOneInput
-  backpacking: DaysaveItemBackpackingUpdateOneInput
   baseball: DaysaveItemBaseballUpdateOneInput
-  battlestations: DaysaveItemBattlestationUpdateOneInput
-  BeAmazed: DaysaveItemBeAmazedUpdateOneInput
-  bestof: DaysaveItemBestofUpdateOneInput
-  BetterEveryLoop: DaysaveItemBetterEveryLoopUpdateOneInput
-  BikiniBottomTwitter: DaysaveItemBikiniBottomTwitterUpdateOneInput
   BlackPeopleTwitter: DaysaveItemBlackPeopleTwitterUpdateOneInput
   boardgames: DaysaveItemBoardgameUpdateOneInput
-  books: DaysaveItemBookUpdateOneInput
   buildapc: DaysaveItemBuildapcUpdateOneInput
   cars: DaysaveItemCarUpdateOneInput
   cats: DaysaveItemCatUpdateOneInput
-  changemyview: DaysaveItemChangemyviewUpdateOneInput
   ChoosingBeggars: DaysaveItemChoosingBeggarUpdateOneInput
-  comicbooks: DaysaveItemComicbookUpdateOneInput
   comics: DaysaveItemComicUpdateOneInput
-  confession: DaysaveItemConfessionUpdateOneInput
   conspiracy: DaysaveItemConspiracyUpdateOneInput
   Cooking: DaysaveItemCookingUpdateOneInput
   CrappyDesign: DaysaveItemCrappyDesignUpdateOneInput
-  creepy: DaysaveItemCreepyUpdateOneInput
-  cringe: DaysaveItemCringeUpdateOneInput
-  CryptoCurrency: DaysaveItemCryptoCurrencyUpdateOneInput
-  Damnthatsinteresting: DaysaveItemDamnthatsinterestingUpdateOneInput
   dankmemes: DaysaveItemDankmemeUpdateOneInput
   DestinyTheGame: DaysaveItemDestinyTheGameUpdateOneInput
   DnD: DaysaveItemDnDUpdateOneInput
   Documentaries: DaysaveItemDocumentaryUpdateOneInput
+  dogs: DaysaveItemDogUpdateOneInput
   drawing: DaysaveItemDrawingUpdateOneInput
   DunderMifflin: DaysaveItemDunderMifflinUpdateOneInput
   EarthPorn: DaysaveItemEarthPornUpdateOneInput
-  educationalgifs: DaysaveItemEducationalgifUpdateOneInput
-  entertainment: DaysaveItemEntertainmentUpdateOneInput
   europe: DaysaveItemEuropeUpdateOneInput
   explainlikeimfive: DaysaveItemExplainlikeimfiveUpdateOneInput
   Eyebleach: DaysaveItemEyebleachUpdateOneInput
-  facepalm: DaysaveItemFacepalmUpdateOneInput
-  femalefashionadvice: DaysaveItemFemalefashionadviceUpdateOneInput
   Fitness: DaysaveItemFitnessUpdateOneInput
   food: DaysaveItemFoodUpdateOneInput
   FoodPorn: DaysaveItemFoodPornUpdateOneInput
   FortNiteBR: DaysaveItemFortNiteBRUpdateOneInput
   Frugal: DaysaveItemFrugalUpdateOneInput
-  frugalmalefashion: DaysaveItemFrugalmalefashionUpdateOneInput
   funny: DaysaveItemFunnyUpdateOneInput
   Futurology: DaysaveItemFuturologyUpdateOneInput
   gadgets: DaysaveItemGadgetUpdateOneInput
@@ -8734,32 +6654,19 @@ input DaysaveItemUpdateDataInput {
   gaming: DaysaveItemGamingUpdateOneInput
   gardening: DaysaveItemGardeningUpdateOneInput
   gifs: DaysaveItemGifUpdateOneInput
-  GlobalOffensive: DaysaveItemGlobalOffensiveUpdateOneInput
   gonewild: DaysaveItemGonewildUpdateOneInput
-  hearthstone: DaysaveItemHearthstoneUpdateOneInput
-  HighQualityGifs: DaysaveItemHighQualityGifUpdateOneInput
   hiphopheads: DaysaveItemHiphopheadUpdateOneInput
-  hmmm: DaysaveItemHmmmUpdateOneInput
   hockey: DaysaveItemHockeyUpdateOneInput
-  HumansBeingBros: DaysaveItemHumansBeingBroUpdateOneInput
   iamverysmart: DaysaveItemIamverysmartUpdateOneInput
-  insanepeoplefacebook: DaysaveItemInsanepeoplefacebookUpdateOneInput
   instant_regret: DaysaveItemInstant_regretUpdateOneInput
   interestingasfuck: DaysaveItemInterestingasfuckUpdateOneInput
-  iphone: DaysaveItemIphoneUpdateOneInput
   Jokes: DaysaveItemJokeUpdateOneInput
-  keto: DaysaveItemKetoUpdateOneInput
   leagueoflegends: DaysaveItemLeagueoflegendUpdateOneInput
   legaladvice: DaysaveItemLegaladviceUpdateOneInput
-  lifehacks: DaysaveItemLifehackUpdateOneInput
   LifeProTips: DaysaveItemLifeProTipUpdateOneInput
   listentothis: DaysaveItemListentothiUpdateOneInput
-  loseit: DaysaveItemLoseitUpdateOneInput
-  MakeupAddiction: DaysaveItemMakeupAddictionUpdateOneInput
-  malefashionadvice: DaysaveItemMalefashionadviceUpdateOneInput
-  manga: DaysaveItemMangaUpdateOneInput
+  MadeMeSmile: DaysaveItemMadeMeSmileUpdateOneInput
   me_irl: DaysaveItemMe_irlUpdateOneInput
-  MealPrepSunday: DaysaveItemMealPrepSundayUpdateOneInput
   MemeEconomy: DaysaveItemMemeEconomyUpdateOneInput
   memes: DaysaveItemMemeUpdateOneInput
   mildlyinfuriating: DaysaveItemMildlyinfuriatingUpdateOneInput
@@ -8769,20 +6676,17 @@ input DaysaveItemUpdateDataInput {
   MovieDetails: DaysaveItemMovieDetailUpdateOneInput
   movies: DaysaveItemMovieUpdateOneInput
   MurderedByWords: DaysaveItemMurderedByWordUpdateOneInput
-  Music: DaysaveItemMusicUpdateOneInput
-  NatureIsFuckingLit: DaysaveItemNatureIsFuckingLitUpdateOneInput
   natureismetal: DaysaveItemNatureismetalUpdateOneInput
   nba: DaysaveItemNbaUpdateOneInput
+  nevertellmetheodds: DaysaveItemNevertellmetheoddUpdateOneInput
   news: DaysaveItemNewsUpdateOneInput
   nfl: DaysaveItemNflUpdateOneInput
   niceguys: DaysaveItemNiceguyUpdateOneInput
   NintendoSwitch: DaysaveItemNintendoSwitchUpdateOneInput
-  nononono: DaysaveItemNonononoUpdateOneInput
   nosleep: DaysaveItemNosleepUpdateOneInput
   NoStupidQuestions: DaysaveItemNoStupidQuestionUpdateOneInput
   nottheonion: DaysaveItemNottheonionUpdateOneInput
   oddlysatisfying: DaysaveItemOddlysatisfyingUpdateOneInput
-  oldpeoplefacebook: DaysaveItemOldpeoplefacebookUpdateOneInput
   OldSchoolCool: DaysaveItemOldSchoolCoolUpdateOneInput
   Overwatch: DaysaveItemOverwatchUpdateOneInput
   pcgaming: DaysaveItemPcgamingUpdateOneInput
@@ -8792,13 +6696,10 @@ input DaysaveItemUpdateDataInput {
   photography: DaysaveItemPhotographyUpdateOneInput
   pics: DaysaveItemPicUpdateOneInput
   pokemon: DaysaveItemPokemonUpdateOneInput
-  pokemongo: DaysaveItemPokemongoUpdateOneInput
   politics: DaysaveItemPoliticUpdateOneInput
   PrequelMemes: DaysaveItemPrequelMemeUpdateOneInput
-  ProgrammerHumor: DaysaveItemProgrammerHumorUpdateOneInput
   PS4: DaysaveItemPS4UpdateOneInput
   reactiongifs: DaysaveItemReactiongifUpdateOneInput
-  RealGirls: DaysaveItemRealGirlUpdateOneInput
   relationship_advice: DaysaveItemRelationship_adviceUpdateOneInput
   relationships: DaysaveItemRelationshipUpdateOneInput
   rickandmorty: DaysaveItemRickandmortyUpdateOneInput
@@ -8806,20 +6707,21 @@ input DaysaveItemUpdateDataInput {
   RoastMe: DaysaveItemRoastMeUpdateOneInput
   science: DaysaveItemScienceUpdateOneInput
   sex: DaysaveItemSexUpdateOneInput
+  shittyfoodporn: DaysaveItemShittyfoodpornUpdateOneInput
   Showerthoughts: DaysaveItemShowerthoughtUpdateOneInput
-  soccer: DaysaveItemSoccerUpdateOneInput
-  socialskills: DaysaveItemSocialskillUpdateOneInput
+  SkincareAddiction: DaysaveItemSkincareAddictionUpdateOneInput
+  slowcooking: DaysaveItemSlowcookingUpdateOneInput
   space: DaysaveItemSpaceUpdateOneInput
   sports: DaysaveItemSportUpdateOneInput
   starterpacks: DaysaveItemStarterpackUpdateOneInput
   StarWars: DaysaveItemStarWarUpdateOneInput
-  technology: DaysaveItemTechnologyUpdateOneInput
+  streetwear: DaysaveItemStreetwearUpdateOneInput
+  tattoos: DaysaveItemTattooUpdateOneInput
   teenagers: DaysaveItemTeenagerUpdateOneInput
   television: DaysaveItemTelevisionUpdateOneInput
   thatHappened: DaysaveItemThatHappenedUpdateOneInput
   The_Donald: DaysaveItemThe_DonaldUpdateOneInput
   therewasanattempt: DaysaveItemTherewasanattemptUpdateOneInput
-  tifu: DaysaveItemTifuUpdateOneInput
   Tinder: DaysaveItemTinderUpdateOneInput
   todayilearned: DaysaveItemTodayilearnedUpdateOneInput
   trashy: DaysaveItemTrashyUpdateOneInput
@@ -8827,18 +6729,14 @@ input DaysaveItemUpdateDataInput {
   trees: DaysaveItemTreeUpdateOneInput
   TwoXChromosomes: DaysaveItemTwoXChromosomeUpdateOneInput
   Unexpected: DaysaveItemUnexpectedUpdateOneInput
-  UpliftingNews: DaysaveItemUpliftingNewUpdateOneInput
   videos: DaysaveItemVideoUpdateOneInput
   WatchPeopleDieInside: DaysaveItemWatchPeopleDieInsideUpdateOneInput
   Wellthatsucks: DaysaveItemWellthatsuckUpdateOneInput
   Whatcouldgowrong: DaysaveItemWhatcouldgowrongUpdateOneInput
-  whatisthisthing: DaysaveItemWhatisthisthingUpdateOneInput
   WhitePeopleTwitter: DaysaveItemWhitePeopleTwitterUpdateOneInput
   wholesomememes: DaysaveItemWholesomememeUpdateOneInput
-  woahdude: DaysaveItemWoahdudeUpdateOneInput
   woodworking: DaysaveItemWoodworkingUpdateOneInput
   worldnews: DaysaveItemWorldnewUpdateOneInput
-  wow: DaysaveItemWowUpdateOneInput
   WritingPrompts: DaysaveItemWritingPromptUpdateOneInput
   WTF: DaysaveItemWTFUpdateOneInput
   xboxone: DaysaveItemXboxoneUpdateOneInput
@@ -8851,58 +6749,6 @@ input DaysaveItemUpdateOneInput {
   upsert: DaysaveItemUpsertNestedInput
   delete: Boolean
   disconnect: Boolean
-}
-
-type DaysaveItemUpliftingNew {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemUpliftingNewCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemUpliftingNewCreateOneInput {
-  create: DaysaveItemUpliftingNewCreateInput
-}
-
-input DaysaveItemUpliftingNewUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemUpliftingNewUpdateOneInput {
-  create: DaysaveItemUpliftingNewCreateInput
-  update: DaysaveItemUpliftingNewUpdateDataInput
-  upsert: DaysaveItemUpliftingNewUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemUpliftingNewUpsertNestedInput {
-  update: DaysaveItemUpliftingNewUpdateDataInput!
-  create: DaysaveItemUpliftingNewCreateInput!
-}
-
-input DaysaveItemUpliftingNewWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemUpliftingNewWhereInput!]
 }
 
 input DaysaveItemUpsertNestedInput {
@@ -9118,118 +6964,46 @@ input DaysaveItemWhatcouldgowrongWhereInput {
   AND: [DaysaveItemWhatcouldgowrongWhereInput!]
 }
 
-type DaysaveItemWhatisthisthing {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWhatisthisthingCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWhatisthisthingCreateOneInput {
-  create: DaysaveItemWhatisthisthingCreateInput
-}
-
-input DaysaveItemWhatisthisthingUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWhatisthisthingUpdateOneInput {
-  create: DaysaveItemWhatisthisthingCreateInput
-  update: DaysaveItemWhatisthisthingUpdateDataInput
-  upsert: DaysaveItemWhatisthisthingUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemWhatisthisthingUpsertNestedInput {
-  update: DaysaveItemWhatisthisthingUpdateDataInput!
-  create: DaysaveItemWhatisthisthingCreateInput!
-}
-
-input DaysaveItemWhatisthisthingWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemWhatisthisthingWhereInput!]
-}
-
 input DaysaveItemWhereInput {
-  AbandonedPorn: DaysaveItemAbandonedPornWhereInput
   AdviceAnimals: DaysaveItemAdviceAnimalWhereInput
   Android: DaysaveItemAndroidWhereInput
+  AnimalsBeingDerps: DaysaveItemAnimalsBeingDerpWhereInput
   AnimalsBeingJerks: DaysaveItemAnimalsBeingJerkWhereInput
   anime: DaysaveItemAnimeWhereInput
   apple: DaysaveItemAppleWhereInput
-  Art: DaysaveItemArtWhereInput
   AskMen: DaysaveItemAskManWhereInput
   AskReddit: DaysaveItemAskRedditWhereInput
   askscience: DaysaveItemAskscienceWhereInput
   AskWomen: DaysaveItemAskWomanWhereInput
   assholedesign: DaysaveItemAssholedesignWhereInput
-  atheism: DaysaveItemAtheismWhereInput
   aww: DaysaveItemAwwWhereInput
-  backpacking: DaysaveItemBackpackingWhereInput
   baseball: DaysaveItemBaseballWhereInput
-  battlestations: DaysaveItemBattlestationWhereInput
-  BeAmazed: DaysaveItemBeAmazedWhereInput
-  bestof: DaysaveItemBestofWhereInput
-  BetterEveryLoop: DaysaveItemBetterEveryLoopWhereInput
-  BikiniBottomTwitter: DaysaveItemBikiniBottomTwitterWhereInput
   BlackPeopleTwitter: DaysaveItemBlackPeopleTwitterWhereInput
   boardgames: DaysaveItemBoardgameWhereInput
-  books: DaysaveItemBookWhereInput
   buildapc: DaysaveItemBuildapcWhereInput
   cars: DaysaveItemCarWhereInput
   cats: DaysaveItemCatWhereInput
-  changemyview: DaysaveItemChangemyviewWhereInput
   ChoosingBeggars: DaysaveItemChoosingBeggarWhereInput
-  comicbooks: DaysaveItemComicbookWhereInput
   comics: DaysaveItemComicWhereInput
-  confession: DaysaveItemConfessionWhereInput
   conspiracy: DaysaveItemConspiracyWhereInput
   Cooking: DaysaveItemCookingWhereInput
   CrappyDesign: DaysaveItemCrappyDesignWhereInput
-  creepy: DaysaveItemCreepyWhereInput
-  cringe: DaysaveItemCringeWhereInput
-  CryptoCurrency: DaysaveItemCryptoCurrencyWhereInput
-  Damnthatsinteresting: DaysaveItemDamnthatsinterestingWhereInput
   dankmemes: DaysaveItemDankmemeWhereInput
   DestinyTheGame: DaysaveItemDestinyTheGameWhereInput
   DnD: DaysaveItemDnDWhereInput
   Documentaries: DaysaveItemDocumentaryWhereInput
+  dogs: DaysaveItemDogWhereInput
   drawing: DaysaveItemDrawingWhereInput
   DunderMifflin: DaysaveItemDunderMifflinWhereInput
   EarthPorn: DaysaveItemEarthPornWhereInput
-  educationalgifs: DaysaveItemEducationalgifWhereInput
-  entertainment: DaysaveItemEntertainmentWhereInput
   europe: DaysaveItemEuropeWhereInput
   explainlikeimfive: DaysaveItemExplainlikeimfiveWhereInput
   Eyebleach: DaysaveItemEyebleachWhereInput
-  facepalm: DaysaveItemFacepalmWhereInput
-  femalefashionadvice: DaysaveItemFemalefashionadviceWhereInput
   Fitness: DaysaveItemFitnessWhereInput
   food: DaysaveItemFoodWhereInput
   FoodPorn: DaysaveItemFoodPornWhereInput
   FortNiteBR: DaysaveItemFortNiteBRWhereInput
   Frugal: DaysaveItemFrugalWhereInput
-  frugalmalefashion: DaysaveItemFrugalmalefashionWhereInput
   funny: DaysaveItemFunnyWhereInput
   Futurology: DaysaveItemFuturologyWhereInput
   gadgets: DaysaveItemGadgetWhereInput
@@ -9237,32 +7011,19 @@ input DaysaveItemWhereInput {
   gaming: DaysaveItemGamingWhereInput
   gardening: DaysaveItemGardeningWhereInput
   gifs: DaysaveItemGifWhereInput
-  GlobalOffensive: DaysaveItemGlobalOffensiveWhereInput
   gonewild: DaysaveItemGonewildWhereInput
-  hearthstone: DaysaveItemHearthstoneWhereInput
-  HighQualityGifs: DaysaveItemHighQualityGifWhereInput
   hiphopheads: DaysaveItemHiphopheadWhereInput
-  hmmm: DaysaveItemHmmmWhereInput
   hockey: DaysaveItemHockeyWhereInput
-  HumansBeingBros: DaysaveItemHumansBeingBroWhereInput
   iamverysmart: DaysaveItemIamverysmartWhereInput
-  insanepeoplefacebook: DaysaveItemInsanepeoplefacebookWhereInput
   instant_regret: DaysaveItemInstant_regretWhereInput
   interestingasfuck: DaysaveItemInterestingasfuckWhereInput
-  iphone: DaysaveItemIphoneWhereInput
   Jokes: DaysaveItemJokeWhereInput
-  keto: DaysaveItemKetoWhereInput
   leagueoflegends: DaysaveItemLeagueoflegendWhereInput
   legaladvice: DaysaveItemLegaladviceWhereInput
-  lifehacks: DaysaveItemLifehackWhereInput
   LifeProTips: DaysaveItemLifeProTipWhereInput
   listentothis: DaysaveItemListentothiWhereInput
-  loseit: DaysaveItemLoseitWhereInput
-  MakeupAddiction: DaysaveItemMakeupAddictionWhereInput
-  malefashionadvice: DaysaveItemMalefashionadviceWhereInput
-  manga: DaysaveItemMangaWhereInput
+  MadeMeSmile: DaysaveItemMadeMeSmileWhereInput
   me_irl: DaysaveItemMe_irlWhereInput
-  MealPrepSunday: DaysaveItemMealPrepSundayWhereInput
   MemeEconomy: DaysaveItemMemeEconomyWhereInput
   memes: DaysaveItemMemeWhereInput
   mildlyinfuriating: DaysaveItemMildlyinfuriatingWhereInput
@@ -9272,20 +7033,17 @@ input DaysaveItemWhereInput {
   MovieDetails: DaysaveItemMovieDetailWhereInput
   movies: DaysaveItemMovieWhereInput
   MurderedByWords: DaysaveItemMurderedByWordWhereInput
-  Music: DaysaveItemMusicWhereInput
-  NatureIsFuckingLit: DaysaveItemNatureIsFuckingLitWhereInput
   natureismetal: DaysaveItemNatureismetalWhereInput
   nba: DaysaveItemNbaWhereInput
+  nevertellmetheodds: DaysaveItemNevertellmetheoddWhereInput
   news: DaysaveItemNewsWhereInput
   nfl: DaysaveItemNflWhereInput
   niceguys: DaysaveItemNiceguyWhereInput
   NintendoSwitch: DaysaveItemNintendoSwitchWhereInput
-  nononono: DaysaveItemNonononoWhereInput
   nosleep: DaysaveItemNosleepWhereInput
   NoStupidQuestions: DaysaveItemNoStupidQuestionWhereInput
   nottheonion: DaysaveItemNottheonionWhereInput
   oddlysatisfying: DaysaveItemOddlysatisfyingWhereInput
-  oldpeoplefacebook: DaysaveItemOldpeoplefacebookWhereInput
   OldSchoolCool: DaysaveItemOldSchoolCoolWhereInput
   Overwatch: DaysaveItemOverwatchWhereInput
   pcgaming: DaysaveItemPcgamingWhereInput
@@ -9295,13 +7053,10 @@ input DaysaveItemWhereInput {
   photography: DaysaveItemPhotographyWhereInput
   pics: DaysaveItemPicWhereInput
   pokemon: DaysaveItemPokemonWhereInput
-  pokemongo: DaysaveItemPokemongoWhereInput
   politics: DaysaveItemPoliticWhereInput
   PrequelMemes: DaysaveItemPrequelMemeWhereInput
-  ProgrammerHumor: DaysaveItemProgrammerHumorWhereInput
   PS4: DaysaveItemPS4WhereInput
   reactiongifs: DaysaveItemReactiongifWhereInput
-  RealGirls: DaysaveItemRealGirlWhereInput
   relationship_advice: DaysaveItemRelationship_adviceWhereInput
   relationships: DaysaveItemRelationshipWhereInput
   rickandmorty: DaysaveItemRickandmortyWhereInput
@@ -9309,20 +7064,21 @@ input DaysaveItemWhereInput {
   RoastMe: DaysaveItemRoastMeWhereInput
   science: DaysaveItemScienceWhereInput
   sex: DaysaveItemSexWhereInput
+  shittyfoodporn: DaysaveItemShittyfoodpornWhereInput
   Showerthoughts: DaysaveItemShowerthoughtWhereInput
-  soccer: DaysaveItemSoccerWhereInput
-  socialskills: DaysaveItemSocialskillWhereInput
+  SkincareAddiction: DaysaveItemSkincareAddictionWhereInput
+  slowcooking: DaysaveItemSlowcookingWhereInput
   space: DaysaveItemSpaceWhereInput
   sports: DaysaveItemSportWhereInput
   starterpacks: DaysaveItemStarterpackWhereInput
   StarWars: DaysaveItemStarWarWhereInput
-  technology: DaysaveItemTechnologyWhereInput
+  streetwear: DaysaveItemStreetwearWhereInput
+  tattoos: DaysaveItemTattooWhereInput
   teenagers: DaysaveItemTeenagerWhereInput
   television: DaysaveItemTelevisionWhereInput
   thatHappened: DaysaveItemThatHappenedWhereInput
   The_Donald: DaysaveItemThe_DonaldWhereInput
   therewasanattempt: DaysaveItemTherewasanattemptWhereInput
-  tifu: DaysaveItemTifuWhereInput
   Tinder: DaysaveItemTinderWhereInput
   todayilearned: DaysaveItemTodayilearnedWhereInput
   trashy: DaysaveItemTrashyWhereInput
@@ -9330,18 +7086,14 @@ input DaysaveItemWhereInput {
   trees: DaysaveItemTreeWhereInput
   TwoXChromosomes: DaysaveItemTwoXChromosomeWhereInput
   Unexpected: DaysaveItemUnexpectedWhereInput
-  UpliftingNews: DaysaveItemUpliftingNewWhereInput
   videos: DaysaveItemVideoWhereInput
   WatchPeopleDieInside: DaysaveItemWatchPeopleDieInsideWhereInput
   Wellthatsucks: DaysaveItemWellthatsuckWhereInput
   Whatcouldgowrong: DaysaveItemWhatcouldgowrongWhereInput
-  whatisthisthing: DaysaveItemWhatisthisthingWhereInput
   WhitePeopleTwitter: DaysaveItemWhitePeopleTwitterWhereInput
   wholesomememes: DaysaveItemWholesomememeWhereInput
-  woahdude: DaysaveItemWoahdudeWhereInput
   woodworking: DaysaveItemWoodworkingWhereInput
   worldnews: DaysaveItemWorldnewWhereInput
-  wow: DaysaveItemWowWhereInput
   WritingPrompts: DaysaveItemWritingPromptWhereInput
   WTF: DaysaveItemWTFWhereInput
   xboxone: DaysaveItemXboxoneWhereInput
@@ -9453,58 +7205,6 @@ input DaysaveItemWholesomememeWhereInput {
   AND: [DaysaveItemWholesomememeWhereInput!]
 }
 
-type DaysaveItemWoahdude {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWoahdudeCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWoahdudeCreateOneInput {
-  create: DaysaveItemWoahdudeCreateInput
-}
-
-input DaysaveItemWoahdudeUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWoahdudeUpdateOneInput {
-  create: DaysaveItemWoahdudeCreateInput
-  update: DaysaveItemWoahdudeUpdateDataInput
-  upsert: DaysaveItemWoahdudeUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemWoahdudeUpsertNestedInput {
-  update: DaysaveItemWoahdudeUpdateDataInput!
-  create: DaysaveItemWoahdudeCreateInput!
-}
-
-input DaysaveItemWoahdudeWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemWoahdudeWhereInput!]
-}
-
 type DaysaveItemWoodworking {
   com: Int
   found: Int
@@ -9607,58 +7307,6 @@ input DaysaveItemWorldnewWhereInput {
   found_gt: Int
   found_gte: Int
   AND: [DaysaveItemWorldnewWhereInput!]
-}
-
-type DaysaveItemWow {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWowCreateInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWowCreateOneInput {
-  create: DaysaveItemWowCreateInput
-}
-
-input DaysaveItemWowUpdateDataInput {
-  com: Int
-  found: Int
-}
-
-input DaysaveItemWowUpdateOneInput {
-  create: DaysaveItemWowCreateInput
-  update: DaysaveItemWowUpdateDataInput
-  upsert: DaysaveItemWowUpsertNestedInput
-  delete: Boolean
-  disconnect: Boolean
-}
-
-input DaysaveItemWowUpsertNestedInput {
-  update: DaysaveItemWowUpdateDataInput!
-  create: DaysaveItemWowCreateInput!
-}
-
-input DaysaveItemWowWhereInput {
-  com: Int
-  com_not: Int
-  com_in: [Int!]
-  com_not_in: [Int!]
-  com_lt: Int
-  com_lte: Int
-  com_gt: Int
-  com_gte: Int
-  found: Int
-  found_not: Int
-  found_in: [Int!]
-  found_not_in: [Int!]
-  found_lt: Int
-  found_lte: Int
-  found_gt: Int
-  found_gte: Int
-  AND: [DaysaveItemWowWhereInput!]
 }
 
 type DaysaveItemWritingPrompt {

@@ -163,65 +163,45 @@ export interface DaysaveWhereInput {
 }
 
 export interface DaysaveItemWhereInput {
-  AbandonedPorn?: DaysaveItemAbandonedPornWhereInput;
   AdviceAnimals?: DaysaveItemAdviceAnimalWhereInput;
   Android?: DaysaveItemAndroidWhereInput;
+  AnimalsBeingDerps?: DaysaveItemAnimalsBeingDerpWhereInput;
   AnimalsBeingJerks?: DaysaveItemAnimalsBeingJerkWhereInput;
   anime?: DaysaveItemAnimeWhereInput;
   apple?: DaysaveItemAppleWhereInput;
-  Art?: DaysaveItemArtWhereInput;
   AskMen?: DaysaveItemAskManWhereInput;
   AskReddit?: DaysaveItemAskRedditWhereInput;
   askscience?: DaysaveItemAskscienceWhereInput;
   AskWomen?: DaysaveItemAskWomanWhereInput;
   assholedesign?: DaysaveItemAssholedesignWhereInput;
-  atheism?: DaysaveItemAtheismWhereInput;
   aww?: DaysaveItemAwwWhereInput;
-  backpacking?: DaysaveItemBackpackingWhereInput;
   baseball?: DaysaveItemBaseballWhereInput;
-  battlestations?: DaysaveItemBattlestationWhereInput;
-  BeAmazed?: DaysaveItemBeAmazedWhereInput;
-  bestof?: DaysaveItemBestofWhereInput;
-  BetterEveryLoop?: DaysaveItemBetterEveryLoopWhereInput;
-  BikiniBottomTwitter?: DaysaveItemBikiniBottomTwitterWhereInput;
   BlackPeopleTwitter?: DaysaveItemBlackPeopleTwitterWhereInput;
   boardgames?: DaysaveItemBoardgameWhereInput;
-  books?: DaysaveItemBookWhereInput;
   buildapc?: DaysaveItemBuildapcWhereInput;
   cars?: DaysaveItemCarWhereInput;
   cats?: DaysaveItemCatWhereInput;
-  changemyview?: DaysaveItemChangemyviewWhereInput;
   ChoosingBeggars?: DaysaveItemChoosingBeggarWhereInput;
-  comicbooks?: DaysaveItemComicbookWhereInput;
   comics?: DaysaveItemComicWhereInput;
-  confession?: DaysaveItemConfessionWhereInput;
   conspiracy?: DaysaveItemConspiracyWhereInput;
   Cooking?: DaysaveItemCookingWhereInput;
   CrappyDesign?: DaysaveItemCrappyDesignWhereInput;
-  creepy?: DaysaveItemCreepyWhereInput;
-  cringe?: DaysaveItemCringeWhereInput;
-  CryptoCurrency?: DaysaveItemCryptoCurrencyWhereInput;
-  Damnthatsinteresting?: DaysaveItemDamnthatsinterestingWhereInput;
   dankmemes?: DaysaveItemDankmemeWhereInput;
   DestinyTheGame?: DaysaveItemDestinyTheGameWhereInput;
   DnD?: DaysaveItemDnDWhereInput;
   Documentaries?: DaysaveItemDocumentaryWhereInput;
+  dogs?: DaysaveItemDogWhereInput;
   drawing?: DaysaveItemDrawingWhereInput;
   DunderMifflin?: DaysaveItemDunderMifflinWhereInput;
   EarthPorn?: DaysaveItemEarthPornWhereInput;
-  educationalgifs?: DaysaveItemEducationalgifWhereInput;
-  entertainment?: DaysaveItemEntertainmentWhereInput;
   europe?: DaysaveItemEuropeWhereInput;
   explainlikeimfive?: DaysaveItemExplainlikeimfiveWhereInput;
   Eyebleach?: DaysaveItemEyebleachWhereInput;
-  facepalm?: DaysaveItemFacepalmWhereInput;
-  femalefashionadvice?: DaysaveItemFemalefashionadviceWhereInput;
   Fitness?: DaysaveItemFitnessWhereInput;
   food?: DaysaveItemFoodWhereInput;
   FoodPorn?: DaysaveItemFoodPornWhereInput;
   FortNiteBR?: DaysaveItemFortNiteBRWhereInput;
   Frugal?: DaysaveItemFrugalWhereInput;
-  frugalmalefashion?: DaysaveItemFrugalmalefashionWhereInput;
   funny?: DaysaveItemFunnyWhereInput;
   Futurology?: DaysaveItemFuturologyWhereInput;
   gadgets?: DaysaveItemGadgetWhereInput;
@@ -229,32 +209,19 @@ export interface DaysaveItemWhereInput {
   gaming?: DaysaveItemGamingWhereInput;
   gardening?: DaysaveItemGardeningWhereInput;
   gifs?: DaysaveItemGifWhereInput;
-  GlobalOffensive?: DaysaveItemGlobalOffensiveWhereInput;
   gonewild?: DaysaveItemGonewildWhereInput;
-  hearthstone?: DaysaveItemHearthstoneWhereInput;
-  HighQualityGifs?: DaysaveItemHighQualityGifWhereInput;
   hiphopheads?: DaysaveItemHiphopheadWhereInput;
-  hmmm?: DaysaveItemHmmmWhereInput;
   hockey?: DaysaveItemHockeyWhereInput;
-  HumansBeingBros?: DaysaveItemHumansBeingBroWhereInput;
   iamverysmart?: DaysaveItemIamverysmartWhereInput;
-  insanepeoplefacebook?: DaysaveItemInsanepeoplefacebookWhereInput;
   instant_regret?: DaysaveItemInstant_regretWhereInput;
   interestingasfuck?: DaysaveItemInterestingasfuckWhereInput;
-  iphone?: DaysaveItemIphoneWhereInput;
   Jokes?: DaysaveItemJokeWhereInput;
-  keto?: DaysaveItemKetoWhereInput;
   leagueoflegends?: DaysaveItemLeagueoflegendWhereInput;
   legaladvice?: DaysaveItemLegaladviceWhereInput;
-  lifehacks?: DaysaveItemLifehackWhereInput;
   LifeProTips?: DaysaveItemLifeProTipWhereInput;
   listentothis?: DaysaveItemListentothiWhereInput;
-  loseit?: DaysaveItemLoseitWhereInput;
-  MakeupAddiction?: DaysaveItemMakeupAddictionWhereInput;
-  malefashionadvice?: DaysaveItemMalefashionadviceWhereInput;
-  manga?: DaysaveItemMangaWhereInput;
+  MadeMeSmile?: DaysaveItemMadeMeSmileWhereInput;
   me_irl?: DaysaveItemMe_irlWhereInput;
-  MealPrepSunday?: DaysaveItemMealPrepSundayWhereInput;
   MemeEconomy?: DaysaveItemMemeEconomyWhereInput;
   memes?: DaysaveItemMemeWhereInput;
   mildlyinfuriating?: DaysaveItemMildlyinfuriatingWhereInput;
@@ -264,20 +231,17 @@ export interface DaysaveItemWhereInput {
   MovieDetails?: DaysaveItemMovieDetailWhereInput;
   movies?: DaysaveItemMovieWhereInput;
   MurderedByWords?: DaysaveItemMurderedByWordWhereInput;
-  Music?: DaysaveItemMusicWhereInput;
-  NatureIsFuckingLit?: DaysaveItemNatureIsFuckingLitWhereInput;
   natureismetal?: DaysaveItemNatureismetalWhereInput;
   nba?: DaysaveItemNbaWhereInput;
+  nevertellmetheodds?: DaysaveItemNevertellmetheoddWhereInput;
   news?: DaysaveItemNewsWhereInput;
   nfl?: DaysaveItemNflWhereInput;
   niceguys?: DaysaveItemNiceguyWhereInput;
   NintendoSwitch?: DaysaveItemNintendoSwitchWhereInput;
-  nononono?: DaysaveItemNonononoWhereInput;
   nosleep?: DaysaveItemNosleepWhereInput;
   NoStupidQuestions?: DaysaveItemNoStupidQuestionWhereInput;
   nottheonion?: DaysaveItemNottheonionWhereInput;
   oddlysatisfying?: DaysaveItemOddlysatisfyingWhereInput;
-  oldpeoplefacebook?: DaysaveItemOldpeoplefacebookWhereInput;
   OldSchoolCool?: DaysaveItemOldSchoolCoolWhereInput;
   Overwatch?: DaysaveItemOverwatchWhereInput;
   pcgaming?: DaysaveItemPcgamingWhereInput;
@@ -287,13 +251,10 @@ export interface DaysaveItemWhereInput {
   photography?: DaysaveItemPhotographyWhereInput;
   pics?: DaysaveItemPicWhereInput;
   pokemon?: DaysaveItemPokemonWhereInput;
-  pokemongo?: DaysaveItemPokemongoWhereInput;
   politics?: DaysaveItemPoliticWhereInput;
   PrequelMemes?: DaysaveItemPrequelMemeWhereInput;
-  ProgrammerHumor?: DaysaveItemProgrammerHumorWhereInput;
   PS4?: DaysaveItemPS4WhereInput;
   reactiongifs?: DaysaveItemReactiongifWhereInput;
-  RealGirls?: DaysaveItemRealGirlWhereInput;
   relationship_advice?: DaysaveItemRelationship_adviceWhereInput;
   relationships?: DaysaveItemRelationshipWhereInput;
   rickandmorty?: DaysaveItemRickandmortyWhereInput;
@@ -301,20 +262,21 @@ export interface DaysaveItemWhereInput {
   RoastMe?: DaysaveItemRoastMeWhereInput;
   science?: DaysaveItemScienceWhereInput;
   sex?: DaysaveItemSexWhereInput;
+  shittyfoodporn?: DaysaveItemShittyfoodpornWhereInput;
   Showerthoughts?: DaysaveItemShowerthoughtWhereInput;
-  soccer?: DaysaveItemSoccerWhereInput;
-  socialskills?: DaysaveItemSocialskillWhereInput;
+  SkincareAddiction?: DaysaveItemSkincareAddictionWhereInput;
+  slowcooking?: DaysaveItemSlowcookingWhereInput;
   space?: DaysaveItemSpaceWhereInput;
   sports?: DaysaveItemSportWhereInput;
   starterpacks?: DaysaveItemStarterpackWhereInput;
   StarWars?: DaysaveItemStarWarWhereInput;
-  technology?: DaysaveItemTechnologyWhereInput;
+  streetwear?: DaysaveItemStreetwearWhereInput;
+  tattoos?: DaysaveItemTattooWhereInput;
   teenagers?: DaysaveItemTeenagerWhereInput;
   television?: DaysaveItemTelevisionWhereInput;
   thatHappened?: DaysaveItemThatHappenedWhereInput;
   The_Donald?: DaysaveItemThe_DonaldWhereInput;
   therewasanattempt?: DaysaveItemTherewasanattemptWhereInput;
-  tifu?: DaysaveItemTifuWhereInput;
   Tinder?: DaysaveItemTinderWhereInput;
   todayilearned?: DaysaveItemTodayilearnedWhereInput;
   trashy?: DaysaveItemTrashyWhereInput;
@@ -322,45 +284,19 @@ export interface DaysaveItemWhereInput {
   trees?: DaysaveItemTreeWhereInput;
   TwoXChromosomes?: DaysaveItemTwoXChromosomeWhereInput;
   Unexpected?: DaysaveItemUnexpectedWhereInput;
-  UpliftingNews?: DaysaveItemUpliftingNewWhereInput;
   videos?: DaysaveItemVideoWhereInput;
   WatchPeopleDieInside?: DaysaveItemWatchPeopleDieInsideWhereInput;
   Wellthatsucks?: DaysaveItemWellthatsuckWhereInput;
   Whatcouldgowrong?: DaysaveItemWhatcouldgowrongWhereInput;
-  whatisthisthing?: DaysaveItemWhatisthisthingWhereInput;
   WhitePeopleTwitter?: DaysaveItemWhitePeopleTwitterWhereInput;
   wholesomememes?: DaysaveItemWholesomememeWhereInput;
-  woahdude?: DaysaveItemWoahdudeWhereInput;
   woodworking?: DaysaveItemWoodworkingWhereInput;
   worldnews?: DaysaveItemWorldnewWhereInput;
-  wow?: DaysaveItemWowWhereInput;
   WritingPrompts?: DaysaveItemWritingPromptWhereInput;
   WTF?: DaysaveItemWTFWhereInput;
   xboxone?: DaysaveItemXboxoneWhereInput;
   YouShouldKnow?: DaysaveItemYouShouldKnowWhereInput;
   AND?: DaysaveItemWhereInput[] | DaysaveItemWhereInput;
-}
-
-export interface DaysaveItemAbandonedPornWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemAbandonedPornWhereInput[]
-    | DaysaveItemAbandonedPornWhereInput;
 }
 
 export interface DaysaveItemAdviceAnimalWhereInput {
@@ -401,6 +337,28 @@ export interface DaysaveItemAndroidWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemAndroidWhereInput[] | DaysaveItemAndroidWhereInput;
+}
+
+export interface DaysaveItemAnimalsBeingDerpWhereInput {
+  com?: Int;
+  com_not?: Int;
+  com_in?: Int[] | Int;
+  com_not_in?: Int[] | Int;
+  com_lt?: Int;
+  com_lte?: Int;
+  com_gt?: Int;
+  com_gte?: Int;
+  found?: Int;
+  found_not?: Int;
+  found_in?: Int[] | Int;
+  found_not_in?: Int[] | Int;
+  found_lt?: Int;
+  found_lte?: Int;
+  found_gt?: Int;
+  found_gte?: Int;
+  AND?:
+    | DaysaveItemAnimalsBeingDerpWhereInput[]
+    | DaysaveItemAnimalsBeingDerpWhereInput;
 }
 
 export interface DaysaveItemAnimalsBeingJerkWhereInput {
@@ -463,26 +421,6 @@ export interface DaysaveItemAppleWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemAppleWhereInput[] | DaysaveItemAppleWhereInput;
-}
-
-export interface DaysaveItemArtWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemArtWhereInput[] | DaysaveItemArtWhereInput;
 }
 
 export interface DaysaveItemAskManWhereInput {
@@ -587,26 +525,6 @@ export interface DaysaveItemAssholedesignWhereInput {
     | DaysaveItemAssholedesignWhereInput;
 }
 
-export interface DaysaveItemAtheismWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemAtheismWhereInput[] | DaysaveItemAtheismWhereInput;
-}
-
 export interface DaysaveItemAwwWhereInput {
   com?: Int;
   com_not?: Int;
@@ -627,26 +545,6 @@ export interface DaysaveItemAwwWhereInput {
   AND?: DaysaveItemAwwWhereInput[] | DaysaveItemAwwWhereInput;
 }
 
-export interface DaysaveItemBackpackingWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemBackpackingWhereInput[] | DaysaveItemBackpackingWhereInput;
-}
-
 export interface DaysaveItemBaseballWhereInput {
   com?: Int;
   com_not?: Int;
@@ -665,112 +563,6 @@ export interface DaysaveItemBaseballWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemBaseballWhereInput[] | DaysaveItemBaseballWhereInput;
-}
-
-export interface DaysaveItemBattlestationWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemBattlestationWhereInput[]
-    | DaysaveItemBattlestationWhereInput;
-}
-
-export interface DaysaveItemBeAmazedWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemBeAmazedWhereInput[] | DaysaveItemBeAmazedWhereInput;
-}
-
-export interface DaysaveItemBestofWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemBestofWhereInput[] | DaysaveItemBestofWhereInput;
-}
-
-export interface DaysaveItemBetterEveryLoopWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemBetterEveryLoopWhereInput[]
-    | DaysaveItemBetterEveryLoopWhereInput;
-}
-
-export interface DaysaveItemBikiniBottomTwitterWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemBikiniBottomTwitterWhereInput[]
-    | DaysaveItemBikiniBottomTwitterWhereInput;
 }
 
 export interface DaysaveItemBlackPeopleTwitterWhereInput {
@@ -813,26 +605,6 @@ export interface DaysaveItemBoardgameWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemBoardgameWhereInput[] | DaysaveItemBoardgameWhereInput;
-}
-
-export interface DaysaveItemBookWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemBookWhereInput[] | DaysaveItemBookWhereInput;
 }
 
 export interface DaysaveItemBuildapcWhereInput {
@@ -895,26 +667,6 @@ export interface DaysaveItemCatWhereInput {
   AND?: DaysaveItemCatWhereInput[] | DaysaveItemCatWhereInput;
 }
 
-export interface DaysaveItemChangemyviewWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemChangemyviewWhereInput[] | DaysaveItemChangemyviewWhereInput;
-}
-
 export interface DaysaveItemChoosingBeggarWhereInput {
   com?: Int;
   com_not?: Int;
@@ -937,26 +689,6 @@ export interface DaysaveItemChoosingBeggarWhereInput {
     | DaysaveItemChoosingBeggarWhereInput;
 }
 
-export interface DaysaveItemComicbookWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemComicbookWhereInput[] | DaysaveItemComicbookWhereInput;
-}
-
 export interface DaysaveItemComicWhereInput {
   com?: Int;
   com_not?: Int;
@@ -975,26 +707,6 @@ export interface DaysaveItemComicWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemComicWhereInput[] | DaysaveItemComicWhereInput;
-}
-
-export interface DaysaveItemConfessionWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemConfessionWhereInput[] | DaysaveItemConfessionWhereInput;
 }
 
 export interface DaysaveItemConspiracyWhereInput {
@@ -1055,90 +767,6 @@ export interface DaysaveItemCrappyDesignWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemCrappyDesignWhereInput[] | DaysaveItemCrappyDesignWhereInput;
-}
-
-export interface DaysaveItemCreepyWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemCreepyWhereInput[] | DaysaveItemCreepyWhereInput;
-}
-
-export interface DaysaveItemCringeWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemCringeWhereInput[] | DaysaveItemCringeWhereInput;
-}
-
-export interface DaysaveItemCryptoCurrencyWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemCryptoCurrencyWhereInput[]
-    | DaysaveItemCryptoCurrencyWhereInput;
-}
-
-export interface DaysaveItemDamnthatsinterestingWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemDamnthatsinterestingWhereInput[]
-    | DaysaveItemDamnthatsinterestingWhereInput;
 }
 
 export interface DaysaveItemDankmemeWhereInput {
@@ -1223,6 +851,26 @@ export interface DaysaveItemDocumentaryWhereInput {
   AND?: DaysaveItemDocumentaryWhereInput[] | DaysaveItemDocumentaryWhereInput;
 }
 
+export interface DaysaveItemDogWhereInput {
+  com?: Int;
+  com_not?: Int;
+  com_in?: Int[] | Int;
+  com_not_in?: Int[] | Int;
+  com_lt?: Int;
+  com_lte?: Int;
+  com_gt?: Int;
+  com_gte?: Int;
+  found?: Int;
+  found_not?: Int;
+  found_in?: Int[] | Int;
+  found_not_in?: Int[] | Int;
+  found_lt?: Int;
+  found_lte?: Int;
+  found_gt?: Int;
+  found_gte?: Int;
+  AND?: DaysaveItemDogWhereInput[] | DaysaveItemDogWhereInput;
+}
+
 export interface DaysaveItemDrawingWhereInput {
   com?: Int;
   com_not?: Int;
@@ -1285,50 +933,6 @@ export interface DaysaveItemEarthPornWhereInput {
   AND?: DaysaveItemEarthPornWhereInput[] | DaysaveItemEarthPornWhereInput;
 }
 
-export interface DaysaveItemEducationalgifWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemEducationalgifWhereInput[]
-    | DaysaveItemEducationalgifWhereInput;
-}
-
-export interface DaysaveItemEntertainmentWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemEntertainmentWhereInput[]
-    | DaysaveItemEntertainmentWhereInput;
-}
-
 export interface DaysaveItemEuropeWhereInput {
   com?: Int;
   com_not?: Int;
@@ -1389,48 +993,6 @@ export interface DaysaveItemEyebleachWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemEyebleachWhereInput[] | DaysaveItemEyebleachWhereInput;
-}
-
-export interface DaysaveItemFacepalmWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemFacepalmWhereInput[] | DaysaveItemFacepalmWhereInput;
-}
-
-export interface DaysaveItemFemalefashionadviceWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemFemalefashionadviceWhereInput[]
-    | DaysaveItemFemalefashionadviceWhereInput;
 }
 
 export interface DaysaveItemFitnessWhereInput {
@@ -1531,28 +1093,6 @@ export interface DaysaveItemFrugalWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemFrugalWhereInput[] | DaysaveItemFrugalWhereInput;
-}
-
-export interface DaysaveItemFrugalmalefashionWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemFrugalmalefashionWhereInput[]
-    | DaysaveItemFrugalmalefashionWhereInput;
 }
 
 export interface DaysaveItemFunnyWhereInput {
@@ -1695,28 +1235,6 @@ export interface DaysaveItemGifWhereInput {
   AND?: DaysaveItemGifWhereInput[] | DaysaveItemGifWhereInput;
 }
 
-export interface DaysaveItemGlobalOffensiveWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemGlobalOffensiveWhereInput[]
-    | DaysaveItemGlobalOffensiveWhereInput;
-}
-
 export interface DaysaveItemGonewildWhereInput {
   com?: Int;
   com_not?: Int;
@@ -1735,48 +1253,6 @@ export interface DaysaveItemGonewildWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemGonewildWhereInput[] | DaysaveItemGonewildWhereInput;
-}
-
-export interface DaysaveItemHearthstoneWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemHearthstoneWhereInput[] | DaysaveItemHearthstoneWhereInput;
-}
-
-export interface DaysaveItemHighQualityGifWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemHighQualityGifWhereInput[]
-    | DaysaveItemHighQualityGifWhereInput;
 }
 
 export interface DaysaveItemHiphopheadWhereInput {
@@ -1799,26 +1275,6 @@ export interface DaysaveItemHiphopheadWhereInput {
   AND?: DaysaveItemHiphopheadWhereInput[] | DaysaveItemHiphopheadWhereInput;
 }
 
-export interface DaysaveItemHmmmWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemHmmmWhereInput[] | DaysaveItemHmmmWhereInput;
-}
-
 export interface DaysaveItemHockeyWhereInput {
   com?: Int;
   com_not?: Int;
@@ -1839,28 +1295,6 @@ export interface DaysaveItemHockeyWhereInput {
   AND?: DaysaveItemHockeyWhereInput[] | DaysaveItemHockeyWhereInput;
 }
 
-export interface DaysaveItemHumansBeingBroWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemHumansBeingBroWhereInput[]
-    | DaysaveItemHumansBeingBroWhereInput;
-}
-
 export interface DaysaveItemIamverysmartWhereInput {
   com?: Int;
   com_not?: Int;
@@ -1879,28 +1313,6 @@ export interface DaysaveItemIamverysmartWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemIamverysmartWhereInput[] | DaysaveItemIamverysmartWhereInput;
-}
-
-export interface DaysaveItemInsanepeoplefacebookWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemInsanepeoplefacebookWhereInput[]
-    | DaysaveItemInsanepeoplefacebookWhereInput;
 }
 
 export interface DaysaveItemInstant_regretWhereInput {
@@ -1947,26 +1359,6 @@ export interface DaysaveItemInterestingasfuckWhereInput {
     | DaysaveItemInterestingasfuckWhereInput;
 }
 
-export interface DaysaveItemIphoneWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemIphoneWhereInput[] | DaysaveItemIphoneWhereInput;
-}
-
 export interface DaysaveItemJokeWhereInput {
   com?: Int;
   com_not?: Int;
@@ -1985,26 +1377,6 @@ export interface DaysaveItemJokeWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemJokeWhereInput[] | DaysaveItemJokeWhereInput;
-}
-
-export interface DaysaveItemKetoWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemKetoWhereInput[] | DaysaveItemKetoWhereInput;
 }
 
 export interface DaysaveItemLeagueoflegendWhereInput {
@@ -2049,26 +1421,6 @@ export interface DaysaveItemLegaladviceWhereInput {
   AND?: DaysaveItemLegaladviceWhereInput[] | DaysaveItemLegaladviceWhereInput;
 }
 
-export interface DaysaveItemLifehackWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemLifehackWhereInput[] | DaysaveItemLifehackWhereInput;
-}
-
 export interface DaysaveItemLifeProTipWhereInput {
   com?: Int;
   com_not?: Int;
@@ -2109,7 +1461,7 @@ export interface DaysaveItemListentothiWhereInput {
   AND?: DaysaveItemListentothiWhereInput[] | DaysaveItemListentothiWhereInput;
 }
 
-export interface DaysaveItemLoseitWhereInput {
+export interface DaysaveItemMadeMeSmileWhereInput {
   com?: Int;
   com_not?: Int;
   com_in?: Int[] | Int;
@@ -2126,71 +1478,7 @@ export interface DaysaveItemLoseitWhereInput {
   found_lte?: Int;
   found_gt?: Int;
   found_gte?: Int;
-  AND?: DaysaveItemLoseitWhereInput[] | DaysaveItemLoseitWhereInput;
-}
-
-export interface DaysaveItemMakeupAddictionWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemMakeupAddictionWhereInput[]
-    | DaysaveItemMakeupAddictionWhereInput;
-}
-
-export interface DaysaveItemMalefashionadviceWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemMalefashionadviceWhereInput[]
-    | DaysaveItemMalefashionadviceWhereInput;
-}
-
-export interface DaysaveItemMangaWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemMangaWhereInput[] | DaysaveItemMangaWhereInput;
+  AND?: DaysaveItemMadeMeSmileWhereInput[] | DaysaveItemMadeMeSmileWhereInput;
 }
 
 export interface DaysaveItemMe_irlWhereInput {
@@ -2211,28 +1499,6 @@ export interface DaysaveItemMe_irlWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemMe_irlWhereInput[] | DaysaveItemMe_irlWhereInput;
-}
-
-export interface DaysaveItemMealPrepSundayWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemMealPrepSundayWhereInput[]
-    | DaysaveItemMealPrepSundayWhereInput;
 }
 
 export interface DaysaveItemMemeEconomyWhereInput {
@@ -2421,48 +1687,6 @@ export interface DaysaveItemMurderedByWordWhereInput {
     | DaysaveItemMurderedByWordWhereInput;
 }
 
-export interface DaysaveItemMusicWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemMusicWhereInput[] | DaysaveItemMusicWhereInput;
-}
-
-export interface DaysaveItemNatureIsFuckingLitWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemNatureIsFuckingLitWhereInput[]
-    | DaysaveItemNatureIsFuckingLitWhereInput;
-}
-
 export interface DaysaveItemNatureismetalWhereInput {
   com?: Int;
   com_not?: Int;
@@ -2503,6 +1727,28 @@ export interface DaysaveItemNbaWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemNbaWhereInput[] | DaysaveItemNbaWhereInput;
+}
+
+export interface DaysaveItemNevertellmetheoddWhereInput {
+  com?: Int;
+  com_not?: Int;
+  com_in?: Int[] | Int;
+  com_not_in?: Int[] | Int;
+  com_lt?: Int;
+  com_lte?: Int;
+  com_gt?: Int;
+  com_gte?: Int;
+  found?: Int;
+  found_not?: Int;
+  found_in?: Int[] | Int;
+  found_not_in?: Int[] | Int;
+  found_lt?: Int;
+  found_lte?: Int;
+  found_gt?: Int;
+  found_gte?: Int;
+  AND?:
+    | DaysaveItemNevertellmetheoddWhereInput[]
+    | DaysaveItemNevertellmetheoddWhereInput;
 }
 
 export interface DaysaveItemNewsWhereInput {
@@ -2587,26 +1833,6 @@ export interface DaysaveItemNintendoSwitchWhereInput {
     | DaysaveItemNintendoSwitchWhereInput;
 }
 
-export interface DaysaveItemNonononoWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemNonononoWhereInput[] | DaysaveItemNonononoWhereInput;
-}
-
 export interface DaysaveItemNosleepWhereInput {
   com?: Int;
   com_not?: Int;
@@ -2689,28 +1915,6 @@ export interface DaysaveItemOddlysatisfyingWhereInput {
   AND?:
     | DaysaveItemOddlysatisfyingWhereInput[]
     | DaysaveItemOddlysatisfyingWhereInput;
-}
-
-export interface DaysaveItemOldpeoplefacebookWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemOldpeoplefacebookWhereInput[]
-    | DaysaveItemOldpeoplefacebookWhereInput;
 }
 
 export interface DaysaveItemOldSchoolCoolWhereInput {
@@ -2899,26 +2103,6 @@ export interface DaysaveItemPokemonWhereInput {
   AND?: DaysaveItemPokemonWhereInput[] | DaysaveItemPokemonWhereInput;
 }
 
-export interface DaysaveItemPokemongoWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemPokemongoWhereInput[] | DaysaveItemPokemongoWhereInput;
-}
-
 export interface DaysaveItemPoliticWhereInput {
   com?: Int;
   com_not?: Int;
@@ -2959,28 +2143,6 @@ export interface DaysaveItemPrequelMemeWhereInput {
   AND?: DaysaveItemPrequelMemeWhereInput[] | DaysaveItemPrequelMemeWhereInput;
 }
 
-export interface DaysaveItemProgrammerHumorWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemProgrammerHumorWhereInput[]
-    | DaysaveItemProgrammerHumorWhereInput;
-}
-
 export interface DaysaveItemPS4WhereInput {
   com?: Int;
   com_not?: Int;
@@ -3019,26 +2181,6 @@ export interface DaysaveItemReactiongifWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemReactiongifWhereInput[] | DaysaveItemReactiongifWhereInput;
-}
-
-export interface DaysaveItemRealGirlWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemRealGirlWhereInput[] | DaysaveItemRealGirlWhereInput;
 }
 
 export interface DaysaveItemRelationship_adviceWhereInput {
@@ -3183,6 +2325,28 @@ export interface DaysaveItemSexWhereInput {
   AND?: DaysaveItemSexWhereInput[] | DaysaveItemSexWhereInput;
 }
 
+export interface DaysaveItemShittyfoodpornWhereInput {
+  com?: Int;
+  com_not?: Int;
+  com_in?: Int[] | Int;
+  com_not_in?: Int[] | Int;
+  com_lt?: Int;
+  com_lte?: Int;
+  com_gt?: Int;
+  com_gte?: Int;
+  found?: Int;
+  found_not?: Int;
+  found_in?: Int[] | Int;
+  found_not_in?: Int[] | Int;
+  found_lt?: Int;
+  found_lte?: Int;
+  found_gt?: Int;
+  found_gte?: Int;
+  AND?:
+    | DaysaveItemShittyfoodpornWhereInput[]
+    | DaysaveItemShittyfoodpornWhereInput;
+}
+
 export interface DaysaveItemShowerthoughtWhereInput {
   com?: Int;
   com_not?: Int;
@@ -3205,7 +2369,7 @@ export interface DaysaveItemShowerthoughtWhereInput {
     | DaysaveItemShowerthoughtWhereInput;
 }
 
-export interface DaysaveItemSoccerWhereInput {
+export interface DaysaveItemSkincareAddictionWhereInput {
   com?: Int;
   com_not?: Int;
   com_in?: Int[] | Int;
@@ -3222,10 +2386,12 @@ export interface DaysaveItemSoccerWhereInput {
   found_lte?: Int;
   found_gt?: Int;
   found_gte?: Int;
-  AND?: DaysaveItemSoccerWhereInput[] | DaysaveItemSoccerWhereInput;
+  AND?:
+    | DaysaveItemSkincareAddictionWhereInput[]
+    | DaysaveItemSkincareAddictionWhereInput;
 }
 
-export interface DaysaveItemSocialskillWhereInput {
+export interface DaysaveItemSlowcookingWhereInput {
   com?: Int;
   com_not?: Int;
   com_in?: Int[] | Int;
@@ -3242,7 +2408,7 @@ export interface DaysaveItemSocialskillWhereInput {
   found_lte?: Int;
   found_gt?: Int;
   found_gte?: Int;
-  AND?: DaysaveItemSocialskillWhereInput[] | DaysaveItemSocialskillWhereInput;
+  AND?: DaysaveItemSlowcookingWhereInput[] | DaysaveItemSlowcookingWhereInput;
 }
 
 export interface DaysaveItemSpaceWhereInput {
@@ -3325,7 +2491,7 @@ export interface DaysaveItemStarWarWhereInput {
   AND?: DaysaveItemStarWarWhereInput[] | DaysaveItemStarWarWhereInput;
 }
 
-export interface DaysaveItemTechnologyWhereInput {
+export interface DaysaveItemStreetwearWhereInput {
   com?: Int;
   com_not?: Int;
   com_in?: Int[] | Int;
@@ -3342,7 +2508,27 @@ export interface DaysaveItemTechnologyWhereInput {
   found_lte?: Int;
   found_gt?: Int;
   found_gte?: Int;
-  AND?: DaysaveItemTechnologyWhereInput[] | DaysaveItemTechnologyWhereInput;
+  AND?: DaysaveItemStreetwearWhereInput[] | DaysaveItemStreetwearWhereInput;
+}
+
+export interface DaysaveItemTattooWhereInput {
+  com?: Int;
+  com_not?: Int;
+  com_in?: Int[] | Int;
+  com_not_in?: Int[] | Int;
+  com_lt?: Int;
+  com_lte?: Int;
+  com_gt?: Int;
+  com_gte?: Int;
+  found?: Int;
+  found_not?: Int;
+  found_in?: Int[] | Int;
+  found_not_in?: Int[] | Int;
+  found_lt?: Int;
+  found_lte?: Int;
+  found_gt?: Int;
+  found_gte?: Int;
+  AND?: DaysaveItemTattooWhereInput[] | DaysaveItemTattooWhereInput;
 }
 
 export interface DaysaveItemTeenagerWhereInput {
@@ -3445,26 +2631,6 @@ export interface DaysaveItemTherewasanattemptWhereInput {
   AND?:
     | DaysaveItemTherewasanattemptWhereInput[]
     | DaysaveItemTherewasanattemptWhereInput;
-}
-
-export interface DaysaveItemTifuWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemTifuWhereInput[] | DaysaveItemTifuWhereInput;
 }
 
 export interface DaysaveItemTinderWhereInput {
@@ -3611,26 +2777,6 @@ export interface DaysaveItemUnexpectedWhereInput {
   AND?: DaysaveItemUnexpectedWhereInput[] | DaysaveItemUnexpectedWhereInput;
 }
 
-export interface DaysaveItemUpliftingNewWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemUpliftingNewWhereInput[] | DaysaveItemUpliftingNewWhereInput;
-}
-
 export interface DaysaveItemVideoWhereInput {
   com?: Int;
   com_not?: Int;
@@ -3715,28 +2861,6 @@ export interface DaysaveItemWhatcouldgowrongWhereInput {
     | DaysaveItemWhatcouldgowrongWhereInput;
 }
 
-export interface DaysaveItemWhatisthisthingWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?:
-    | DaysaveItemWhatisthisthingWhereInput[]
-    | DaysaveItemWhatisthisthingWhereInput;
-}
-
 export interface DaysaveItemWhitePeopleTwitterWhereInput {
   com?: Int;
   com_not?: Int;
@@ -3781,26 +2905,6 @@ export interface DaysaveItemWholesomememeWhereInput {
     | DaysaveItemWholesomememeWhereInput;
 }
 
-export interface DaysaveItemWoahdudeWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemWoahdudeWhereInput[] | DaysaveItemWoahdudeWhereInput;
-}
-
 export interface DaysaveItemWoodworkingWhereInput {
   com?: Int;
   com_not?: Int;
@@ -3839,26 +2943,6 @@ export interface DaysaveItemWorldnewWhereInput {
   found_gt?: Int;
   found_gte?: Int;
   AND?: DaysaveItemWorldnewWhereInput[] | DaysaveItemWorldnewWhereInput;
-}
-
-export interface DaysaveItemWowWhereInput {
-  com?: Int;
-  com_not?: Int;
-  com_in?: Int[] | Int;
-  com_not_in?: Int[] | Int;
-  com_lt?: Int;
-  com_lte?: Int;
-  com_gt?: Int;
-  com_gte?: Int;
-  found?: Int;
-  found_not?: Int;
-  found_in?: Int[] | Int;
-  found_not_in?: Int[] | Int;
-  found_lt?: Int;
-  found_lte?: Int;
-  found_gt?: Int;
-  found_gte?: Int;
-  AND?: DaysaveItemWowWhereInput[] | DaysaveItemWowWhereInput;
 }
 
 export interface DaysaveItemWritingPromptWhereInput {
@@ -3957,65 +3041,45 @@ export interface DaysaveItemCreateOneInput {
 }
 
 export interface DaysaveItemCreateInput {
-  AbandonedPorn?: DaysaveItemAbandonedPornCreateOneInput;
   AdviceAnimals?: DaysaveItemAdviceAnimalCreateOneInput;
   Android?: DaysaveItemAndroidCreateOneInput;
+  AnimalsBeingDerps?: DaysaveItemAnimalsBeingDerpCreateOneInput;
   AnimalsBeingJerks?: DaysaveItemAnimalsBeingJerkCreateOneInput;
   anime?: DaysaveItemAnimeCreateOneInput;
   apple?: DaysaveItemAppleCreateOneInput;
-  Art?: DaysaveItemArtCreateOneInput;
   AskMen?: DaysaveItemAskManCreateOneInput;
   AskReddit?: DaysaveItemAskRedditCreateOneInput;
   askscience?: DaysaveItemAskscienceCreateOneInput;
   AskWomen?: DaysaveItemAskWomanCreateOneInput;
   assholedesign?: DaysaveItemAssholedesignCreateOneInput;
-  atheism?: DaysaveItemAtheismCreateOneInput;
   aww?: DaysaveItemAwwCreateOneInput;
-  backpacking?: DaysaveItemBackpackingCreateOneInput;
   baseball?: DaysaveItemBaseballCreateOneInput;
-  battlestations?: DaysaveItemBattlestationCreateOneInput;
-  BeAmazed?: DaysaveItemBeAmazedCreateOneInput;
-  bestof?: DaysaveItemBestofCreateOneInput;
-  BetterEveryLoop?: DaysaveItemBetterEveryLoopCreateOneInput;
-  BikiniBottomTwitter?: DaysaveItemBikiniBottomTwitterCreateOneInput;
   BlackPeopleTwitter?: DaysaveItemBlackPeopleTwitterCreateOneInput;
   boardgames?: DaysaveItemBoardgameCreateOneInput;
-  books?: DaysaveItemBookCreateOneInput;
   buildapc?: DaysaveItemBuildapcCreateOneInput;
   cars?: DaysaveItemCarCreateOneInput;
   cats?: DaysaveItemCatCreateOneInput;
-  changemyview?: DaysaveItemChangemyviewCreateOneInput;
   ChoosingBeggars?: DaysaveItemChoosingBeggarCreateOneInput;
-  comicbooks?: DaysaveItemComicbookCreateOneInput;
   comics?: DaysaveItemComicCreateOneInput;
-  confession?: DaysaveItemConfessionCreateOneInput;
   conspiracy?: DaysaveItemConspiracyCreateOneInput;
   Cooking?: DaysaveItemCookingCreateOneInput;
   CrappyDesign?: DaysaveItemCrappyDesignCreateOneInput;
-  creepy?: DaysaveItemCreepyCreateOneInput;
-  cringe?: DaysaveItemCringeCreateOneInput;
-  CryptoCurrency?: DaysaveItemCryptoCurrencyCreateOneInput;
-  Damnthatsinteresting?: DaysaveItemDamnthatsinterestingCreateOneInput;
   dankmemes?: DaysaveItemDankmemeCreateOneInput;
   DestinyTheGame?: DaysaveItemDestinyTheGameCreateOneInput;
   DnD?: DaysaveItemDnDCreateOneInput;
   Documentaries?: DaysaveItemDocumentaryCreateOneInput;
+  dogs?: DaysaveItemDogCreateOneInput;
   drawing?: DaysaveItemDrawingCreateOneInput;
   DunderMifflin?: DaysaveItemDunderMifflinCreateOneInput;
   EarthPorn?: DaysaveItemEarthPornCreateOneInput;
-  educationalgifs?: DaysaveItemEducationalgifCreateOneInput;
-  entertainment?: DaysaveItemEntertainmentCreateOneInput;
   europe?: DaysaveItemEuropeCreateOneInput;
   explainlikeimfive?: DaysaveItemExplainlikeimfiveCreateOneInput;
   Eyebleach?: DaysaveItemEyebleachCreateOneInput;
-  facepalm?: DaysaveItemFacepalmCreateOneInput;
-  femalefashionadvice?: DaysaveItemFemalefashionadviceCreateOneInput;
   Fitness?: DaysaveItemFitnessCreateOneInput;
   food?: DaysaveItemFoodCreateOneInput;
   FoodPorn?: DaysaveItemFoodPornCreateOneInput;
   FortNiteBR?: DaysaveItemFortNiteBRCreateOneInput;
   Frugal?: DaysaveItemFrugalCreateOneInput;
-  frugalmalefashion?: DaysaveItemFrugalmalefashionCreateOneInput;
   funny?: DaysaveItemFunnyCreateOneInput;
   Futurology?: DaysaveItemFuturologyCreateOneInput;
   gadgets?: DaysaveItemGadgetCreateOneInput;
@@ -4023,32 +3087,19 @@ export interface DaysaveItemCreateInput {
   gaming?: DaysaveItemGamingCreateOneInput;
   gardening?: DaysaveItemGardeningCreateOneInput;
   gifs?: DaysaveItemGifCreateOneInput;
-  GlobalOffensive?: DaysaveItemGlobalOffensiveCreateOneInput;
   gonewild?: DaysaveItemGonewildCreateOneInput;
-  hearthstone?: DaysaveItemHearthstoneCreateOneInput;
-  HighQualityGifs?: DaysaveItemHighQualityGifCreateOneInput;
   hiphopheads?: DaysaveItemHiphopheadCreateOneInput;
-  hmmm?: DaysaveItemHmmmCreateOneInput;
   hockey?: DaysaveItemHockeyCreateOneInput;
-  HumansBeingBros?: DaysaveItemHumansBeingBroCreateOneInput;
   iamverysmart?: DaysaveItemIamverysmartCreateOneInput;
-  insanepeoplefacebook?: DaysaveItemInsanepeoplefacebookCreateOneInput;
   instant_regret?: DaysaveItemInstant_regretCreateOneInput;
   interestingasfuck?: DaysaveItemInterestingasfuckCreateOneInput;
-  iphone?: DaysaveItemIphoneCreateOneInput;
   Jokes?: DaysaveItemJokeCreateOneInput;
-  keto?: DaysaveItemKetoCreateOneInput;
   leagueoflegends?: DaysaveItemLeagueoflegendCreateOneInput;
   legaladvice?: DaysaveItemLegaladviceCreateOneInput;
-  lifehacks?: DaysaveItemLifehackCreateOneInput;
   LifeProTips?: DaysaveItemLifeProTipCreateOneInput;
   listentothis?: DaysaveItemListentothiCreateOneInput;
-  loseit?: DaysaveItemLoseitCreateOneInput;
-  MakeupAddiction?: DaysaveItemMakeupAddictionCreateOneInput;
-  malefashionadvice?: DaysaveItemMalefashionadviceCreateOneInput;
-  manga?: DaysaveItemMangaCreateOneInput;
+  MadeMeSmile?: DaysaveItemMadeMeSmileCreateOneInput;
   me_irl?: DaysaveItemMe_irlCreateOneInput;
-  MealPrepSunday?: DaysaveItemMealPrepSundayCreateOneInput;
   MemeEconomy?: DaysaveItemMemeEconomyCreateOneInput;
   memes?: DaysaveItemMemeCreateOneInput;
   mildlyinfuriating?: DaysaveItemMildlyinfuriatingCreateOneInput;
@@ -4058,20 +3109,17 @@ export interface DaysaveItemCreateInput {
   MovieDetails?: DaysaveItemMovieDetailCreateOneInput;
   movies?: DaysaveItemMovieCreateOneInput;
   MurderedByWords?: DaysaveItemMurderedByWordCreateOneInput;
-  Music?: DaysaveItemMusicCreateOneInput;
-  NatureIsFuckingLit?: DaysaveItemNatureIsFuckingLitCreateOneInput;
   natureismetal?: DaysaveItemNatureismetalCreateOneInput;
   nba?: DaysaveItemNbaCreateOneInput;
+  nevertellmetheodds?: DaysaveItemNevertellmetheoddCreateOneInput;
   news?: DaysaveItemNewsCreateOneInput;
   nfl?: DaysaveItemNflCreateOneInput;
   niceguys?: DaysaveItemNiceguyCreateOneInput;
   NintendoSwitch?: DaysaveItemNintendoSwitchCreateOneInput;
-  nononono?: DaysaveItemNonononoCreateOneInput;
   nosleep?: DaysaveItemNosleepCreateOneInput;
   NoStupidQuestions?: DaysaveItemNoStupidQuestionCreateOneInput;
   nottheonion?: DaysaveItemNottheonionCreateOneInput;
   oddlysatisfying?: DaysaveItemOddlysatisfyingCreateOneInput;
-  oldpeoplefacebook?: DaysaveItemOldpeoplefacebookCreateOneInput;
   OldSchoolCool?: DaysaveItemOldSchoolCoolCreateOneInput;
   Overwatch?: DaysaveItemOverwatchCreateOneInput;
   pcgaming?: DaysaveItemPcgamingCreateOneInput;
@@ -4081,13 +3129,10 @@ export interface DaysaveItemCreateInput {
   photography?: DaysaveItemPhotographyCreateOneInput;
   pics?: DaysaveItemPicCreateOneInput;
   pokemon?: DaysaveItemPokemonCreateOneInput;
-  pokemongo?: DaysaveItemPokemongoCreateOneInput;
   politics?: DaysaveItemPoliticCreateOneInput;
   PrequelMemes?: DaysaveItemPrequelMemeCreateOneInput;
-  ProgrammerHumor?: DaysaveItemProgrammerHumorCreateOneInput;
   PS4?: DaysaveItemPS4CreateOneInput;
   reactiongifs?: DaysaveItemReactiongifCreateOneInput;
-  RealGirls?: DaysaveItemRealGirlCreateOneInput;
   relationship_advice?: DaysaveItemRelationship_adviceCreateOneInput;
   relationships?: DaysaveItemRelationshipCreateOneInput;
   rickandmorty?: DaysaveItemRickandmortyCreateOneInput;
@@ -4095,20 +3140,21 @@ export interface DaysaveItemCreateInput {
   RoastMe?: DaysaveItemRoastMeCreateOneInput;
   science?: DaysaveItemScienceCreateOneInput;
   sex?: DaysaveItemSexCreateOneInput;
+  shittyfoodporn?: DaysaveItemShittyfoodpornCreateOneInput;
   Showerthoughts?: DaysaveItemShowerthoughtCreateOneInput;
-  soccer?: DaysaveItemSoccerCreateOneInput;
-  socialskills?: DaysaveItemSocialskillCreateOneInput;
+  SkincareAddiction?: DaysaveItemSkincareAddictionCreateOneInput;
+  slowcooking?: DaysaveItemSlowcookingCreateOneInput;
   space?: DaysaveItemSpaceCreateOneInput;
   sports?: DaysaveItemSportCreateOneInput;
   starterpacks?: DaysaveItemStarterpackCreateOneInput;
   StarWars?: DaysaveItemStarWarCreateOneInput;
-  technology?: DaysaveItemTechnologyCreateOneInput;
+  streetwear?: DaysaveItemStreetwearCreateOneInput;
+  tattoos?: DaysaveItemTattooCreateOneInput;
   teenagers?: DaysaveItemTeenagerCreateOneInput;
   television?: DaysaveItemTelevisionCreateOneInput;
   thatHappened?: DaysaveItemThatHappenedCreateOneInput;
   The_Donald?: DaysaveItemThe_DonaldCreateOneInput;
   therewasanattempt?: DaysaveItemTherewasanattemptCreateOneInput;
-  tifu?: DaysaveItemTifuCreateOneInput;
   Tinder?: DaysaveItemTinderCreateOneInput;
   todayilearned?: DaysaveItemTodayilearnedCreateOneInput;
   trashy?: DaysaveItemTrashyCreateOneInput;
@@ -4116,31 +3162,18 @@ export interface DaysaveItemCreateInput {
   trees?: DaysaveItemTreeCreateOneInput;
   TwoXChromosomes?: DaysaveItemTwoXChromosomeCreateOneInput;
   Unexpected?: DaysaveItemUnexpectedCreateOneInput;
-  UpliftingNews?: DaysaveItemUpliftingNewCreateOneInput;
   videos?: DaysaveItemVideoCreateOneInput;
   WatchPeopleDieInside?: DaysaveItemWatchPeopleDieInsideCreateOneInput;
   Wellthatsucks?: DaysaveItemWellthatsuckCreateOneInput;
   Whatcouldgowrong?: DaysaveItemWhatcouldgowrongCreateOneInput;
-  whatisthisthing?: DaysaveItemWhatisthisthingCreateOneInput;
   WhitePeopleTwitter?: DaysaveItemWhitePeopleTwitterCreateOneInput;
   wholesomememes?: DaysaveItemWholesomememeCreateOneInput;
-  woahdude?: DaysaveItemWoahdudeCreateOneInput;
   woodworking?: DaysaveItemWoodworkingCreateOneInput;
   worldnews?: DaysaveItemWorldnewCreateOneInput;
-  wow?: DaysaveItemWowCreateOneInput;
   WritingPrompts?: DaysaveItemWritingPromptCreateOneInput;
   WTF?: DaysaveItemWTFCreateOneInput;
   xboxone?: DaysaveItemXboxoneCreateOneInput;
   YouShouldKnow?: DaysaveItemYouShouldKnowCreateOneInput;
-}
-
-export interface DaysaveItemAbandonedPornCreateOneInput {
-  create?: DaysaveItemAbandonedPornCreateInput;
-}
-
-export interface DaysaveItemAbandonedPornCreateInput {
-  com?: Int;
-  found?: Int;
 }
 
 export interface DaysaveItemAdviceAnimalCreateOneInput {
@@ -4157,6 +3190,15 @@ export interface DaysaveItemAndroidCreateOneInput {
 }
 
 export interface DaysaveItemAndroidCreateInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemAnimalsBeingDerpCreateOneInput {
+  create?: DaysaveItemAnimalsBeingDerpCreateInput;
+}
+
+export interface DaysaveItemAnimalsBeingDerpCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4184,15 +3226,6 @@ export interface DaysaveItemAppleCreateOneInput {
 }
 
 export interface DaysaveItemAppleCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemArtCreateOneInput {
-  create?: DaysaveItemArtCreateInput;
-}
-
-export interface DaysaveItemArtCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4242,15 +3275,6 @@ export interface DaysaveItemAssholedesignCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemAtheismCreateOneInput {
-  create?: DaysaveItemAtheismCreateInput;
-}
-
-export interface DaysaveItemAtheismCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemAwwCreateOneInput {
   create?: DaysaveItemAwwCreateInput;
 }
@@ -4260,65 +3284,11 @@ export interface DaysaveItemAwwCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemBackpackingCreateOneInput {
-  create?: DaysaveItemBackpackingCreateInput;
-}
-
-export interface DaysaveItemBackpackingCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemBaseballCreateOneInput {
   create?: DaysaveItemBaseballCreateInput;
 }
 
 export interface DaysaveItemBaseballCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBattlestationCreateOneInput {
-  create?: DaysaveItemBattlestationCreateInput;
-}
-
-export interface DaysaveItemBattlestationCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBeAmazedCreateOneInput {
-  create?: DaysaveItemBeAmazedCreateInput;
-}
-
-export interface DaysaveItemBeAmazedCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBestofCreateOneInput {
-  create?: DaysaveItemBestofCreateInput;
-}
-
-export interface DaysaveItemBestofCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBetterEveryLoopCreateOneInput {
-  create?: DaysaveItemBetterEveryLoopCreateInput;
-}
-
-export interface DaysaveItemBetterEveryLoopCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBikiniBottomTwitterCreateOneInput {
-  create?: DaysaveItemBikiniBottomTwitterCreateInput;
-}
-
-export interface DaysaveItemBikiniBottomTwitterCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4337,15 +3307,6 @@ export interface DaysaveItemBoardgameCreateOneInput {
 }
 
 export interface DaysaveItemBoardgameCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBookCreateOneInput {
-  create?: DaysaveItemBookCreateInput;
-}
-
-export interface DaysaveItemBookCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4377,15 +3338,6 @@ export interface DaysaveItemCatCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemChangemyviewCreateOneInput {
-  create?: DaysaveItemChangemyviewCreateInput;
-}
-
-export interface DaysaveItemChangemyviewCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemChoosingBeggarCreateOneInput {
   create?: DaysaveItemChoosingBeggarCreateInput;
 }
@@ -4395,29 +3347,11 @@ export interface DaysaveItemChoosingBeggarCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemComicbookCreateOneInput {
-  create?: DaysaveItemComicbookCreateInput;
-}
-
-export interface DaysaveItemComicbookCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemComicCreateOneInput {
   create?: DaysaveItemComicCreateInput;
 }
 
 export interface DaysaveItemComicCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemConfessionCreateOneInput {
-  create?: DaysaveItemConfessionCreateInput;
-}
-
-export interface DaysaveItemConfessionCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4445,42 +3379,6 @@ export interface DaysaveItemCrappyDesignCreateOneInput {
 }
 
 export interface DaysaveItemCrappyDesignCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCreepyCreateOneInput {
-  create?: DaysaveItemCreepyCreateInput;
-}
-
-export interface DaysaveItemCreepyCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCringeCreateOneInput {
-  create?: DaysaveItemCringeCreateInput;
-}
-
-export interface DaysaveItemCringeCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCryptoCurrencyCreateOneInput {
-  create?: DaysaveItemCryptoCurrencyCreateInput;
-}
-
-export interface DaysaveItemCryptoCurrencyCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemDamnthatsinterestingCreateOneInput {
-  create?: DaysaveItemDamnthatsinterestingCreateInput;
-}
-
-export interface DaysaveItemDamnthatsinterestingCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4521,6 +3419,15 @@ export interface DaysaveItemDocumentaryCreateInput {
   found?: Int;
 }
 
+export interface DaysaveItemDogCreateOneInput {
+  create?: DaysaveItemDogCreateInput;
+}
+
+export interface DaysaveItemDogCreateInput {
+  com?: Int;
+  found?: Int;
+}
+
 export interface DaysaveItemDrawingCreateOneInput {
   create?: DaysaveItemDrawingCreateInput;
 }
@@ -4548,24 +3455,6 @@ export interface DaysaveItemEarthPornCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemEducationalgifCreateOneInput {
-  create?: DaysaveItemEducationalgifCreateInput;
-}
-
-export interface DaysaveItemEducationalgifCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemEntertainmentCreateOneInput {
-  create?: DaysaveItemEntertainmentCreateInput;
-}
-
-export interface DaysaveItemEntertainmentCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemEuropeCreateOneInput {
   create?: DaysaveItemEuropeCreateInput;
 }
@@ -4589,24 +3478,6 @@ export interface DaysaveItemEyebleachCreateOneInput {
 }
 
 export interface DaysaveItemEyebleachCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFacepalmCreateOneInput {
-  create?: DaysaveItemFacepalmCreateInput;
-}
-
-export interface DaysaveItemFacepalmCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFemalefashionadviceCreateOneInput {
-  create?: DaysaveItemFemalefashionadviceCreateInput;
-}
-
-export interface DaysaveItemFemalefashionadviceCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4652,15 +3523,6 @@ export interface DaysaveItemFrugalCreateOneInput {
 }
 
 export interface DaysaveItemFrugalCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFrugalmalefashionCreateOneInput {
-  create?: DaysaveItemFrugalmalefashionCreateInput;
-}
-
-export interface DaysaveItemFrugalmalefashionCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4728,38 +3590,11 @@ export interface DaysaveItemGifCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemGlobalOffensiveCreateOneInput {
-  create?: DaysaveItemGlobalOffensiveCreateInput;
-}
-
-export interface DaysaveItemGlobalOffensiveCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemGonewildCreateOneInput {
   create?: DaysaveItemGonewildCreateInput;
 }
 
 export interface DaysaveItemGonewildCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHearthstoneCreateOneInput {
-  create?: DaysaveItemHearthstoneCreateInput;
-}
-
-export interface DaysaveItemHearthstoneCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHighQualityGifCreateOneInput {
-  create?: DaysaveItemHighQualityGifCreateInput;
-}
-
-export interface DaysaveItemHighQualityGifCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4773,15 +3608,6 @@ export interface DaysaveItemHiphopheadCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemHmmmCreateOneInput {
-  create?: DaysaveItemHmmmCreateInput;
-}
-
-export interface DaysaveItemHmmmCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemHockeyCreateOneInput {
   create?: DaysaveItemHockeyCreateInput;
 }
@@ -4791,29 +3617,11 @@ export interface DaysaveItemHockeyCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemHumansBeingBroCreateOneInput {
-  create?: DaysaveItemHumansBeingBroCreateInput;
-}
-
-export interface DaysaveItemHumansBeingBroCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemIamverysmartCreateOneInput {
   create?: DaysaveItemIamverysmartCreateInput;
 }
 
 export interface DaysaveItemIamverysmartCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemInsanepeoplefacebookCreateOneInput {
-  create?: DaysaveItemInsanepeoplefacebookCreateInput;
-}
-
-export interface DaysaveItemInsanepeoplefacebookCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4836,29 +3644,11 @@ export interface DaysaveItemInterestingasfuckCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemIphoneCreateOneInput {
-  create?: DaysaveItemIphoneCreateInput;
-}
-
-export interface DaysaveItemIphoneCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemJokeCreateOneInput {
   create?: DaysaveItemJokeCreateInput;
 }
 
 export interface DaysaveItemJokeCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemKetoCreateOneInput {
-  create?: DaysaveItemKetoCreateInput;
-}
-
-export interface DaysaveItemKetoCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4881,15 +3671,6 @@ export interface DaysaveItemLegaladviceCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemLifehackCreateOneInput {
-  create?: DaysaveItemLifehackCreateInput;
-}
-
-export interface DaysaveItemLifehackCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemLifeProTipCreateOneInput {
   create?: DaysaveItemLifeProTipCreateInput;
 }
@@ -4908,38 +3689,11 @@ export interface DaysaveItemListentothiCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemLoseitCreateOneInput {
-  create?: DaysaveItemLoseitCreateInput;
+export interface DaysaveItemMadeMeSmileCreateOneInput {
+  create?: DaysaveItemMadeMeSmileCreateInput;
 }
 
-export interface DaysaveItemLoseitCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMakeupAddictionCreateOneInput {
-  create?: DaysaveItemMakeupAddictionCreateInput;
-}
-
-export interface DaysaveItemMakeupAddictionCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMalefashionadviceCreateOneInput {
-  create?: DaysaveItemMalefashionadviceCreateInput;
-}
-
-export interface DaysaveItemMalefashionadviceCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMangaCreateOneInput {
-  create?: DaysaveItemMangaCreateInput;
-}
-
-export interface DaysaveItemMangaCreateInput {
+export interface DaysaveItemMadeMeSmileCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -4949,15 +3703,6 @@ export interface DaysaveItemMe_irlCreateOneInput {
 }
 
 export interface DaysaveItemMe_irlCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMealPrepSundayCreateOneInput {
-  create?: DaysaveItemMealPrepSundayCreateInput;
-}
-
-export interface DaysaveItemMealPrepSundayCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5043,24 +3788,6 @@ export interface DaysaveItemMurderedByWordCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemMusicCreateOneInput {
-  create?: DaysaveItemMusicCreateInput;
-}
-
-export interface DaysaveItemMusicCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemNatureIsFuckingLitCreateOneInput {
-  create?: DaysaveItemNatureIsFuckingLitCreateInput;
-}
-
-export interface DaysaveItemNatureIsFuckingLitCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemNatureismetalCreateOneInput {
   create?: DaysaveItemNatureismetalCreateInput;
 }
@@ -5075,6 +3802,15 @@ export interface DaysaveItemNbaCreateOneInput {
 }
 
 export interface DaysaveItemNbaCreateInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemNevertellmetheoddCreateOneInput {
+  create?: DaysaveItemNevertellmetheoddCreateInput;
+}
+
+export interface DaysaveItemNevertellmetheoddCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5115,15 +3851,6 @@ export interface DaysaveItemNintendoSwitchCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemNonononoCreateOneInput {
-  create?: DaysaveItemNonononoCreateInput;
-}
-
-export interface DaysaveItemNonononoCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemNosleepCreateOneInput {
   create?: DaysaveItemNosleepCreateInput;
 }
@@ -5156,15 +3883,6 @@ export interface DaysaveItemOddlysatisfyingCreateOneInput {
 }
 
 export interface DaysaveItemOddlysatisfyingCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemOldpeoplefacebookCreateOneInput {
-  create?: DaysaveItemOldpeoplefacebookCreateInput;
-}
-
-export interface DaysaveItemOldpeoplefacebookCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5250,15 +3968,6 @@ export interface DaysaveItemPokemonCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemPokemongoCreateOneInput {
-  create?: DaysaveItemPokemongoCreateInput;
-}
-
-export interface DaysaveItemPokemongoCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemPoliticCreateOneInput {
   create?: DaysaveItemPoliticCreateInput;
 }
@@ -5277,15 +3986,6 @@ export interface DaysaveItemPrequelMemeCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemProgrammerHumorCreateOneInput {
-  create?: DaysaveItemProgrammerHumorCreateInput;
-}
-
-export interface DaysaveItemProgrammerHumorCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemPS4CreateOneInput {
   create?: DaysaveItemPS4CreateInput;
 }
@@ -5300,15 +4000,6 @@ export interface DaysaveItemReactiongifCreateOneInput {
 }
 
 export interface DaysaveItemReactiongifCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemRealGirlCreateOneInput {
-  create?: DaysaveItemRealGirlCreateInput;
-}
-
-export interface DaysaveItemRealGirlCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5376,6 +4067,15 @@ export interface DaysaveItemSexCreateInput {
   found?: Int;
 }
 
+export interface DaysaveItemShittyfoodpornCreateOneInput {
+  create?: DaysaveItemShittyfoodpornCreateInput;
+}
+
+export interface DaysaveItemShittyfoodpornCreateInput {
+  com?: Int;
+  found?: Int;
+}
+
 export interface DaysaveItemShowerthoughtCreateOneInput {
   create?: DaysaveItemShowerthoughtCreateInput;
 }
@@ -5385,20 +4085,20 @@ export interface DaysaveItemShowerthoughtCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemSoccerCreateOneInput {
-  create?: DaysaveItemSoccerCreateInput;
+export interface DaysaveItemSkincareAddictionCreateOneInput {
+  create?: DaysaveItemSkincareAddictionCreateInput;
 }
 
-export interface DaysaveItemSoccerCreateInput {
+export interface DaysaveItemSkincareAddictionCreateInput {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemSocialskillCreateOneInput {
-  create?: DaysaveItemSocialskillCreateInput;
+export interface DaysaveItemSlowcookingCreateOneInput {
+  create?: DaysaveItemSlowcookingCreateInput;
 }
 
-export interface DaysaveItemSocialskillCreateInput {
+export interface DaysaveItemSlowcookingCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5439,11 +4139,20 @@ export interface DaysaveItemStarWarCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemTechnologyCreateOneInput {
-  create?: DaysaveItemTechnologyCreateInput;
+export interface DaysaveItemStreetwearCreateOneInput {
+  create?: DaysaveItemStreetwearCreateInput;
 }
 
-export interface DaysaveItemTechnologyCreateInput {
+export interface DaysaveItemStreetwearCreateInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemTattooCreateOneInput {
+  create?: DaysaveItemTattooCreateInput;
+}
+
+export interface DaysaveItemTattooCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5489,15 +4198,6 @@ export interface DaysaveItemTherewasanattemptCreateOneInput {
 }
 
 export interface DaysaveItemTherewasanattemptCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemTifuCreateOneInput {
-  create?: DaysaveItemTifuCreateInput;
-}
-
-export interface DaysaveItemTifuCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5565,15 +4265,6 @@ export interface DaysaveItemUnexpectedCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemUpliftingNewCreateOneInput {
-  create?: DaysaveItemUpliftingNewCreateInput;
-}
-
-export interface DaysaveItemUpliftingNewCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemVideoCreateOneInput {
   create?: DaysaveItemVideoCreateInput;
 }
@@ -5610,15 +4301,6 @@ export interface DaysaveItemWhatcouldgowrongCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemWhatisthisthingCreateOneInput {
-  create?: DaysaveItemWhatisthisthingCreateInput;
-}
-
-export interface DaysaveItemWhatisthisthingCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemWhitePeopleTwitterCreateOneInput {
   create?: DaysaveItemWhitePeopleTwitterCreateInput;
 }
@@ -5637,15 +4319,6 @@ export interface DaysaveItemWholesomememeCreateInput {
   found?: Int;
 }
 
-export interface DaysaveItemWoahdudeCreateOneInput {
-  create?: DaysaveItemWoahdudeCreateInput;
-}
-
-export interface DaysaveItemWoahdudeCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
 export interface DaysaveItemWoodworkingCreateOneInput {
   create?: DaysaveItemWoodworkingCreateInput;
 }
@@ -5660,15 +4333,6 @@ export interface DaysaveItemWorldnewCreateOneInput {
 }
 
 export interface DaysaveItemWorldnewCreateInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWowCreateOneInput {
-  create?: DaysaveItemWowCreateInput;
-}
-
-export interface DaysaveItemWowCreateInput {
   com?: Int;
   found?: Int;
 }
@@ -5725,65 +4389,45 @@ export interface DaysaveItemUpdateOneInput {
 }
 
 export interface DaysaveItemUpdateDataInput {
-  AbandonedPorn?: DaysaveItemAbandonedPornUpdateOneInput;
   AdviceAnimals?: DaysaveItemAdviceAnimalUpdateOneInput;
   Android?: DaysaveItemAndroidUpdateOneInput;
+  AnimalsBeingDerps?: DaysaveItemAnimalsBeingDerpUpdateOneInput;
   AnimalsBeingJerks?: DaysaveItemAnimalsBeingJerkUpdateOneInput;
   anime?: DaysaveItemAnimeUpdateOneInput;
   apple?: DaysaveItemAppleUpdateOneInput;
-  Art?: DaysaveItemArtUpdateOneInput;
   AskMen?: DaysaveItemAskManUpdateOneInput;
   AskReddit?: DaysaveItemAskRedditUpdateOneInput;
   askscience?: DaysaveItemAskscienceUpdateOneInput;
   AskWomen?: DaysaveItemAskWomanUpdateOneInput;
   assholedesign?: DaysaveItemAssholedesignUpdateOneInput;
-  atheism?: DaysaveItemAtheismUpdateOneInput;
   aww?: DaysaveItemAwwUpdateOneInput;
-  backpacking?: DaysaveItemBackpackingUpdateOneInput;
   baseball?: DaysaveItemBaseballUpdateOneInput;
-  battlestations?: DaysaveItemBattlestationUpdateOneInput;
-  BeAmazed?: DaysaveItemBeAmazedUpdateOneInput;
-  bestof?: DaysaveItemBestofUpdateOneInput;
-  BetterEveryLoop?: DaysaveItemBetterEveryLoopUpdateOneInput;
-  BikiniBottomTwitter?: DaysaveItemBikiniBottomTwitterUpdateOneInput;
   BlackPeopleTwitter?: DaysaveItemBlackPeopleTwitterUpdateOneInput;
   boardgames?: DaysaveItemBoardgameUpdateOneInput;
-  books?: DaysaveItemBookUpdateOneInput;
   buildapc?: DaysaveItemBuildapcUpdateOneInput;
   cars?: DaysaveItemCarUpdateOneInput;
   cats?: DaysaveItemCatUpdateOneInput;
-  changemyview?: DaysaveItemChangemyviewUpdateOneInput;
   ChoosingBeggars?: DaysaveItemChoosingBeggarUpdateOneInput;
-  comicbooks?: DaysaveItemComicbookUpdateOneInput;
   comics?: DaysaveItemComicUpdateOneInput;
-  confession?: DaysaveItemConfessionUpdateOneInput;
   conspiracy?: DaysaveItemConspiracyUpdateOneInput;
   Cooking?: DaysaveItemCookingUpdateOneInput;
   CrappyDesign?: DaysaveItemCrappyDesignUpdateOneInput;
-  creepy?: DaysaveItemCreepyUpdateOneInput;
-  cringe?: DaysaveItemCringeUpdateOneInput;
-  CryptoCurrency?: DaysaveItemCryptoCurrencyUpdateOneInput;
-  Damnthatsinteresting?: DaysaveItemDamnthatsinterestingUpdateOneInput;
   dankmemes?: DaysaveItemDankmemeUpdateOneInput;
   DestinyTheGame?: DaysaveItemDestinyTheGameUpdateOneInput;
   DnD?: DaysaveItemDnDUpdateOneInput;
   Documentaries?: DaysaveItemDocumentaryUpdateOneInput;
+  dogs?: DaysaveItemDogUpdateOneInput;
   drawing?: DaysaveItemDrawingUpdateOneInput;
   DunderMifflin?: DaysaveItemDunderMifflinUpdateOneInput;
   EarthPorn?: DaysaveItemEarthPornUpdateOneInput;
-  educationalgifs?: DaysaveItemEducationalgifUpdateOneInput;
-  entertainment?: DaysaveItemEntertainmentUpdateOneInput;
   europe?: DaysaveItemEuropeUpdateOneInput;
   explainlikeimfive?: DaysaveItemExplainlikeimfiveUpdateOneInput;
   Eyebleach?: DaysaveItemEyebleachUpdateOneInput;
-  facepalm?: DaysaveItemFacepalmUpdateOneInput;
-  femalefashionadvice?: DaysaveItemFemalefashionadviceUpdateOneInput;
   Fitness?: DaysaveItemFitnessUpdateOneInput;
   food?: DaysaveItemFoodUpdateOneInput;
   FoodPorn?: DaysaveItemFoodPornUpdateOneInput;
   FortNiteBR?: DaysaveItemFortNiteBRUpdateOneInput;
   Frugal?: DaysaveItemFrugalUpdateOneInput;
-  frugalmalefashion?: DaysaveItemFrugalmalefashionUpdateOneInput;
   funny?: DaysaveItemFunnyUpdateOneInput;
   Futurology?: DaysaveItemFuturologyUpdateOneInput;
   gadgets?: DaysaveItemGadgetUpdateOneInput;
@@ -5791,32 +4435,19 @@ export interface DaysaveItemUpdateDataInput {
   gaming?: DaysaveItemGamingUpdateOneInput;
   gardening?: DaysaveItemGardeningUpdateOneInput;
   gifs?: DaysaveItemGifUpdateOneInput;
-  GlobalOffensive?: DaysaveItemGlobalOffensiveUpdateOneInput;
   gonewild?: DaysaveItemGonewildUpdateOneInput;
-  hearthstone?: DaysaveItemHearthstoneUpdateOneInput;
-  HighQualityGifs?: DaysaveItemHighQualityGifUpdateOneInput;
   hiphopheads?: DaysaveItemHiphopheadUpdateOneInput;
-  hmmm?: DaysaveItemHmmmUpdateOneInput;
   hockey?: DaysaveItemHockeyUpdateOneInput;
-  HumansBeingBros?: DaysaveItemHumansBeingBroUpdateOneInput;
   iamverysmart?: DaysaveItemIamverysmartUpdateOneInput;
-  insanepeoplefacebook?: DaysaveItemInsanepeoplefacebookUpdateOneInput;
   instant_regret?: DaysaveItemInstant_regretUpdateOneInput;
   interestingasfuck?: DaysaveItemInterestingasfuckUpdateOneInput;
-  iphone?: DaysaveItemIphoneUpdateOneInput;
   Jokes?: DaysaveItemJokeUpdateOneInput;
-  keto?: DaysaveItemKetoUpdateOneInput;
   leagueoflegends?: DaysaveItemLeagueoflegendUpdateOneInput;
   legaladvice?: DaysaveItemLegaladviceUpdateOneInput;
-  lifehacks?: DaysaveItemLifehackUpdateOneInput;
   LifeProTips?: DaysaveItemLifeProTipUpdateOneInput;
   listentothis?: DaysaveItemListentothiUpdateOneInput;
-  loseit?: DaysaveItemLoseitUpdateOneInput;
-  MakeupAddiction?: DaysaveItemMakeupAddictionUpdateOneInput;
-  malefashionadvice?: DaysaveItemMalefashionadviceUpdateOneInput;
-  manga?: DaysaveItemMangaUpdateOneInput;
+  MadeMeSmile?: DaysaveItemMadeMeSmileUpdateOneInput;
   me_irl?: DaysaveItemMe_irlUpdateOneInput;
-  MealPrepSunday?: DaysaveItemMealPrepSundayUpdateOneInput;
   MemeEconomy?: DaysaveItemMemeEconomyUpdateOneInput;
   memes?: DaysaveItemMemeUpdateOneInput;
   mildlyinfuriating?: DaysaveItemMildlyinfuriatingUpdateOneInput;
@@ -5826,20 +4457,17 @@ export interface DaysaveItemUpdateDataInput {
   MovieDetails?: DaysaveItemMovieDetailUpdateOneInput;
   movies?: DaysaveItemMovieUpdateOneInput;
   MurderedByWords?: DaysaveItemMurderedByWordUpdateOneInput;
-  Music?: DaysaveItemMusicUpdateOneInput;
-  NatureIsFuckingLit?: DaysaveItemNatureIsFuckingLitUpdateOneInput;
   natureismetal?: DaysaveItemNatureismetalUpdateOneInput;
   nba?: DaysaveItemNbaUpdateOneInput;
+  nevertellmetheodds?: DaysaveItemNevertellmetheoddUpdateOneInput;
   news?: DaysaveItemNewsUpdateOneInput;
   nfl?: DaysaveItemNflUpdateOneInput;
   niceguys?: DaysaveItemNiceguyUpdateOneInput;
   NintendoSwitch?: DaysaveItemNintendoSwitchUpdateOneInput;
-  nononono?: DaysaveItemNonononoUpdateOneInput;
   nosleep?: DaysaveItemNosleepUpdateOneInput;
   NoStupidQuestions?: DaysaveItemNoStupidQuestionUpdateOneInput;
   nottheonion?: DaysaveItemNottheonionUpdateOneInput;
   oddlysatisfying?: DaysaveItemOddlysatisfyingUpdateOneInput;
-  oldpeoplefacebook?: DaysaveItemOldpeoplefacebookUpdateOneInput;
   OldSchoolCool?: DaysaveItemOldSchoolCoolUpdateOneInput;
   Overwatch?: DaysaveItemOverwatchUpdateOneInput;
   pcgaming?: DaysaveItemPcgamingUpdateOneInput;
@@ -5849,13 +4477,10 @@ export interface DaysaveItemUpdateDataInput {
   photography?: DaysaveItemPhotographyUpdateOneInput;
   pics?: DaysaveItemPicUpdateOneInput;
   pokemon?: DaysaveItemPokemonUpdateOneInput;
-  pokemongo?: DaysaveItemPokemongoUpdateOneInput;
   politics?: DaysaveItemPoliticUpdateOneInput;
   PrequelMemes?: DaysaveItemPrequelMemeUpdateOneInput;
-  ProgrammerHumor?: DaysaveItemProgrammerHumorUpdateOneInput;
   PS4?: DaysaveItemPS4UpdateOneInput;
   reactiongifs?: DaysaveItemReactiongifUpdateOneInput;
-  RealGirls?: DaysaveItemRealGirlUpdateOneInput;
   relationship_advice?: DaysaveItemRelationship_adviceUpdateOneInput;
   relationships?: DaysaveItemRelationshipUpdateOneInput;
   rickandmorty?: DaysaveItemRickandmortyUpdateOneInput;
@@ -5863,20 +4488,21 @@ export interface DaysaveItemUpdateDataInput {
   RoastMe?: DaysaveItemRoastMeUpdateOneInput;
   science?: DaysaveItemScienceUpdateOneInput;
   sex?: DaysaveItemSexUpdateOneInput;
+  shittyfoodporn?: DaysaveItemShittyfoodpornUpdateOneInput;
   Showerthoughts?: DaysaveItemShowerthoughtUpdateOneInput;
-  soccer?: DaysaveItemSoccerUpdateOneInput;
-  socialskills?: DaysaveItemSocialskillUpdateOneInput;
+  SkincareAddiction?: DaysaveItemSkincareAddictionUpdateOneInput;
+  slowcooking?: DaysaveItemSlowcookingUpdateOneInput;
   space?: DaysaveItemSpaceUpdateOneInput;
   sports?: DaysaveItemSportUpdateOneInput;
   starterpacks?: DaysaveItemStarterpackUpdateOneInput;
   StarWars?: DaysaveItemStarWarUpdateOneInput;
-  technology?: DaysaveItemTechnologyUpdateOneInput;
+  streetwear?: DaysaveItemStreetwearUpdateOneInput;
+  tattoos?: DaysaveItemTattooUpdateOneInput;
   teenagers?: DaysaveItemTeenagerUpdateOneInput;
   television?: DaysaveItemTelevisionUpdateOneInput;
   thatHappened?: DaysaveItemThatHappenedUpdateOneInput;
   The_Donald?: DaysaveItemThe_DonaldUpdateOneInput;
   therewasanattempt?: DaysaveItemTherewasanattemptUpdateOneInput;
-  tifu?: DaysaveItemTifuUpdateOneInput;
   Tinder?: DaysaveItemTinderUpdateOneInput;
   todayilearned?: DaysaveItemTodayilearnedUpdateOneInput;
   trashy?: DaysaveItemTrashyUpdateOneInput;
@@ -5884,40 +4510,18 @@ export interface DaysaveItemUpdateDataInput {
   trees?: DaysaveItemTreeUpdateOneInput;
   TwoXChromosomes?: DaysaveItemTwoXChromosomeUpdateOneInput;
   Unexpected?: DaysaveItemUnexpectedUpdateOneInput;
-  UpliftingNews?: DaysaveItemUpliftingNewUpdateOneInput;
   videos?: DaysaveItemVideoUpdateOneInput;
   WatchPeopleDieInside?: DaysaveItemWatchPeopleDieInsideUpdateOneInput;
   Wellthatsucks?: DaysaveItemWellthatsuckUpdateOneInput;
   Whatcouldgowrong?: DaysaveItemWhatcouldgowrongUpdateOneInput;
-  whatisthisthing?: DaysaveItemWhatisthisthingUpdateOneInput;
   WhitePeopleTwitter?: DaysaveItemWhitePeopleTwitterUpdateOneInput;
   wholesomememes?: DaysaveItemWholesomememeUpdateOneInput;
-  woahdude?: DaysaveItemWoahdudeUpdateOneInput;
   woodworking?: DaysaveItemWoodworkingUpdateOneInput;
   worldnews?: DaysaveItemWorldnewUpdateOneInput;
-  wow?: DaysaveItemWowUpdateOneInput;
   WritingPrompts?: DaysaveItemWritingPromptUpdateOneInput;
   WTF?: DaysaveItemWTFUpdateOneInput;
   xboxone?: DaysaveItemXboxoneUpdateOneInput;
   YouShouldKnow?: DaysaveItemYouShouldKnowUpdateOneInput;
-}
-
-export interface DaysaveItemAbandonedPornUpdateOneInput {
-  create?: DaysaveItemAbandonedPornCreateInput;
-  update?: DaysaveItemAbandonedPornUpdateDataInput;
-  upsert?: DaysaveItemAbandonedPornUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemAbandonedPornUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemAbandonedPornUpsertNestedInput {
-  update: DaysaveItemAbandonedPornUpdateDataInput;
-  create: DaysaveItemAbandonedPornCreateInput;
 }
 
 export interface DaysaveItemAdviceAnimalUpdateOneInput {
@@ -5954,6 +4558,24 @@ export interface DaysaveItemAndroidUpdateDataInput {
 export interface DaysaveItemAndroidUpsertNestedInput {
   update: DaysaveItemAndroidUpdateDataInput;
   create: DaysaveItemAndroidCreateInput;
+}
+
+export interface DaysaveItemAnimalsBeingDerpUpdateOneInput {
+  create?: DaysaveItemAnimalsBeingDerpCreateInput;
+  update?: DaysaveItemAnimalsBeingDerpUpdateDataInput;
+  upsert?: DaysaveItemAnimalsBeingDerpUpsertNestedInput;
+  delete?: Boolean;
+  disconnect?: Boolean;
+}
+
+export interface DaysaveItemAnimalsBeingDerpUpdateDataInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemAnimalsBeingDerpUpsertNestedInput {
+  update: DaysaveItemAnimalsBeingDerpUpdateDataInput;
+  create: DaysaveItemAnimalsBeingDerpCreateInput;
 }
 
 export interface DaysaveItemAnimalsBeingJerkUpdateOneInput {
@@ -6008,24 +4630,6 @@ export interface DaysaveItemAppleUpdateDataInput {
 export interface DaysaveItemAppleUpsertNestedInput {
   update: DaysaveItemAppleUpdateDataInput;
   create: DaysaveItemAppleCreateInput;
-}
-
-export interface DaysaveItemArtUpdateOneInput {
-  create?: DaysaveItemArtCreateInput;
-  update?: DaysaveItemArtUpdateDataInput;
-  upsert?: DaysaveItemArtUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemArtUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemArtUpsertNestedInput {
-  update: DaysaveItemArtUpdateDataInput;
-  create: DaysaveItemArtCreateInput;
 }
 
 export interface DaysaveItemAskManUpdateOneInput {
@@ -6118,24 +4722,6 @@ export interface DaysaveItemAssholedesignUpsertNestedInput {
   create: DaysaveItemAssholedesignCreateInput;
 }
 
-export interface DaysaveItemAtheismUpdateOneInput {
-  create?: DaysaveItemAtheismCreateInput;
-  update?: DaysaveItemAtheismUpdateDataInput;
-  upsert?: DaysaveItemAtheismUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemAtheismUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemAtheismUpsertNestedInput {
-  update: DaysaveItemAtheismUpdateDataInput;
-  create: DaysaveItemAtheismCreateInput;
-}
-
 export interface DaysaveItemAwwUpdateOneInput {
   create?: DaysaveItemAwwCreateInput;
   update?: DaysaveItemAwwUpdateDataInput;
@@ -6154,24 +4740,6 @@ export interface DaysaveItemAwwUpsertNestedInput {
   create: DaysaveItemAwwCreateInput;
 }
 
-export interface DaysaveItemBackpackingUpdateOneInput {
-  create?: DaysaveItemBackpackingCreateInput;
-  update?: DaysaveItemBackpackingUpdateDataInput;
-  upsert?: DaysaveItemBackpackingUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBackpackingUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBackpackingUpsertNestedInput {
-  update: DaysaveItemBackpackingUpdateDataInput;
-  create: DaysaveItemBackpackingCreateInput;
-}
-
 export interface DaysaveItemBaseballUpdateOneInput {
   create?: DaysaveItemBaseballCreateInput;
   update?: DaysaveItemBaseballUpdateDataInput;
@@ -6188,96 +4756,6 @@ export interface DaysaveItemBaseballUpdateDataInput {
 export interface DaysaveItemBaseballUpsertNestedInput {
   update: DaysaveItemBaseballUpdateDataInput;
   create: DaysaveItemBaseballCreateInput;
-}
-
-export interface DaysaveItemBattlestationUpdateOneInput {
-  create?: DaysaveItemBattlestationCreateInput;
-  update?: DaysaveItemBattlestationUpdateDataInput;
-  upsert?: DaysaveItemBattlestationUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBattlestationUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBattlestationUpsertNestedInput {
-  update: DaysaveItemBattlestationUpdateDataInput;
-  create: DaysaveItemBattlestationCreateInput;
-}
-
-export interface DaysaveItemBeAmazedUpdateOneInput {
-  create?: DaysaveItemBeAmazedCreateInput;
-  update?: DaysaveItemBeAmazedUpdateDataInput;
-  upsert?: DaysaveItemBeAmazedUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBeAmazedUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBeAmazedUpsertNestedInput {
-  update: DaysaveItemBeAmazedUpdateDataInput;
-  create: DaysaveItemBeAmazedCreateInput;
-}
-
-export interface DaysaveItemBestofUpdateOneInput {
-  create?: DaysaveItemBestofCreateInput;
-  update?: DaysaveItemBestofUpdateDataInput;
-  upsert?: DaysaveItemBestofUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBestofUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBestofUpsertNestedInput {
-  update: DaysaveItemBestofUpdateDataInput;
-  create: DaysaveItemBestofCreateInput;
-}
-
-export interface DaysaveItemBetterEveryLoopUpdateOneInput {
-  create?: DaysaveItemBetterEveryLoopCreateInput;
-  update?: DaysaveItemBetterEveryLoopUpdateDataInput;
-  upsert?: DaysaveItemBetterEveryLoopUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBetterEveryLoopUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBetterEveryLoopUpsertNestedInput {
-  update: DaysaveItemBetterEveryLoopUpdateDataInput;
-  create: DaysaveItemBetterEveryLoopCreateInput;
-}
-
-export interface DaysaveItemBikiniBottomTwitterUpdateOneInput {
-  create?: DaysaveItemBikiniBottomTwitterCreateInput;
-  update?: DaysaveItemBikiniBottomTwitterUpdateDataInput;
-  upsert?: DaysaveItemBikiniBottomTwitterUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBikiniBottomTwitterUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBikiniBottomTwitterUpsertNestedInput {
-  update: DaysaveItemBikiniBottomTwitterUpdateDataInput;
-  create: DaysaveItemBikiniBottomTwitterCreateInput;
 }
 
 export interface DaysaveItemBlackPeopleTwitterUpdateOneInput {
@@ -6314,24 +4792,6 @@ export interface DaysaveItemBoardgameUpdateDataInput {
 export interface DaysaveItemBoardgameUpsertNestedInput {
   update: DaysaveItemBoardgameUpdateDataInput;
   create: DaysaveItemBoardgameCreateInput;
-}
-
-export interface DaysaveItemBookUpdateOneInput {
-  create?: DaysaveItemBookCreateInput;
-  update?: DaysaveItemBookUpdateDataInput;
-  upsert?: DaysaveItemBookUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemBookUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBookUpsertNestedInput {
-  update: DaysaveItemBookUpdateDataInput;
-  create: DaysaveItemBookCreateInput;
 }
 
 export interface DaysaveItemBuildapcUpdateOneInput {
@@ -6388,24 +4848,6 @@ export interface DaysaveItemCatUpsertNestedInput {
   create: DaysaveItemCatCreateInput;
 }
 
-export interface DaysaveItemChangemyviewUpdateOneInput {
-  create?: DaysaveItemChangemyviewCreateInput;
-  update?: DaysaveItemChangemyviewUpdateDataInput;
-  upsert?: DaysaveItemChangemyviewUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemChangemyviewUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemChangemyviewUpsertNestedInput {
-  update: DaysaveItemChangemyviewUpdateDataInput;
-  create: DaysaveItemChangemyviewCreateInput;
-}
-
 export interface DaysaveItemChoosingBeggarUpdateOneInput {
   create?: DaysaveItemChoosingBeggarCreateInput;
   update?: DaysaveItemChoosingBeggarUpdateDataInput;
@@ -6424,24 +4866,6 @@ export interface DaysaveItemChoosingBeggarUpsertNestedInput {
   create: DaysaveItemChoosingBeggarCreateInput;
 }
 
-export interface DaysaveItemComicbookUpdateOneInput {
-  create?: DaysaveItemComicbookCreateInput;
-  update?: DaysaveItemComicbookUpdateDataInput;
-  upsert?: DaysaveItemComicbookUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemComicbookUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemComicbookUpsertNestedInput {
-  update: DaysaveItemComicbookUpdateDataInput;
-  create: DaysaveItemComicbookCreateInput;
-}
-
 export interface DaysaveItemComicUpdateOneInput {
   create?: DaysaveItemComicCreateInput;
   update?: DaysaveItemComicUpdateDataInput;
@@ -6458,24 +4882,6 @@ export interface DaysaveItemComicUpdateDataInput {
 export interface DaysaveItemComicUpsertNestedInput {
   update: DaysaveItemComicUpdateDataInput;
   create: DaysaveItemComicCreateInput;
-}
-
-export interface DaysaveItemConfessionUpdateOneInput {
-  create?: DaysaveItemConfessionCreateInput;
-  update?: DaysaveItemConfessionUpdateDataInput;
-  upsert?: DaysaveItemConfessionUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemConfessionUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemConfessionUpsertNestedInput {
-  update: DaysaveItemConfessionUpdateDataInput;
-  create: DaysaveItemConfessionCreateInput;
 }
 
 export interface DaysaveItemConspiracyUpdateOneInput {
@@ -6530,78 +4936,6 @@ export interface DaysaveItemCrappyDesignUpdateDataInput {
 export interface DaysaveItemCrappyDesignUpsertNestedInput {
   update: DaysaveItemCrappyDesignUpdateDataInput;
   create: DaysaveItemCrappyDesignCreateInput;
-}
-
-export interface DaysaveItemCreepyUpdateOneInput {
-  create?: DaysaveItemCreepyCreateInput;
-  update?: DaysaveItemCreepyUpdateDataInput;
-  upsert?: DaysaveItemCreepyUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemCreepyUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCreepyUpsertNestedInput {
-  update: DaysaveItemCreepyUpdateDataInput;
-  create: DaysaveItemCreepyCreateInput;
-}
-
-export interface DaysaveItemCringeUpdateOneInput {
-  create?: DaysaveItemCringeCreateInput;
-  update?: DaysaveItemCringeUpdateDataInput;
-  upsert?: DaysaveItemCringeUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemCringeUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCringeUpsertNestedInput {
-  update: DaysaveItemCringeUpdateDataInput;
-  create: DaysaveItemCringeCreateInput;
-}
-
-export interface DaysaveItemCryptoCurrencyUpdateOneInput {
-  create?: DaysaveItemCryptoCurrencyCreateInput;
-  update?: DaysaveItemCryptoCurrencyUpdateDataInput;
-  upsert?: DaysaveItemCryptoCurrencyUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemCryptoCurrencyUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCryptoCurrencyUpsertNestedInput {
-  update: DaysaveItemCryptoCurrencyUpdateDataInput;
-  create: DaysaveItemCryptoCurrencyCreateInput;
-}
-
-export interface DaysaveItemDamnthatsinterestingUpdateOneInput {
-  create?: DaysaveItemDamnthatsinterestingCreateInput;
-  update?: DaysaveItemDamnthatsinterestingUpdateDataInput;
-  upsert?: DaysaveItemDamnthatsinterestingUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemDamnthatsinterestingUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemDamnthatsinterestingUpsertNestedInput {
-  update: DaysaveItemDamnthatsinterestingUpdateDataInput;
-  create: DaysaveItemDamnthatsinterestingCreateInput;
 }
 
 export interface DaysaveItemDankmemeUpdateOneInput {
@@ -6676,6 +5010,24 @@ export interface DaysaveItemDocumentaryUpsertNestedInput {
   create: DaysaveItemDocumentaryCreateInput;
 }
 
+export interface DaysaveItemDogUpdateOneInput {
+  create?: DaysaveItemDogCreateInput;
+  update?: DaysaveItemDogUpdateDataInput;
+  upsert?: DaysaveItemDogUpsertNestedInput;
+  delete?: Boolean;
+  disconnect?: Boolean;
+}
+
+export interface DaysaveItemDogUpdateDataInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemDogUpsertNestedInput {
+  update: DaysaveItemDogUpdateDataInput;
+  create: DaysaveItemDogCreateInput;
+}
+
 export interface DaysaveItemDrawingUpdateOneInput {
   create?: DaysaveItemDrawingCreateInput;
   update?: DaysaveItemDrawingUpdateDataInput;
@@ -6730,42 +5082,6 @@ export interface DaysaveItemEarthPornUpsertNestedInput {
   create: DaysaveItemEarthPornCreateInput;
 }
 
-export interface DaysaveItemEducationalgifUpdateOneInput {
-  create?: DaysaveItemEducationalgifCreateInput;
-  update?: DaysaveItemEducationalgifUpdateDataInput;
-  upsert?: DaysaveItemEducationalgifUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemEducationalgifUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemEducationalgifUpsertNestedInput {
-  update: DaysaveItemEducationalgifUpdateDataInput;
-  create: DaysaveItemEducationalgifCreateInput;
-}
-
-export interface DaysaveItemEntertainmentUpdateOneInput {
-  create?: DaysaveItemEntertainmentCreateInput;
-  update?: DaysaveItemEntertainmentUpdateDataInput;
-  upsert?: DaysaveItemEntertainmentUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemEntertainmentUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemEntertainmentUpsertNestedInput {
-  update: DaysaveItemEntertainmentUpdateDataInput;
-  create: DaysaveItemEntertainmentCreateInput;
-}
-
 export interface DaysaveItemEuropeUpdateOneInput {
   create?: DaysaveItemEuropeCreateInput;
   update?: DaysaveItemEuropeUpdateDataInput;
@@ -6818,42 +5134,6 @@ export interface DaysaveItemEyebleachUpdateDataInput {
 export interface DaysaveItemEyebleachUpsertNestedInput {
   update: DaysaveItemEyebleachUpdateDataInput;
   create: DaysaveItemEyebleachCreateInput;
-}
-
-export interface DaysaveItemFacepalmUpdateOneInput {
-  create?: DaysaveItemFacepalmCreateInput;
-  update?: DaysaveItemFacepalmUpdateDataInput;
-  upsert?: DaysaveItemFacepalmUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemFacepalmUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFacepalmUpsertNestedInput {
-  update: DaysaveItemFacepalmUpdateDataInput;
-  create: DaysaveItemFacepalmCreateInput;
-}
-
-export interface DaysaveItemFemalefashionadviceUpdateOneInput {
-  create?: DaysaveItemFemalefashionadviceCreateInput;
-  update?: DaysaveItemFemalefashionadviceUpdateDataInput;
-  upsert?: DaysaveItemFemalefashionadviceUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemFemalefashionadviceUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFemalefashionadviceUpsertNestedInput {
-  update: DaysaveItemFemalefashionadviceUpdateDataInput;
-  create: DaysaveItemFemalefashionadviceCreateInput;
 }
 
 export interface DaysaveItemFitnessUpdateOneInput {
@@ -6944,24 +5224,6 @@ export interface DaysaveItemFrugalUpdateDataInput {
 export interface DaysaveItemFrugalUpsertNestedInput {
   update: DaysaveItemFrugalUpdateDataInput;
   create: DaysaveItemFrugalCreateInput;
-}
-
-export interface DaysaveItemFrugalmalefashionUpdateOneInput {
-  create?: DaysaveItemFrugalmalefashionCreateInput;
-  update?: DaysaveItemFrugalmalefashionUpdateDataInput;
-  upsert?: DaysaveItemFrugalmalefashionUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemFrugalmalefashionUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFrugalmalefashionUpsertNestedInput {
-  update: DaysaveItemFrugalmalefashionUpdateDataInput;
-  create: DaysaveItemFrugalmalefashionCreateInput;
 }
 
 export interface DaysaveItemFunnyUpdateOneInput {
@@ -7090,24 +5352,6 @@ export interface DaysaveItemGifUpsertNestedInput {
   create: DaysaveItemGifCreateInput;
 }
 
-export interface DaysaveItemGlobalOffensiveUpdateOneInput {
-  create?: DaysaveItemGlobalOffensiveCreateInput;
-  update?: DaysaveItemGlobalOffensiveUpdateDataInput;
-  upsert?: DaysaveItemGlobalOffensiveUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemGlobalOffensiveUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemGlobalOffensiveUpsertNestedInput {
-  update: DaysaveItemGlobalOffensiveUpdateDataInput;
-  create: DaysaveItemGlobalOffensiveCreateInput;
-}
-
 export interface DaysaveItemGonewildUpdateOneInput {
   create?: DaysaveItemGonewildCreateInput;
   update?: DaysaveItemGonewildUpdateDataInput;
@@ -7124,42 +5368,6 @@ export interface DaysaveItemGonewildUpdateDataInput {
 export interface DaysaveItemGonewildUpsertNestedInput {
   update: DaysaveItemGonewildUpdateDataInput;
   create: DaysaveItemGonewildCreateInput;
-}
-
-export interface DaysaveItemHearthstoneUpdateOneInput {
-  create?: DaysaveItemHearthstoneCreateInput;
-  update?: DaysaveItemHearthstoneUpdateDataInput;
-  upsert?: DaysaveItemHearthstoneUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemHearthstoneUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHearthstoneUpsertNestedInput {
-  update: DaysaveItemHearthstoneUpdateDataInput;
-  create: DaysaveItemHearthstoneCreateInput;
-}
-
-export interface DaysaveItemHighQualityGifUpdateOneInput {
-  create?: DaysaveItemHighQualityGifCreateInput;
-  update?: DaysaveItemHighQualityGifUpdateDataInput;
-  upsert?: DaysaveItemHighQualityGifUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemHighQualityGifUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHighQualityGifUpsertNestedInput {
-  update: DaysaveItemHighQualityGifUpdateDataInput;
-  create: DaysaveItemHighQualityGifCreateInput;
 }
 
 export interface DaysaveItemHiphopheadUpdateOneInput {
@@ -7180,24 +5388,6 @@ export interface DaysaveItemHiphopheadUpsertNestedInput {
   create: DaysaveItemHiphopheadCreateInput;
 }
 
-export interface DaysaveItemHmmmUpdateOneInput {
-  create?: DaysaveItemHmmmCreateInput;
-  update?: DaysaveItemHmmmUpdateDataInput;
-  upsert?: DaysaveItemHmmmUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemHmmmUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHmmmUpsertNestedInput {
-  update: DaysaveItemHmmmUpdateDataInput;
-  create: DaysaveItemHmmmCreateInput;
-}
-
 export interface DaysaveItemHockeyUpdateOneInput {
   create?: DaysaveItemHockeyCreateInput;
   update?: DaysaveItemHockeyUpdateDataInput;
@@ -7216,24 +5406,6 @@ export interface DaysaveItemHockeyUpsertNestedInput {
   create: DaysaveItemHockeyCreateInput;
 }
 
-export interface DaysaveItemHumansBeingBroUpdateOneInput {
-  create?: DaysaveItemHumansBeingBroCreateInput;
-  update?: DaysaveItemHumansBeingBroUpdateDataInput;
-  upsert?: DaysaveItemHumansBeingBroUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemHumansBeingBroUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHumansBeingBroUpsertNestedInput {
-  update: DaysaveItemHumansBeingBroUpdateDataInput;
-  create: DaysaveItemHumansBeingBroCreateInput;
-}
-
 export interface DaysaveItemIamverysmartUpdateOneInput {
   create?: DaysaveItemIamverysmartCreateInput;
   update?: DaysaveItemIamverysmartUpdateDataInput;
@@ -7250,24 +5422,6 @@ export interface DaysaveItemIamverysmartUpdateDataInput {
 export interface DaysaveItemIamverysmartUpsertNestedInput {
   update: DaysaveItemIamverysmartUpdateDataInput;
   create: DaysaveItemIamverysmartCreateInput;
-}
-
-export interface DaysaveItemInsanepeoplefacebookUpdateOneInput {
-  create?: DaysaveItemInsanepeoplefacebookCreateInput;
-  update?: DaysaveItemInsanepeoplefacebookUpdateDataInput;
-  upsert?: DaysaveItemInsanepeoplefacebookUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemInsanepeoplefacebookUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemInsanepeoplefacebookUpsertNestedInput {
-  update: DaysaveItemInsanepeoplefacebookUpdateDataInput;
-  create: DaysaveItemInsanepeoplefacebookCreateInput;
 }
 
 export interface DaysaveItemInstant_regretUpdateOneInput {
@@ -7306,24 +5460,6 @@ export interface DaysaveItemInterestingasfuckUpsertNestedInput {
   create: DaysaveItemInterestingasfuckCreateInput;
 }
 
-export interface DaysaveItemIphoneUpdateOneInput {
-  create?: DaysaveItemIphoneCreateInput;
-  update?: DaysaveItemIphoneUpdateDataInput;
-  upsert?: DaysaveItemIphoneUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemIphoneUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemIphoneUpsertNestedInput {
-  update: DaysaveItemIphoneUpdateDataInput;
-  create: DaysaveItemIphoneCreateInput;
-}
-
 export interface DaysaveItemJokeUpdateOneInput {
   create?: DaysaveItemJokeCreateInput;
   update?: DaysaveItemJokeUpdateDataInput;
@@ -7340,24 +5476,6 @@ export interface DaysaveItemJokeUpdateDataInput {
 export interface DaysaveItemJokeUpsertNestedInput {
   update: DaysaveItemJokeUpdateDataInput;
   create: DaysaveItemJokeCreateInput;
-}
-
-export interface DaysaveItemKetoUpdateOneInput {
-  create?: DaysaveItemKetoCreateInput;
-  update?: DaysaveItemKetoUpdateDataInput;
-  upsert?: DaysaveItemKetoUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemKetoUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemKetoUpsertNestedInput {
-  update: DaysaveItemKetoUpdateDataInput;
-  create: DaysaveItemKetoCreateInput;
 }
 
 export interface DaysaveItemLeagueoflegendUpdateOneInput {
@@ -7396,24 +5514,6 @@ export interface DaysaveItemLegaladviceUpsertNestedInput {
   create: DaysaveItemLegaladviceCreateInput;
 }
 
-export interface DaysaveItemLifehackUpdateOneInput {
-  create?: DaysaveItemLifehackCreateInput;
-  update?: DaysaveItemLifehackUpdateDataInput;
-  upsert?: DaysaveItemLifehackUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemLifehackUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemLifehackUpsertNestedInput {
-  update: DaysaveItemLifehackUpdateDataInput;
-  create: DaysaveItemLifehackCreateInput;
-}
-
 export interface DaysaveItemLifeProTipUpdateOneInput {
   create?: DaysaveItemLifeProTipCreateInput;
   update?: DaysaveItemLifeProTipUpdateDataInput;
@@ -7450,76 +5550,22 @@ export interface DaysaveItemListentothiUpsertNestedInput {
   create: DaysaveItemListentothiCreateInput;
 }
 
-export interface DaysaveItemLoseitUpdateOneInput {
-  create?: DaysaveItemLoseitCreateInput;
-  update?: DaysaveItemLoseitUpdateDataInput;
-  upsert?: DaysaveItemLoseitUpsertNestedInput;
+export interface DaysaveItemMadeMeSmileUpdateOneInput {
+  create?: DaysaveItemMadeMeSmileCreateInput;
+  update?: DaysaveItemMadeMeSmileUpdateDataInput;
+  upsert?: DaysaveItemMadeMeSmileUpsertNestedInput;
   delete?: Boolean;
   disconnect?: Boolean;
 }
 
-export interface DaysaveItemLoseitUpdateDataInput {
+export interface DaysaveItemMadeMeSmileUpdateDataInput {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemLoseitUpsertNestedInput {
-  update: DaysaveItemLoseitUpdateDataInput;
-  create: DaysaveItemLoseitCreateInput;
-}
-
-export interface DaysaveItemMakeupAddictionUpdateOneInput {
-  create?: DaysaveItemMakeupAddictionCreateInput;
-  update?: DaysaveItemMakeupAddictionUpdateDataInput;
-  upsert?: DaysaveItemMakeupAddictionUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemMakeupAddictionUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMakeupAddictionUpsertNestedInput {
-  update: DaysaveItemMakeupAddictionUpdateDataInput;
-  create: DaysaveItemMakeupAddictionCreateInput;
-}
-
-export interface DaysaveItemMalefashionadviceUpdateOneInput {
-  create?: DaysaveItemMalefashionadviceCreateInput;
-  update?: DaysaveItemMalefashionadviceUpdateDataInput;
-  upsert?: DaysaveItemMalefashionadviceUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemMalefashionadviceUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMalefashionadviceUpsertNestedInput {
-  update: DaysaveItemMalefashionadviceUpdateDataInput;
-  create: DaysaveItemMalefashionadviceCreateInput;
-}
-
-export interface DaysaveItemMangaUpdateOneInput {
-  create?: DaysaveItemMangaCreateInput;
-  update?: DaysaveItemMangaUpdateDataInput;
-  upsert?: DaysaveItemMangaUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemMangaUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMangaUpsertNestedInput {
-  update: DaysaveItemMangaUpdateDataInput;
-  create: DaysaveItemMangaCreateInput;
+export interface DaysaveItemMadeMeSmileUpsertNestedInput {
+  update: DaysaveItemMadeMeSmileUpdateDataInput;
+  create: DaysaveItemMadeMeSmileCreateInput;
 }
 
 export interface DaysaveItemMe_irlUpdateOneInput {
@@ -7538,24 +5584,6 @@ export interface DaysaveItemMe_irlUpdateDataInput {
 export interface DaysaveItemMe_irlUpsertNestedInput {
   update: DaysaveItemMe_irlUpdateDataInput;
   create: DaysaveItemMe_irlCreateInput;
-}
-
-export interface DaysaveItemMealPrepSundayUpdateOneInput {
-  create?: DaysaveItemMealPrepSundayCreateInput;
-  update?: DaysaveItemMealPrepSundayUpdateDataInput;
-  upsert?: DaysaveItemMealPrepSundayUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemMealPrepSundayUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMealPrepSundayUpsertNestedInput {
-  update: DaysaveItemMealPrepSundayUpdateDataInput;
-  create: DaysaveItemMealPrepSundayCreateInput;
 }
 
 export interface DaysaveItemMemeEconomyUpdateOneInput {
@@ -7720,42 +5748,6 @@ export interface DaysaveItemMurderedByWordUpsertNestedInput {
   create: DaysaveItemMurderedByWordCreateInput;
 }
 
-export interface DaysaveItemMusicUpdateOneInput {
-  create?: DaysaveItemMusicCreateInput;
-  update?: DaysaveItemMusicUpdateDataInput;
-  upsert?: DaysaveItemMusicUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemMusicUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMusicUpsertNestedInput {
-  update: DaysaveItemMusicUpdateDataInput;
-  create: DaysaveItemMusicCreateInput;
-}
-
-export interface DaysaveItemNatureIsFuckingLitUpdateOneInput {
-  create?: DaysaveItemNatureIsFuckingLitCreateInput;
-  update?: DaysaveItemNatureIsFuckingLitUpdateDataInput;
-  upsert?: DaysaveItemNatureIsFuckingLitUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemNatureIsFuckingLitUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemNatureIsFuckingLitUpsertNestedInput {
-  update: DaysaveItemNatureIsFuckingLitUpdateDataInput;
-  create: DaysaveItemNatureIsFuckingLitCreateInput;
-}
-
 export interface DaysaveItemNatureismetalUpdateOneInput {
   create?: DaysaveItemNatureismetalCreateInput;
   update?: DaysaveItemNatureismetalUpdateDataInput;
@@ -7790,6 +5782,24 @@ export interface DaysaveItemNbaUpdateDataInput {
 export interface DaysaveItemNbaUpsertNestedInput {
   update: DaysaveItemNbaUpdateDataInput;
   create: DaysaveItemNbaCreateInput;
+}
+
+export interface DaysaveItemNevertellmetheoddUpdateOneInput {
+  create?: DaysaveItemNevertellmetheoddCreateInput;
+  update?: DaysaveItemNevertellmetheoddUpdateDataInput;
+  upsert?: DaysaveItemNevertellmetheoddUpsertNestedInput;
+  delete?: Boolean;
+  disconnect?: Boolean;
+}
+
+export interface DaysaveItemNevertellmetheoddUpdateDataInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemNevertellmetheoddUpsertNestedInput {
+  update: DaysaveItemNevertellmetheoddUpdateDataInput;
+  create: DaysaveItemNevertellmetheoddCreateInput;
 }
 
 export interface DaysaveItemNewsUpdateOneInput {
@@ -7864,24 +5874,6 @@ export interface DaysaveItemNintendoSwitchUpsertNestedInput {
   create: DaysaveItemNintendoSwitchCreateInput;
 }
 
-export interface DaysaveItemNonononoUpdateOneInput {
-  create?: DaysaveItemNonononoCreateInput;
-  update?: DaysaveItemNonononoUpdateDataInput;
-  upsert?: DaysaveItemNonononoUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemNonononoUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemNonononoUpsertNestedInput {
-  update: DaysaveItemNonononoUpdateDataInput;
-  create: DaysaveItemNonononoCreateInput;
-}
-
 export interface DaysaveItemNosleepUpdateOneInput {
   create?: DaysaveItemNosleepCreateInput;
   update?: DaysaveItemNosleepUpdateDataInput;
@@ -7952,24 +5944,6 @@ export interface DaysaveItemOddlysatisfyingUpdateDataInput {
 export interface DaysaveItemOddlysatisfyingUpsertNestedInput {
   update: DaysaveItemOddlysatisfyingUpdateDataInput;
   create: DaysaveItemOddlysatisfyingCreateInput;
-}
-
-export interface DaysaveItemOldpeoplefacebookUpdateOneInput {
-  create?: DaysaveItemOldpeoplefacebookCreateInput;
-  update?: DaysaveItemOldpeoplefacebookUpdateDataInput;
-  upsert?: DaysaveItemOldpeoplefacebookUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemOldpeoplefacebookUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemOldpeoplefacebookUpsertNestedInput {
-  update: DaysaveItemOldpeoplefacebookUpdateDataInput;
-  create: DaysaveItemOldpeoplefacebookCreateInput;
 }
 
 export interface DaysaveItemOldSchoolCoolUpdateOneInput {
@@ -8134,24 +6108,6 @@ export interface DaysaveItemPokemonUpsertNestedInput {
   create: DaysaveItemPokemonCreateInput;
 }
 
-export interface DaysaveItemPokemongoUpdateOneInput {
-  create?: DaysaveItemPokemongoCreateInput;
-  update?: DaysaveItemPokemongoUpdateDataInput;
-  upsert?: DaysaveItemPokemongoUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemPokemongoUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemPokemongoUpsertNestedInput {
-  update: DaysaveItemPokemongoUpdateDataInput;
-  create: DaysaveItemPokemongoCreateInput;
-}
-
 export interface DaysaveItemPoliticUpdateOneInput {
   create?: DaysaveItemPoliticCreateInput;
   update?: DaysaveItemPoliticUpdateDataInput;
@@ -8188,24 +6144,6 @@ export interface DaysaveItemPrequelMemeUpsertNestedInput {
   create: DaysaveItemPrequelMemeCreateInput;
 }
 
-export interface DaysaveItemProgrammerHumorUpdateOneInput {
-  create?: DaysaveItemProgrammerHumorCreateInput;
-  update?: DaysaveItemProgrammerHumorUpdateDataInput;
-  upsert?: DaysaveItemProgrammerHumorUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemProgrammerHumorUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemProgrammerHumorUpsertNestedInput {
-  update: DaysaveItemProgrammerHumorUpdateDataInput;
-  create: DaysaveItemProgrammerHumorCreateInput;
-}
-
 export interface DaysaveItemPS4UpdateOneInput {
   create?: DaysaveItemPS4CreateInput;
   update?: DaysaveItemPS4UpdateDataInput;
@@ -8240,24 +6178,6 @@ export interface DaysaveItemReactiongifUpdateDataInput {
 export interface DaysaveItemReactiongifUpsertNestedInput {
   update: DaysaveItemReactiongifUpdateDataInput;
   create: DaysaveItemReactiongifCreateInput;
-}
-
-export interface DaysaveItemRealGirlUpdateOneInput {
-  create?: DaysaveItemRealGirlCreateInput;
-  update?: DaysaveItemRealGirlUpdateDataInput;
-  upsert?: DaysaveItemRealGirlUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemRealGirlUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemRealGirlUpsertNestedInput {
-  update: DaysaveItemRealGirlUpdateDataInput;
-  create: DaysaveItemRealGirlCreateInput;
 }
 
 export interface DaysaveItemRelationship_adviceUpdateOneInput {
@@ -8386,6 +6306,24 @@ export interface DaysaveItemSexUpsertNestedInput {
   create: DaysaveItemSexCreateInput;
 }
 
+export interface DaysaveItemShittyfoodpornUpdateOneInput {
+  create?: DaysaveItemShittyfoodpornCreateInput;
+  update?: DaysaveItemShittyfoodpornUpdateDataInput;
+  upsert?: DaysaveItemShittyfoodpornUpsertNestedInput;
+  delete?: Boolean;
+  disconnect?: Boolean;
+}
+
+export interface DaysaveItemShittyfoodpornUpdateDataInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemShittyfoodpornUpsertNestedInput {
+  update: DaysaveItemShittyfoodpornUpdateDataInput;
+  create: DaysaveItemShittyfoodpornCreateInput;
+}
+
 export interface DaysaveItemShowerthoughtUpdateOneInput {
   create?: DaysaveItemShowerthoughtCreateInput;
   update?: DaysaveItemShowerthoughtUpdateDataInput;
@@ -8404,40 +6342,40 @@ export interface DaysaveItemShowerthoughtUpsertNestedInput {
   create: DaysaveItemShowerthoughtCreateInput;
 }
 
-export interface DaysaveItemSoccerUpdateOneInput {
-  create?: DaysaveItemSoccerCreateInput;
-  update?: DaysaveItemSoccerUpdateDataInput;
-  upsert?: DaysaveItemSoccerUpsertNestedInput;
+export interface DaysaveItemSkincareAddictionUpdateOneInput {
+  create?: DaysaveItemSkincareAddictionCreateInput;
+  update?: DaysaveItemSkincareAddictionUpdateDataInput;
+  upsert?: DaysaveItemSkincareAddictionUpsertNestedInput;
   delete?: Boolean;
   disconnect?: Boolean;
 }
 
-export interface DaysaveItemSoccerUpdateDataInput {
+export interface DaysaveItemSkincareAddictionUpdateDataInput {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemSoccerUpsertNestedInput {
-  update: DaysaveItemSoccerUpdateDataInput;
-  create: DaysaveItemSoccerCreateInput;
+export interface DaysaveItemSkincareAddictionUpsertNestedInput {
+  update: DaysaveItemSkincareAddictionUpdateDataInput;
+  create: DaysaveItemSkincareAddictionCreateInput;
 }
 
-export interface DaysaveItemSocialskillUpdateOneInput {
-  create?: DaysaveItemSocialskillCreateInput;
-  update?: DaysaveItemSocialskillUpdateDataInput;
-  upsert?: DaysaveItemSocialskillUpsertNestedInput;
+export interface DaysaveItemSlowcookingUpdateOneInput {
+  create?: DaysaveItemSlowcookingCreateInput;
+  update?: DaysaveItemSlowcookingUpdateDataInput;
+  upsert?: DaysaveItemSlowcookingUpsertNestedInput;
   delete?: Boolean;
   disconnect?: Boolean;
 }
 
-export interface DaysaveItemSocialskillUpdateDataInput {
+export interface DaysaveItemSlowcookingUpdateDataInput {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemSocialskillUpsertNestedInput {
-  update: DaysaveItemSocialskillUpdateDataInput;
-  create: DaysaveItemSocialskillCreateInput;
+export interface DaysaveItemSlowcookingUpsertNestedInput {
+  update: DaysaveItemSlowcookingUpdateDataInput;
+  create: DaysaveItemSlowcookingCreateInput;
 }
 
 export interface DaysaveItemSpaceUpdateOneInput {
@@ -8512,22 +6450,40 @@ export interface DaysaveItemStarWarUpsertNestedInput {
   create: DaysaveItemStarWarCreateInput;
 }
 
-export interface DaysaveItemTechnologyUpdateOneInput {
-  create?: DaysaveItemTechnologyCreateInput;
-  update?: DaysaveItemTechnologyUpdateDataInput;
-  upsert?: DaysaveItemTechnologyUpsertNestedInput;
+export interface DaysaveItemStreetwearUpdateOneInput {
+  create?: DaysaveItemStreetwearCreateInput;
+  update?: DaysaveItemStreetwearUpdateDataInput;
+  upsert?: DaysaveItemStreetwearUpsertNestedInput;
   delete?: Boolean;
   disconnect?: Boolean;
 }
 
-export interface DaysaveItemTechnologyUpdateDataInput {
+export interface DaysaveItemStreetwearUpdateDataInput {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemTechnologyUpsertNestedInput {
-  update: DaysaveItemTechnologyUpdateDataInput;
-  create: DaysaveItemTechnologyCreateInput;
+export interface DaysaveItemStreetwearUpsertNestedInput {
+  update: DaysaveItemStreetwearUpdateDataInput;
+  create: DaysaveItemStreetwearCreateInput;
+}
+
+export interface DaysaveItemTattooUpdateOneInput {
+  create?: DaysaveItemTattooCreateInput;
+  update?: DaysaveItemTattooUpdateDataInput;
+  upsert?: DaysaveItemTattooUpsertNestedInput;
+  delete?: Boolean;
+  disconnect?: Boolean;
+}
+
+export interface DaysaveItemTattooUpdateDataInput {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemTattooUpsertNestedInput {
+  update: DaysaveItemTattooUpdateDataInput;
+  create: DaysaveItemTattooCreateInput;
 }
 
 export interface DaysaveItemTeenagerUpdateOneInput {
@@ -8618,24 +6574,6 @@ export interface DaysaveItemTherewasanattemptUpdateDataInput {
 export interface DaysaveItemTherewasanattemptUpsertNestedInput {
   update: DaysaveItemTherewasanattemptUpdateDataInput;
   create: DaysaveItemTherewasanattemptCreateInput;
-}
-
-export interface DaysaveItemTifuUpdateOneInput {
-  create?: DaysaveItemTifuCreateInput;
-  update?: DaysaveItemTifuUpdateDataInput;
-  upsert?: DaysaveItemTifuUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemTifuUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemTifuUpsertNestedInput {
-  update: DaysaveItemTifuUpdateDataInput;
-  create: DaysaveItemTifuCreateInput;
 }
 
 export interface DaysaveItemTinderUpdateOneInput {
@@ -8764,24 +6702,6 @@ export interface DaysaveItemUnexpectedUpsertNestedInput {
   create: DaysaveItemUnexpectedCreateInput;
 }
 
-export interface DaysaveItemUpliftingNewUpdateOneInput {
-  create?: DaysaveItemUpliftingNewCreateInput;
-  update?: DaysaveItemUpliftingNewUpdateDataInput;
-  upsert?: DaysaveItemUpliftingNewUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemUpliftingNewUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemUpliftingNewUpsertNestedInput {
-  update: DaysaveItemUpliftingNewUpdateDataInput;
-  create: DaysaveItemUpliftingNewCreateInput;
-}
-
 export interface DaysaveItemVideoUpdateOneInput {
   create?: DaysaveItemVideoCreateInput;
   update?: DaysaveItemVideoUpdateDataInput;
@@ -8854,24 +6774,6 @@ export interface DaysaveItemWhatcouldgowrongUpsertNestedInput {
   create: DaysaveItemWhatcouldgowrongCreateInput;
 }
 
-export interface DaysaveItemWhatisthisthingUpdateOneInput {
-  create?: DaysaveItemWhatisthisthingCreateInput;
-  update?: DaysaveItemWhatisthisthingUpdateDataInput;
-  upsert?: DaysaveItemWhatisthisthingUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemWhatisthisthingUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWhatisthisthingUpsertNestedInput {
-  update: DaysaveItemWhatisthisthingUpdateDataInput;
-  create: DaysaveItemWhatisthisthingCreateInput;
-}
-
 export interface DaysaveItemWhitePeopleTwitterUpdateOneInput {
   create?: DaysaveItemWhitePeopleTwitterCreateInput;
   update?: DaysaveItemWhitePeopleTwitterUpdateDataInput;
@@ -8908,24 +6810,6 @@ export interface DaysaveItemWholesomememeUpsertNestedInput {
   create: DaysaveItemWholesomememeCreateInput;
 }
 
-export interface DaysaveItemWoahdudeUpdateOneInput {
-  create?: DaysaveItemWoahdudeCreateInput;
-  update?: DaysaveItemWoahdudeUpdateDataInput;
-  upsert?: DaysaveItemWoahdudeUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemWoahdudeUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWoahdudeUpsertNestedInput {
-  update: DaysaveItemWoahdudeUpdateDataInput;
-  create: DaysaveItemWoahdudeCreateInput;
-}
-
 export interface DaysaveItemWoodworkingUpdateOneInput {
   create?: DaysaveItemWoodworkingCreateInput;
   update?: DaysaveItemWoodworkingUpdateDataInput;
@@ -8960,24 +6844,6 @@ export interface DaysaveItemWorldnewUpdateDataInput {
 export interface DaysaveItemWorldnewUpsertNestedInput {
   update: DaysaveItemWorldnewUpdateDataInput;
   create: DaysaveItemWorldnewCreateInput;
-}
-
-export interface DaysaveItemWowUpdateOneInput {
-  create?: DaysaveItemWowCreateInput;
-  update?: DaysaveItemWowUpdateDataInput;
-  upsert?: DaysaveItemWowUpsertNestedInput;
-  delete?: Boolean;
-  disconnect?: Boolean;
-}
-
-export interface DaysaveItemWowUpdateDataInput {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWowUpsertNestedInput {
-  update: DaysaveItemWowUpdateDataInput;
-  create: DaysaveItemWowCreateInput;
 }
 
 export interface DaysaveItemWritingPromptUpdateOneInput {
@@ -9103,65 +6969,45 @@ export interface DaysaveSubscription
 }
 
 export interface DaysaveItem {
-  AbandonedPorn?: DaysaveItemAbandonedPorn | null;
   AdviceAnimals?: DaysaveItemAdviceAnimal | null;
   Android?: DaysaveItemAndroid | null;
+  AnimalsBeingDerps?: DaysaveItemAnimalsBeingDerp | null;
   AnimalsBeingJerks?: DaysaveItemAnimalsBeingJerk | null;
   anime?: DaysaveItemAnime | null;
   apple?: DaysaveItemApple | null;
-  Art?: DaysaveItemArt | null;
   AskMen?: DaysaveItemAskMan | null;
   AskReddit?: DaysaveItemAskReddit | null;
   askscience?: DaysaveItemAskscience | null;
   AskWomen?: DaysaveItemAskWoman | null;
   assholedesign?: DaysaveItemAssholedesign | null;
-  atheism?: DaysaveItemAtheism | null;
   aww?: DaysaveItemAww | null;
-  backpacking?: DaysaveItemBackpacking | null;
   baseball?: DaysaveItemBaseball | null;
-  battlestations?: DaysaveItemBattlestation | null;
-  BeAmazed?: DaysaveItemBeAmazed | null;
-  bestof?: DaysaveItemBestof | null;
-  BetterEveryLoop?: DaysaveItemBetterEveryLoop | null;
-  BikiniBottomTwitter?: DaysaveItemBikiniBottomTwitter | null;
   BlackPeopleTwitter?: DaysaveItemBlackPeopleTwitter | null;
   boardgames?: DaysaveItemBoardgame | null;
-  books?: DaysaveItemBook | null;
   buildapc?: DaysaveItemBuildapc | null;
   cars?: DaysaveItemCar | null;
   cats?: DaysaveItemCat | null;
-  changemyview?: DaysaveItemChangemyview | null;
   ChoosingBeggars?: DaysaveItemChoosingBeggar | null;
-  comicbooks?: DaysaveItemComicbook | null;
   comics?: DaysaveItemComic | null;
-  confession?: DaysaveItemConfession | null;
   conspiracy?: DaysaveItemConspiracy | null;
   Cooking?: DaysaveItemCooking | null;
   CrappyDesign?: DaysaveItemCrappyDesign | null;
-  creepy?: DaysaveItemCreepy | null;
-  cringe?: DaysaveItemCringe | null;
-  CryptoCurrency?: DaysaveItemCryptoCurrency | null;
-  Damnthatsinteresting?: DaysaveItemDamnthatsinteresting | null;
   dankmemes?: DaysaveItemDankmeme | null;
   DestinyTheGame?: DaysaveItemDestinyTheGame | null;
   DnD?: DaysaveItemDnD | null;
   Documentaries?: DaysaveItemDocumentary | null;
+  dogs?: DaysaveItemDog | null;
   drawing?: DaysaveItemDrawing | null;
   DunderMifflin?: DaysaveItemDunderMifflin | null;
   EarthPorn?: DaysaveItemEarthPorn | null;
-  educationalgifs?: DaysaveItemEducationalgif | null;
-  entertainment?: DaysaveItemEntertainment | null;
   europe?: DaysaveItemEurope | null;
   explainlikeimfive?: DaysaveItemExplainlikeimfive | null;
   Eyebleach?: DaysaveItemEyebleach | null;
-  facepalm?: DaysaveItemFacepalm | null;
-  femalefashionadvice?: DaysaveItemFemalefashionadvice | null;
   Fitness?: DaysaveItemFitness | null;
   food?: DaysaveItemFood | null;
   FoodPorn?: DaysaveItemFoodPorn | null;
   FortNiteBR?: DaysaveItemFortNiteBR | null;
   Frugal?: DaysaveItemFrugal | null;
-  frugalmalefashion?: DaysaveItemFrugalmalefashion | null;
   funny?: DaysaveItemFunny | null;
   Futurology?: DaysaveItemFuturology | null;
   gadgets?: DaysaveItemGadget | null;
@@ -9169,32 +7015,19 @@ export interface DaysaveItem {
   gaming?: DaysaveItemGaming | null;
   gardening?: DaysaveItemGardening | null;
   gifs?: DaysaveItemGif | null;
-  GlobalOffensive?: DaysaveItemGlobalOffensive | null;
   gonewild?: DaysaveItemGonewild | null;
-  hearthstone?: DaysaveItemHearthstone | null;
-  HighQualityGifs?: DaysaveItemHighQualityGif | null;
   hiphopheads?: DaysaveItemHiphophead | null;
-  hmmm?: DaysaveItemHmmm | null;
   hockey?: DaysaveItemHockey | null;
-  HumansBeingBros?: DaysaveItemHumansBeingBro | null;
   iamverysmart?: DaysaveItemIamverysmart | null;
-  insanepeoplefacebook?: DaysaveItemInsanepeoplefacebook | null;
   instant_regret?: DaysaveItemInstant_regret | null;
   interestingasfuck?: DaysaveItemInterestingasfuck | null;
-  iphone?: DaysaveItemIphone | null;
   Jokes?: DaysaveItemJoke | null;
-  keto?: DaysaveItemKeto | null;
   leagueoflegends?: DaysaveItemLeagueoflegend | null;
   legaladvice?: DaysaveItemLegaladvice | null;
-  lifehacks?: DaysaveItemLifehack | null;
   LifeProTips?: DaysaveItemLifeProTip | null;
   listentothis?: DaysaveItemListentothi | null;
-  loseit?: DaysaveItemLoseit | null;
-  MakeupAddiction?: DaysaveItemMakeupAddiction | null;
-  malefashionadvice?: DaysaveItemMalefashionadvice | null;
-  manga?: DaysaveItemManga | null;
+  MadeMeSmile?: DaysaveItemMadeMeSmile | null;
   me_irl?: DaysaveItemMe_irl | null;
-  MealPrepSunday?: DaysaveItemMealPrepSunday | null;
   MemeEconomy?: DaysaveItemMemeEconomy | null;
   memes?: DaysaveItemMeme | null;
   mildlyinfuriating?: DaysaveItemMildlyinfuriating | null;
@@ -9204,20 +7037,17 @@ export interface DaysaveItem {
   MovieDetails?: DaysaveItemMovieDetail | null;
   movies?: DaysaveItemMovie | null;
   MurderedByWords?: DaysaveItemMurderedByWord | null;
-  Music?: DaysaveItemMusic | null;
-  NatureIsFuckingLit?: DaysaveItemNatureIsFuckingLit | null;
   natureismetal?: DaysaveItemNatureismetal | null;
   nba?: DaysaveItemNba | null;
+  nevertellmetheodds?: DaysaveItemNevertellmetheodd | null;
   news?: DaysaveItemNews | null;
   nfl?: DaysaveItemNfl | null;
   niceguys?: DaysaveItemNiceguy | null;
   NintendoSwitch?: DaysaveItemNintendoSwitch | null;
-  nononono?: DaysaveItemNononono | null;
   nosleep?: DaysaveItemNosleep | null;
   NoStupidQuestions?: DaysaveItemNoStupidQuestion | null;
   nottheonion?: DaysaveItemNottheonion | null;
   oddlysatisfying?: DaysaveItemOddlysatisfying | null;
-  oldpeoplefacebook?: DaysaveItemOldpeoplefacebook | null;
   OldSchoolCool?: DaysaveItemOldSchoolCool | null;
   Overwatch?: DaysaveItemOverwatch | null;
   pcgaming?: DaysaveItemPcgaming | null;
@@ -9227,13 +7057,10 @@ export interface DaysaveItem {
   photography?: DaysaveItemPhotography | null;
   pics?: DaysaveItemPic | null;
   pokemon?: DaysaveItemPokemon | null;
-  pokemongo?: DaysaveItemPokemongo | null;
   politics?: DaysaveItemPolitic | null;
   PrequelMemes?: DaysaveItemPrequelMeme | null;
-  ProgrammerHumor?: DaysaveItemProgrammerHumor | null;
   PS4?: DaysaveItemPS4 | null;
   reactiongifs?: DaysaveItemReactiongif | null;
-  RealGirls?: DaysaveItemRealGirl | null;
   relationship_advice?: DaysaveItemRelationship_advice | null;
   relationships?: DaysaveItemRelationship | null;
   rickandmorty?: DaysaveItemRickandmorty | null;
@@ -9241,20 +7068,21 @@ export interface DaysaveItem {
   RoastMe?: DaysaveItemRoastMe | null;
   science?: DaysaveItemScience | null;
   sex?: DaysaveItemSex | null;
+  shittyfoodporn?: DaysaveItemShittyfoodporn | null;
   Showerthoughts?: DaysaveItemShowerthought | null;
-  soccer?: DaysaveItemSoccer | null;
-  socialskills?: DaysaveItemSocialskill | null;
+  SkincareAddiction?: DaysaveItemSkincareAddiction | null;
+  slowcooking?: DaysaveItemSlowcooking | null;
   space?: DaysaveItemSpace | null;
   sports?: DaysaveItemSport | null;
   starterpacks?: DaysaveItemStarterpack | null;
   StarWars?: DaysaveItemStarWar | null;
-  technology?: DaysaveItemTechnology | null;
+  streetwear?: DaysaveItemStreetwear | null;
+  tattoos?: DaysaveItemTattoo | null;
   teenagers?: DaysaveItemTeenager | null;
   television?: DaysaveItemTelevision | null;
   thatHappened?: DaysaveItemThatHappened | null;
   The_Donald?: DaysaveItemThe_Donald | null;
   therewasanattempt?: DaysaveItemTherewasanattempt | null;
-  tifu?: DaysaveItemTifu | null;
   Tinder?: DaysaveItemTinder | null;
   todayilearned?: DaysaveItemTodayilearned | null;
   trashy?: DaysaveItemTrashy | null;
@@ -9262,18 +7090,14 @@ export interface DaysaveItem {
   trees?: DaysaveItemTree | null;
   TwoXChromosomes?: DaysaveItemTwoXChromosome | null;
   Unexpected?: DaysaveItemUnexpected | null;
-  UpliftingNews?: DaysaveItemUpliftingNew | null;
   videos?: DaysaveItemVideo | null;
   WatchPeopleDieInside?: DaysaveItemWatchPeopleDieInside | null;
   Wellthatsucks?: DaysaveItemWellthatsuck | null;
   Whatcouldgowrong?: DaysaveItemWhatcouldgowrong | null;
-  whatisthisthing?: DaysaveItemWhatisthisthing | null;
   WhitePeopleTwitter?: DaysaveItemWhitePeopleTwitter | null;
   wholesomememes?: DaysaveItemWholesomememe | null;
-  woahdude?: DaysaveItemWoahdude | null;
   woodworking?: DaysaveItemWoodworking | null;
   worldnews?: DaysaveItemWorldnew | null;
-  wow?: DaysaveItemWow | null;
   WritingPrompts?: DaysaveItemWritingPrompt | null;
   WTF?: DaysaveItemWTF | null;
   xboxone?: DaysaveItemXboxone | null;
@@ -9281,65 +7105,45 @@ export interface DaysaveItem {
 }
 
 export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
-  AbandonedPorn: <T = DaysaveItemAbandonedPornPromise>() => T;
   AdviceAnimals: <T = DaysaveItemAdviceAnimalPromise>() => T;
   Android: <T = DaysaveItemAndroidPromise>() => T;
+  AnimalsBeingDerps: <T = DaysaveItemAnimalsBeingDerpPromise>() => T;
   AnimalsBeingJerks: <T = DaysaveItemAnimalsBeingJerkPromise>() => T;
   anime: <T = DaysaveItemAnimePromise>() => T;
   apple: <T = DaysaveItemApplePromise>() => T;
-  Art: <T = DaysaveItemArtPromise>() => T;
   AskMen: <T = DaysaveItemAskManPromise>() => T;
   AskReddit: <T = DaysaveItemAskRedditPromise>() => T;
   askscience: <T = DaysaveItemAsksciencePromise>() => T;
   AskWomen: <T = DaysaveItemAskWomanPromise>() => T;
   assholedesign: <T = DaysaveItemAssholedesignPromise>() => T;
-  atheism: <T = DaysaveItemAtheismPromise>() => T;
   aww: <T = DaysaveItemAwwPromise>() => T;
-  backpacking: <T = DaysaveItemBackpackingPromise>() => T;
   baseball: <T = DaysaveItemBaseballPromise>() => T;
-  battlestations: <T = DaysaveItemBattlestationPromise>() => T;
-  BeAmazed: <T = DaysaveItemBeAmazedPromise>() => T;
-  bestof: <T = DaysaveItemBestofPromise>() => T;
-  BetterEveryLoop: <T = DaysaveItemBetterEveryLoopPromise>() => T;
-  BikiniBottomTwitter: <T = DaysaveItemBikiniBottomTwitterPromise>() => T;
   BlackPeopleTwitter: <T = DaysaveItemBlackPeopleTwitterPromise>() => T;
   boardgames: <T = DaysaveItemBoardgamePromise>() => T;
-  books: <T = DaysaveItemBookPromise>() => T;
   buildapc: <T = DaysaveItemBuildapcPromise>() => T;
   cars: <T = DaysaveItemCarPromise>() => T;
   cats: <T = DaysaveItemCatPromise>() => T;
-  changemyview: <T = DaysaveItemChangemyviewPromise>() => T;
   ChoosingBeggars: <T = DaysaveItemChoosingBeggarPromise>() => T;
-  comicbooks: <T = DaysaveItemComicbookPromise>() => T;
   comics: <T = DaysaveItemComicPromise>() => T;
-  confession: <T = DaysaveItemConfessionPromise>() => T;
   conspiracy: <T = DaysaveItemConspiracyPromise>() => T;
   Cooking: <T = DaysaveItemCookingPromise>() => T;
   CrappyDesign: <T = DaysaveItemCrappyDesignPromise>() => T;
-  creepy: <T = DaysaveItemCreepyPromise>() => T;
-  cringe: <T = DaysaveItemCringePromise>() => T;
-  CryptoCurrency: <T = DaysaveItemCryptoCurrencyPromise>() => T;
-  Damnthatsinteresting: <T = DaysaveItemDamnthatsinterestingPromise>() => T;
   dankmemes: <T = DaysaveItemDankmemePromise>() => T;
   DestinyTheGame: <T = DaysaveItemDestinyTheGamePromise>() => T;
   DnD: <T = DaysaveItemDnDPromise>() => T;
   Documentaries: <T = DaysaveItemDocumentaryPromise>() => T;
+  dogs: <T = DaysaveItemDogPromise>() => T;
   drawing: <T = DaysaveItemDrawingPromise>() => T;
   DunderMifflin: <T = DaysaveItemDunderMifflinPromise>() => T;
   EarthPorn: <T = DaysaveItemEarthPornPromise>() => T;
-  educationalgifs: <T = DaysaveItemEducationalgifPromise>() => T;
-  entertainment: <T = DaysaveItemEntertainmentPromise>() => T;
   europe: <T = DaysaveItemEuropePromise>() => T;
   explainlikeimfive: <T = DaysaveItemExplainlikeimfivePromise>() => T;
   Eyebleach: <T = DaysaveItemEyebleachPromise>() => T;
-  facepalm: <T = DaysaveItemFacepalmPromise>() => T;
-  femalefashionadvice: <T = DaysaveItemFemalefashionadvicePromise>() => T;
   Fitness: <T = DaysaveItemFitnessPromise>() => T;
   food: <T = DaysaveItemFoodPromise>() => T;
   FoodPorn: <T = DaysaveItemFoodPornPromise>() => T;
   FortNiteBR: <T = DaysaveItemFortNiteBRPromise>() => T;
   Frugal: <T = DaysaveItemFrugalPromise>() => T;
-  frugalmalefashion: <T = DaysaveItemFrugalmalefashionPromise>() => T;
   funny: <T = DaysaveItemFunnyPromise>() => T;
   Futurology: <T = DaysaveItemFuturologyPromise>() => T;
   gadgets: <T = DaysaveItemGadgetPromise>() => T;
@@ -9347,32 +7151,19 @@ export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
   gaming: <T = DaysaveItemGamingPromise>() => T;
   gardening: <T = DaysaveItemGardeningPromise>() => T;
   gifs: <T = DaysaveItemGifPromise>() => T;
-  GlobalOffensive: <T = DaysaveItemGlobalOffensivePromise>() => T;
   gonewild: <T = DaysaveItemGonewildPromise>() => T;
-  hearthstone: <T = DaysaveItemHearthstonePromise>() => T;
-  HighQualityGifs: <T = DaysaveItemHighQualityGifPromise>() => T;
   hiphopheads: <T = DaysaveItemHiphopheadPromise>() => T;
-  hmmm: <T = DaysaveItemHmmmPromise>() => T;
   hockey: <T = DaysaveItemHockeyPromise>() => T;
-  HumansBeingBros: <T = DaysaveItemHumansBeingBroPromise>() => T;
   iamverysmart: <T = DaysaveItemIamverysmartPromise>() => T;
-  insanepeoplefacebook: <T = DaysaveItemInsanepeoplefacebookPromise>() => T;
   instant_regret: <T = DaysaveItemInstant_regretPromise>() => T;
   interestingasfuck: <T = DaysaveItemInterestingasfuckPromise>() => T;
-  iphone: <T = DaysaveItemIphonePromise>() => T;
   Jokes: <T = DaysaveItemJokePromise>() => T;
-  keto: <T = DaysaveItemKetoPromise>() => T;
   leagueoflegends: <T = DaysaveItemLeagueoflegendPromise>() => T;
   legaladvice: <T = DaysaveItemLegaladvicePromise>() => T;
-  lifehacks: <T = DaysaveItemLifehackPromise>() => T;
   LifeProTips: <T = DaysaveItemLifeProTipPromise>() => T;
   listentothis: <T = DaysaveItemListentothiPromise>() => T;
-  loseit: <T = DaysaveItemLoseitPromise>() => T;
-  MakeupAddiction: <T = DaysaveItemMakeupAddictionPromise>() => T;
-  malefashionadvice: <T = DaysaveItemMalefashionadvicePromise>() => T;
-  manga: <T = DaysaveItemMangaPromise>() => T;
+  MadeMeSmile: <T = DaysaveItemMadeMeSmilePromise>() => T;
   me_irl: <T = DaysaveItemMe_irlPromise>() => T;
-  MealPrepSunday: <T = DaysaveItemMealPrepSundayPromise>() => T;
   MemeEconomy: <T = DaysaveItemMemeEconomyPromise>() => T;
   memes: <T = DaysaveItemMemePromise>() => T;
   mildlyinfuriating: <T = DaysaveItemMildlyinfuriatingPromise>() => T;
@@ -9382,20 +7173,17 @@ export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
   MovieDetails: <T = DaysaveItemMovieDetailPromise>() => T;
   movies: <T = DaysaveItemMoviePromise>() => T;
   MurderedByWords: <T = DaysaveItemMurderedByWordPromise>() => T;
-  Music: <T = DaysaveItemMusicPromise>() => T;
-  NatureIsFuckingLit: <T = DaysaveItemNatureIsFuckingLitPromise>() => T;
   natureismetal: <T = DaysaveItemNatureismetalPromise>() => T;
   nba: <T = DaysaveItemNbaPromise>() => T;
+  nevertellmetheodds: <T = DaysaveItemNevertellmetheoddPromise>() => T;
   news: <T = DaysaveItemNewsPromise>() => T;
   nfl: <T = DaysaveItemNflPromise>() => T;
   niceguys: <T = DaysaveItemNiceguyPromise>() => T;
   NintendoSwitch: <T = DaysaveItemNintendoSwitchPromise>() => T;
-  nononono: <T = DaysaveItemNonononoPromise>() => T;
   nosleep: <T = DaysaveItemNosleepPromise>() => T;
   NoStupidQuestions: <T = DaysaveItemNoStupidQuestionPromise>() => T;
   nottheonion: <T = DaysaveItemNottheonionPromise>() => T;
   oddlysatisfying: <T = DaysaveItemOddlysatisfyingPromise>() => T;
-  oldpeoplefacebook: <T = DaysaveItemOldpeoplefacebookPromise>() => T;
   OldSchoolCool: <T = DaysaveItemOldSchoolCoolPromise>() => T;
   Overwatch: <T = DaysaveItemOverwatchPromise>() => T;
   pcgaming: <T = DaysaveItemPcgamingPromise>() => T;
@@ -9405,13 +7193,10 @@ export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
   photography: <T = DaysaveItemPhotographyPromise>() => T;
   pics: <T = DaysaveItemPicPromise>() => T;
   pokemon: <T = DaysaveItemPokemonPromise>() => T;
-  pokemongo: <T = DaysaveItemPokemongoPromise>() => T;
   politics: <T = DaysaveItemPoliticPromise>() => T;
   PrequelMemes: <T = DaysaveItemPrequelMemePromise>() => T;
-  ProgrammerHumor: <T = DaysaveItemProgrammerHumorPromise>() => T;
   PS4: <T = DaysaveItemPS4Promise>() => T;
   reactiongifs: <T = DaysaveItemReactiongifPromise>() => T;
-  RealGirls: <T = DaysaveItemRealGirlPromise>() => T;
   relationship_advice: <T = DaysaveItemRelationship_advicePromise>() => T;
   relationships: <T = DaysaveItemRelationshipPromise>() => T;
   rickandmorty: <T = DaysaveItemRickandmortyPromise>() => T;
@@ -9419,20 +7204,21 @@ export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
   RoastMe: <T = DaysaveItemRoastMePromise>() => T;
   science: <T = DaysaveItemSciencePromise>() => T;
   sex: <T = DaysaveItemSexPromise>() => T;
+  shittyfoodporn: <T = DaysaveItemShittyfoodpornPromise>() => T;
   Showerthoughts: <T = DaysaveItemShowerthoughtPromise>() => T;
-  soccer: <T = DaysaveItemSoccerPromise>() => T;
-  socialskills: <T = DaysaveItemSocialskillPromise>() => T;
+  SkincareAddiction: <T = DaysaveItemSkincareAddictionPromise>() => T;
+  slowcooking: <T = DaysaveItemSlowcookingPromise>() => T;
   space: <T = DaysaveItemSpacePromise>() => T;
   sports: <T = DaysaveItemSportPromise>() => T;
   starterpacks: <T = DaysaveItemStarterpackPromise>() => T;
   StarWars: <T = DaysaveItemStarWarPromise>() => T;
-  technology: <T = DaysaveItemTechnologyPromise>() => T;
+  streetwear: <T = DaysaveItemStreetwearPromise>() => T;
+  tattoos: <T = DaysaveItemTattooPromise>() => T;
   teenagers: <T = DaysaveItemTeenagerPromise>() => T;
   television: <T = DaysaveItemTelevisionPromise>() => T;
   thatHappened: <T = DaysaveItemThatHappenedPromise>() => T;
   The_Donald: <T = DaysaveItemThe_DonaldPromise>() => T;
   therewasanattempt: <T = DaysaveItemTherewasanattemptPromise>() => T;
-  tifu: <T = DaysaveItemTifuPromise>() => T;
   Tinder: <T = DaysaveItemTinderPromise>() => T;
   todayilearned: <T = DaysaveItemTodayilearnedPromise>() => T;
   trashy: <T = DaysaveItemTrashyPromise>() => T;
@@ -9440,18 +7226,14 @@ export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
   trees: <T = DaysaveItemTreePromise>() => T;
   TwoXChromosomes: <T = DaysaveItemTwoXChromosomePromise>() => T;
   Unexpected: <T = DaysaveItemUnexpectedPromise>() => T;
-  UpliftingNews: <T = DaysaveItemUpliftingNewPromise>() => T;
   videos: <T = DaysaveItemVideoPromise>() => T;
   WatchPeopleDieInside: <T = DaysaveItemWatchPeopleDieInsidePromise>() => T;
   Wellthatsucks: <T = DaysaveItemWellthatsuckPromise>() => T;
   Whatcouldgowrong: <T = DaysaveItemWhatcouldgowrongPromise>() => T;
-  whatisthisthing: <T = DaysaveItemWhatisthisthingPromise>() => T;
   WhitePeopleTwitter: <T = DaysaveItemWhitePeopleTwitterPromise>() => T;
   wholesomememes: <T = DaysaveItemWholesomememePromise>() => T;
-  woahdude: <T = DaysaveItemWoahdudePromise>() => T;
   woodworking: <T = DaysaveItemWoodworkingPromise>() => T;
   worldnews: <T = DaysaveItemWorldnewPromise>() => T;
-  wow: <T = DaysaveItemWowPromise>() => T;
   WritingPrompts: <T = DaysaveItemWritingPromptPromise>() => T;
   WTF: <T = DaysaveItemWTFPromise>() => T;
   xboxone: <T = DaysaveItemXboxonePromise>() => T;
@@ -9461,67 +7243,45 @@ export interface DaysaveItemPromise extends Promise<DaysaveItem>, Fragmentable {
 export interface DaysaveItemSubscription
   extends Promise<AsyncIterator<DaysaveItem>>,
     Fragmentable {
-  AbandonedPorn: <T = DaysaveItemAbandonedPornSubscription>() => T;
   AdviceAnimals: <T = DaysaveItemAdviceAnimalSubscription>() => T;
   Android: <T = DaysaveItemAndroidSubscription>() => T;
+  AnimalsBeingDerps: <T = DaysaveItemAnimalsBeingDerpSubscription>() => T;
   AnimalsBeingJerks: <T = DaysaveItemAnimalsBeingJerkSubscription>() => T;
   anime: <T = DaysaveItemAnimeSubscription>() => T;
   apple: <T = DaysaveItemAppleSubscription>() => T;
-  Art: <T = DaysaveItemArtSubscription>() => T;
   AskMen: <T = DaysaveItemAskManSubscription>() => T;
   AskReddit: <T = DaysaveItemAskRedditSubscription>() => T;
   askscience: <T = DaysaveItemAskscienceSubscription>() => T;
   AskWomen: <T = DaysaveItemAskWomanSubscription>() => T;
   assholedesign: <T = DaysaveItemAssholedesignSubscription>() => T;
-  atheism: <T = DaysaveItemAtheismSubscription>() => T;
   aww: <T = DaysaveItemAwwSubscription>() => T;
-  backpacking: <T = DaysaveItemBackpackingSubscription>() => T;
   baseball: <T = DaysaveItemBaseballSubscription>() => T;
-  battlestations: <T = DaysaveItemBattlestationSubscription>() => T;
-  BeAmazed: <T = DaysaveItemBeAmazedSubscription>() => T;
-  bestof: <T = DaysaveItemBestofSubscription>() => T;
-  BetterEveryLoop: <T = DaysaveItemBetterEveryLoopSubscription>() => T;
-  BikiniBottomTwitter: <T = DaysaveItemBikiniBottomTwitterSubscription>() => T;
   BlackPeopleTwitter: <T = DaysaveItemBlackPeopleTwitterSubscription>() => T;
   boardgames: <T = DaysaveItemBoardgameSubscription>() => T;
-  books: <T = DaysaveItemBookSubscription>() => T;
   buildapc: <T = DaysaveItemBuildapcSubscription>() => T;
   cars: <T = DaysaveItemCarSubscription>() => T;
   cats: <T = DaysaveItemCatSubscription>() => T;
-  changemyview: <T = DaysaveItemChangemyviewSubscription>() => T;
   ChoosingBeggars: <T = DaysaveItemChoosingBeggarSubscription>() => T;
-  comicbooks: <T = DaysaveItemComicbookSubscription>() => T;
   comics: <T = DaysaveItemComicSubscription>() => T;
-  confession: <T = DaysaveItemConfessionSubscription>() => T;
   conspiracy: <T = DaysaveItemConspiracySubscription>() => T;
   Cooking: <T = DaysaveItemCookingSubscription>() => T;
   CrappyDesign: <T = DaysaveItemCrappyDesignSubscription>() => T;
-  creepy: <T = DaysaveItemCreepySubscription>() => T;
-  cringe: <T = DaysaveItemCringeSubscription>() => T;
-  CryptoCurrency: <T = DaysaveItemCryptoCurrencySubscription>() => T;
-  Damnthatsinteresting: <
-    T = DaysaveItemDamnthatsinterestingSubscription
-  >() => T;
   dankmemes: <T = DaysaveItemDankmemeSubscription>() => T;
   DestinyTheGame: <T = DaysaveItemDestinyTheGameSubscription>() => T;
   DnD: <T = DaysaveItemDnDSubscription>() => T;
   Documentaries: <T = DaysaveItemDocumentarySubscription>() => T;
+  dogs: <T = DaysaveItemDogSubscription>() => T;
   drawing: <T = DaysaveItemDrawingSubscription>() => T;
   DunderMifflin: <T = DaysaveItemDunderMifflinSubscription>() => T;
   EarthPorn: <T = DaysaveItemEarthPornSubscription>() => T;
-  educationalgifs: <T = DaysaveItemEducationalgifSubscription>() => T;
-  entertainment: <T = DaysaveItemEntertainmentSubscription>() => T;
   europe: <T = DaysaveItemEuropeSubscription>() => T;
   explainlikeimfive: <T = DaysaveItemExplainlikeimfiveSubscription>() => T;
   Eyebleach: <T = DaysaveItemEyebleachSubscription>() => T;
-  facepalm: <T = DaysaveItemFacepalmSubscription>() => T;
-  femalefashionadvice: <T = DaysaveItemFemalefashionadviceSubscription>() => T;
   Fitness: <T = DaysaveItemFitnessSubscription>() => T;
   food: <T = DaysaveItemFoodSubscription>() => T;
   FoodPorn: <T = DaysaveItemFoodPornSubscription>() => T;
   FortNiteBR: <T = DaysaveItemFortNiteBRSubscription>() => T;
   Frugal: <T = DaysaveItemFrugalSubscription>() => T;
-  frugalmalefashion: <T = DaysaveItemFrugalmalefashionSubscription>() => T;
   funny: <T = DaysaveItemFunnySubscription>() => T;
   Futurology: <T = DaysaveItemFuturologySubscription>() => T;
   gadgets: <T = DaysaveItemGadgetSubscription>() => T;
@@ -9529,34 +7289,19 @@ export interface DaysaveItemSubscription
   gaming: <T = DaysaveItemGamingSubscription>() => T;
   gardening: <T = DaysaveItemGardeningSubscription>() => T;
   gifs: <T = DaysaveItemGifSubscription>() => T;
-  GlobalOffensive: <T = DaysaveItemGlobalOffensiveSubscription>() => T;
   gonewild: <T = DaysaveItemGonewildSubscription>() => T;
-  hearthstone: <T = DaysaveItemHearthstoneSubscription>() => T;
-  HighQualityGifs: <T = DaysaveItemHighQualityGifSubscription>() => T;
   hiphopheads: <T = DaysaveItemHiphopheadSubscription>() => T;
-  hmmm: <T = DaysaveItemHmmmSubscription>() => T;
   hockey: <T = DaysaveItemHockeySubscription>() => T;
-  HumansBeingBros: <T = DaysaveItemHumansBeingBroSubscription>() => T;
   iamverysmart: <T = DaysaveItemIamverysmartSubscription>() => T;
-  insanepeoplefacebook: <
-    T = DaysaveItemInsanepeoplefacebookSubscription
-  >() => T;
   instant_regret: <T = DaysaveItemInstant_regretSubscription>() => T;
   interestingasfuck: <T = DaysaveItemInterestingasfuckSubscription>() => T;
-  iphone: <T = DaysaveItemIphoneSubscription>() => T;
   Jokes: <T = DaysaveItemJokeSubscription>() => T;
-  keto: <T = DaysaveItemKetoSubscription>() => T;
   leagueoflegends: <T = DaysaveItemLeagueoflegendSubscription>() => T;
   legaladvice: <T = DaysaveItemLegaladviceSubscription>() => T;
-  lifehacks: <T = DaysaveItemLifehackSubscription>() => T;
   LifeProTips: <T = DaysaveItemLifeProTipSubscription>() => T;
   listentothis: <T = DaysaveItemListentothiSubscription>() => T;
-  loseit: <T = DaysaveItemLoseitSubscription>() => T;
-  MakeupAddiction: <T = DaysaveItemMakeupAddictionSubscription>() => T;
-  malefashionadvice: <T = DaysaveItemMalefashionadviceSubscription>() => T;
-  manga: <T = DaysaveItemMangaSubscription>() => T;
+  MadeMeSmile: <T = DaysaveItemMadeMeSmileSubscription>() => T;
   me_irl: <T = DaysaveItemMe_irlSubscription>() => T;
-  MealPrepSunday: <T = DaysaveItemMealPrepSundaySubscription>() => T;
   MemeEconomy: <T = DaysaveItemMemeEconomySubscription>() => T;
   memes: <T = DaysaveItemMemeSubscription>() => T;
   mildlyinfuriating: <T = DaysaveItemMildlyinfuriatingSubscription>() => T;
@@ -9566,20 +7311,17 @@ export interface DaysaveItemSubscription
   MovieDetails: <T = DaysaveItemMovieDetailSubscription>() => T;
   movies: <T = DaysaveItemMovieSubscription>() => T;
   MurderedByWords: <T = DaysaveItemMurderedByWordSubscription>() => T;
-  Music: <T = DaysaveItemMusicSubscription>() => T;
-  NatureIsFuckingLit: <T = DaysaveItemNatureIsFuckingLitSubscription>() => T;
   natureismetal: <T = DaysaveItemNatureismetalSubscription>() => T;
   nba: <T = DaysaveItemNbaSubscription>() => T;
+  nevertellmetheodds: <T = DaysaveItemNevertellmetheoddSubscription>() => T;
   news: <T = DaysaveItemNewsSubscription>() => T;
   nfl: <T = DaysaveItemNflSubscription>() => T;
   niceguys: <T = DaysaveItemNiceguySubscription>() => T;
   NintendoSwitch: <T = DaysaveItemNintendoSwitchSubscription>() => T;
-  nononono: <T = DaysaveItemNonononoSubscription>() => T;
   nosleep: <T = DaysaveItemNosleepSubscription>() => T;
   NoStupidQuestions: <T = DaysaveItemNoStupidQuestionSubscription>() => T;
   nottheonion: <T = DaysaveItemNottheonionSubscription>() => T;
   oddlysatisfying: <T = DaysaveItemOddlysatisfyingSubscription>() => T;
-  oldpeoplefacebook: <T = DaysaveItemOldpeoplefacebookSubscription>() => T;
   OldSchoolCool: <T = DaysaveItemOldSchoolCoolSubscription>() => T;
   Overwatch: <T = DaysaveItemOverwatchSubscription>() => T;
   pcgaming: <T = DaysaveItemPcgamingSubscription>() => T;
@@ -9589,13 +7331,10 @@ export interface DaysaveItemSubscription
   photography: <T = DaysaveItemPhotographySubscription>() => T;
   pics: <T = DaysaveItemPicSubscription>() => T;
   pokemon: <T = DaysaveItemPokemonSubscription>() => T;
-  pokemongo: <T = DaysaveItemPokemongoSubscription>() => T;
   politics: <T = DaysaveItemPoliticSubscription>() => T;
   PrequelMemes: <T = DaysaveItemPrequelMemeSubscription>() => T;
-  ProgrammerHumor: <T = DaysaveItemProgrammerHumorSubscription>() => T;
   PS4: <T = DaysaveItemPS4Subscription>() => T;
   reactiongifs: <T = DaysaveItemReactiongifSubscription>() => T;
-  RealGirls: <T = DaysaveItemRealGirlSubscription>() => T;
   relationship_advice: <T = DaysaveItemRelationship_adviceSubscription>() => T;
   relationships: <T = DaysaveItemRelationshipSubscription>() => T;
   rickandmorty: <T = DaysaveItemRickandmortySubscription>() => T;
@@ -9603,20 +7342,21 @@ export interface DaysaveItemSubscription
   RoastMe: <T = DaysaveItemRoastMeSubscription>() => T;
   science: <T = DaysaveItemScienceSubscription>() => T;
   sex: <T = DaysaveItemSexSubscription>() => T;
+  shittyfoodporn: <T = DaysaveItemShittyfoodpornSubscription>() => T;
   Showerthoughts: <T = DaysaveItemShowerthoughtSubscription>() => T;
-  soccer: <T = DaysaveItemSoccerSubscription>() => T;
-  socialskills: <T = DaysaveItemSocialskillSubscription>() => T;
+  SkincareAddiction: <T = DaysaveItemSkincareAddictionSubscription>() => T;
+  slowcooking: <T = DaysaveItemSlowcookingSubscription>() => T;
   space: <T = DaysaveItemSpaceSubscription>() => T;
   sports: <T = DaysaveItemSportSubscription>() => T;
   starterpacks: <T = DaysaveItemStarterpackSubscription>() => T;
   StarWars: <T = DaysaveItemStarWarSubscription>() => T;
-  technology: <T = DaysaveItemTechnologySubscription>() => T;
+  streetwear: <T = DaysaveItemStreetwearSubscription>() => T;
+  tattoos: <T = DaysaveItemTattooSubscription>() => T;
   teenagers: <T = DaysaveItemTeenagerSubscription>() => T;
   television: <T = DaysaveItemTelevisionSubscription>() => T;
   thatHappened: <T = DaysaveItemThatHappenedSubscription>() => T;
   The_Donald: <T = DaysaveItemThe_DonaldSubscription>() => T;
   therewasanattempt: <T = DaysaveItemTherewasanattemptSubscription>() => T;
-  tifu: <T = DaysaveItemTifuSubscription>() => T;
   Tinder: <T = DaysaveItemTinderSubscription>() => T;
   todayilearned: <T = DaysaveItemTodayilearnedSubscription>() => T;
   trashy: <T = DaysaveItemTrashySubscription>() => T;
@@ -9624,43 +7364,20 @@ export interface DaysaveItemSubscription
   trees: <T = DaysaveItemTreeSubscription>() => T;
   TwoXChromosomes: <T = DaysaveItemTwoXChromosomeSubscription>() => T;
   Unexpected: <T = DaysaveItemUnexpectedSubscription>() => T;
-  UpliftingNews: <T = DaysaveItemUpliftingNewSubscription>() => T;
   videos: <T = DaysaveItemVideoSubscription>() => T;
   WatchPeopleDieInside: <
     T = DaysaveItemWatchPeopleDieInsideSubscription
   >() => T;
   Wellthatsucks: <T = DaysaveItemWellthatsuckSubscription>() => T;
   Whatcouldgowrong: <T = DaysaveItemWhatcouldgowrongSubscription>() => T;
-  whatisthisthing: <T = DaysaveItemWhatisthisthingSubscription>() => T;
   WhitePeopleTwitter: <T = DaysaveItemWhitePeopleTwitterSubscription>() => T;
   wholesomememes: <T = DaysaveItemWholesomememeSubscription>() => T;
-  woahdude: <T = DaysaveItemWoahdudeSubscription>() => T;
   woodworking: <T = DaysaveItemWoodworkingSubscription>() => T;
   worldnews: <T = DaysaveItemWorldnewSubscription>() => T;
-  wow: <T = DaysaveItemWowSubscription>() => T;
   WritingPrompts: <T = DaysaveItemWritingPromptSubscription>() => T;
   WTF: <T = DaysaveItemWTFSubscription>() => T;
   xboxone: <T = DaysaveItemXboxoneSubscription>() => T;
   YouShouldKnow: <T = DaysaveItemYouShouldKnowSubscription>() => T;
-}
-
-export interface DaysaveItemAbandonedPorn {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemAbandonedPornPromise
-  extends Promise<DaysaveItemAbandonedPorn>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemAbandonedPornSubscription
-  extends Promise<AsyncIterator<DaysaveItemAbandonedPorn>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
 }
 
 export interface DaysaveItemAdviceAnimal {
@@ -9696,6 +7413,25 @@ export interface DaysaveItemAndroidPromise
 
 export interface DaysaveItemAndroidSubscription
   extends Promise<AsyncIterator<DaysaveItemAndroid>>,
+    Fragmentable {
+  com: () => Promise<AsyncIterator<Int>>;
+  found: () => Promise<AsyncIterator<Int>>;
+}
+
+export interface DaysaveItemAnimalsBeingDerp {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemAnimalsBeingDerpPromise
+  extends Promise<DaysaveItemAnimalsBeingDerp>,
+    Fragmentable {
+  com: () => Promise<Int>;
+  found: () => Promise<Int>;
+}
+
+export interface DaysaveItemAnimalsBeingDerpSubscription
+  extends Promise<AsyncIterator<DaysaveItemAnimalsBeingDerp>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -9753,25 +7489,6 @@ export interface DaysaveItemApplePromise
 
 export interface DaysaveItemAppleSubscription
   extends Promise<AsyncIterator<DaysaveItemApple>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemArt {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemArtPromise
-  extends Promise<DaysaveItemArt>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemArtSubscription
-  extends Promise<AsyncIterator<DaysaveItemArt>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -9872,25 +7589,6 @@ export interface DaysaveItemAssholedesignSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemAtheism {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemAtheismPromise
-  extends Promise<DaysaveItemAtheism>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemAtheismSubscription
-  extends Promise<AsyncIterator<DaysaveItemAtheism>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemAww {
   com?: Int;
   found?: Int;
@@ -9910,25 +7608,6 @@ export interface DaysaveItemAwwSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemBackpacking {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBackpackingPromise
-  extends Promise<DaysaveItemBackpacking>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBackpackingSubscription
-  extends Promise<AsyncIterator<DaysaveItemBackpacking>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemBaseball {
   com?: Int;
   found?: Int;
@@ -9943,101 +7622,6 @@ export interface DaysaveItemBaseballPromise
 
 export interface DaysaveItemBaseballSubscription
   extends Promise<AsyncIterator<DaysaveItemBaseball>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemBattlestation {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBattlestationPromise
-  extends Promise<DaysaveItemBattlestation>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBattlestationSubscription
-  extends Promise<AsyncIterator<DaysaveItemBattlestation>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemBeAmazed {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBeAmazedPromise
-  extends Promise<DaysaveItemBeAmazed>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBeAmazedSubscription
-  extends Promise<AsyncIterator<DaysaveItemBeAmazed>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemBestof {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBestofPromise
-  extends Promise<DaysaveItemBestof>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBestofSubscription
-  extends Promise<AsyncIterator<DaysaveItemBestof>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemBetterEveryLoop {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBetterEveryLoopPromise
-  extends Promise<DaysaveItemBetterEveryLoop>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBetterEveryLoopSubscription
-  extends Promise<AsyncIterator<DaysaveItemBetterEveryLoop>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemBikiniBottomTwitter {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBikiniBottomTwitterPromise
-  extends Promise<DaysaveItemBikiniBottomTwitter>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBikiniBottomTwitterSubscription
-  extends Promise<AsyncIterator<DaysaveItemBikiniBottomTwitter>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10076,25 +7660,6 @@ export interface DaysaveItemBoardgamePromise
 
 export interface DaysaveItemBoardgameSubscription
   extends Promise<AsyncIterator<DaysaveItemBoardgame>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemBook {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemBookPromise
-  extends Promise<DaysaveItemBook>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemBookSubscription
-  extends Promise<AsyncIterator<DaysaveItemBook>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10157,25 +7722,6 @@ export interface DaysaveItemCatSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemChangemyview {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemChangemyviewPromise
-  extends Promise<DaysaveItemChangemyview>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemChangemyviewSubscription
-  extends Promise<AsyncIterator<DaysaveItemChangemyview>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemChoosingBeggar {
   com?: Int;
   found?: Int;
@@ -10195,25 +7741,6 @@ export interface DaysaveItemChoosingBeggarSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemComicbook {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemComicbookPromise
-  extends Promise<DaysaveItemComicbook>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemComicbookSubscription
-  extends Promise<AsyncIterator<DaysaveItemComicbook>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemComic {
   com?: Int;
   found?: Int;
@@ -10228,25 +7755,6 @@ export interface DaysaveItemComicPromise
 
 export interface DaysaveItemComicSubscription
   extends Promise<AsyncIterator<DaysaveItemComic>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemConfession {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemConfessionPromise
-  extends Promise<DaysaveItemConfession>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemConfessionSubscription
-  extends Promise<AsyncIterator<DaysaveItemConfession>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10304,82 +7812,6 @@ export interface DaysaveItemCrappyDesignPromise
 
 export interface DaysaveItemCrappyDesignSubscription
   extends Promise<AsyncIterator<DaysaveItemCrappyDesign>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemCreepy {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCreepyPromise
-  extends Promise<DaysaveItemCreepy>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemCreepySubscription
-  extends Promise<AsyncIterator<DaysaveItemCreepy>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemCringe {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCringePromise
-  extends Promise<DaysaveItemCringe>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemCringeSubscription
-  extends Promise<AsyncIterator<DaysaveItemCringe>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemCryptoCurrency {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemCryptoCurrencyPromise
-  extends Promise<DaysaveItemCryptoCurrency>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemCryptoCurrencySubscription
-  extends Promise<AsyncIterator<DaysaveItemCryptoCurrency>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemDamnthatsinteresting {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemDamnthatsinterestingPromise
-  extends Promise<DaysaveItemDamnthatsinteresting>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemDamnthatsinterestingSubscription
-  extends Promise<AsyncIterator<DaysaveItemDamnthatsinteresting>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10461,6 +7893,25 @@ export interface DaysaveItemDocumentarySubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
+export interface DaysaveItemDog {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemDogPromise
+  extends Promise<DaysaveItemDog>,
+    Fragmentable {
+  com: () => Promise<Int>;
+  found: () => Promise<Int>;
+}
+
+export interface DaysaveItemDogSubscription
+  extends Promise<AsyncIterator<DaysaveItemDog>>,
+    Fragmentable {
+  com: () => Promise<AsyncIterator<Int>>;
+  found: () => Promise<AsyncIterator<Int>>;
+}
+
 export interface DaysaveItemDrawing {
   com?: Int;
   found?: Int;
@@ -10518,44 +7969,6 @@ export interface DaysaveItemEarthPornSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemEducationalgif {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemEducationalgifPromise
-  extends Promise<DaysaveItemEducationalgif>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemEducationalgifSubscription
-  extends Promise<AsyncIterator<DaysaveItemEducationalgif>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemEntertainment {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemEntertainmentPromise
-  extends Promise<DaysaveItemEntertainment>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemEntertainmentSubscription
-  extends Promise<AsyncIterator<DaysaveItemEntertainment>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemEurope {
   com?: Int;
   found?: Int;
@@ -10608,44 +8021,6 @@ export interface DaysaveItemEyebleachPromise
 
 export interface DaysaveItemEyebleachSubscription
   extends Promise<AsyncIterator<DaysaveItemEyebleach>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemFacepalm {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFacepalmPromise
-  extends Promise<DaysaveItemFacepalm>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemFacepalmSubscription
-  extends Promise<AsyncIterator<DaysaveItemFacepalm>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemFemalefashionadvice {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFemalefashionadvicePromise
-  extends Promise<DaysaveItemFemalefashionadvice>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemFemalefashionadviceSubscription
-  extends Promise<AsyncIterator<DaysaveItemFemalefashionadvice>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10741,25 +8116,6 @@ export interface DaysaveItemFrugalPromise
 
 export interface DaysaveItemFrugalSubscription
   extends Promise<AsyncIterator<DaysaveItemFrugal>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemFrugalmalefashion {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemFrugalmalefashionPromise
-  extends Promise<DaysaveItemFrugalmalefashion>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemFrugalmalefashionSubscription
-  extends Promise<AsyncIterator<DaysaveItemFrugalmalefashion>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10898,25 +8254,6 @@ export interface DaysaveItemGifSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemGlobalOffensive {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemGlobalOffensivePromise
-  extends Promise<DaysaveItemGlobalOffensive>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemGlobalOffensiveSubscription
-  extends Promise<AsyncIterator<DaysaveItemGlobalOffensive>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemGonewild {
   com?: Int;
   found?: Int;
@@ -10931,44 +8268,6 @@ export interface DaysaveItemGonewildPromise
 
 export interface DaysaveItemGonewildSubscription
   extends Promise<AsyncIterator<DaysaveItemGonewild>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemHearthstone {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHearthstonePromise
-  extends Promise<DaysaveItemHearthstone>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemHearthstoneSubscription
-  extends Promise<AsyncIterator<DaysaveItemHearthstone>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemHighQualityGif {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHighQualityGifPromise
-  extends Promise<DaysaveItemHighQualityGif>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemHighQualityGifSubscription
-  extends Promise<AsyncIterator<DaysaveItemHighQualityGif>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -10993,25 +8292,6 @@ export interface DaysaveItemHiphopheadSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemHmmm {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHmmmPromise
-  extends Promise<DaysaveItemHmmm>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemHmmmSubscription
-  extends Promise<AsyncIterator<DaysaveItemHmmm>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemHockey {
   com?: Int;
   found?: Int;
@@ -11031,25 +8311,6 @@ export interface DaysaveItemHockeySubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemHumansBeingBro {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemHumansBeingBroPromise
-  extends Promise<DaysaveItemHumansBeingBro>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemHumansBeingBroSubscription
-  extends Promise<AsyncIterator<DaysaveItemHumansBeingBro>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemIamverysmart {
   com?: Int;
   found?: Int;
@@ -11064,25 +8325,6 @@ export interface DaysaveItemIamverysmartPromise
 
 export interface DaysaveItemIamverysmartSubscription
   extends Promise<AsyncIterator<DaysaveItemIamverysmart>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemInsanepeoplefacebook {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemInsanepeoplefacebookPromise
-  extends Promise<DaysaveItemInsanepeoplefacebook>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemInsanepeoplefacebookSubscription
-  extends Promise<AsyncIterator<DaysaveItemInsanepeoplefacebook>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -11126,25 +8368,6 @@ export interface DaysaveItemInterestingasfuckSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemIphone {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemIphonePromise
-  extends Promise<DaysaveItemIphone>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemIphoneSubscription
-  extends Promise<AsyncIterator<DaysaveItemIphone>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemJoke {
   com?: Int;
   found?: Int;
@@ -11159,25 +8382,6 @@ export interface DaysaveItemJokePromise
 
 export interface DaysaveItemJokeSubscription
   extends Promise<AsyncIterator<DaysaveItemJoke>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemKeto {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemKetoPromise
-  extends Promise<DaysaveItemKeto>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemKetoSubscription
-  extends Promise<AsyncIterator<DaysaveItemKeto>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -11221,25 +8425,6 @@ export interface DaysaveItemLegaladviceSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemLifehack {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemLifehackPromise
-  extends Promise<DaysaveItemLifehack>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemLifehackSubscription
-  extends Promise<AsyncIterator<DaysaveItemLifehack>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemLifeProTip {
   com?: Int;
   found?: Int;
@@ -11278,77 +8463,20 @@ export interface DaysaveItemListentothiSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemLoseit {
+export interface DaysaveItemMadeMeSmile {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemLoseitPromise
-  extends Promise<DaysaveItemLoseit>,
+export interface DaysaveItemMadeMeSmilePromise
+  extends Promise<DaysaveItemMadeMeSmile>,
     Fragmentable {
   com: () => Promise<Int>;
   found: () => Promise<Int>;
 }
 
-export interface DaysaveItemLoseitSubscription
-  extends Promise<AsyncIterator<DaysaveItemLoseit>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemMakeupAddiction {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMakeupAddictionPromise
-  extends Promise<DaysaveItemMakeupAddiction>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemMakeupAddictionSubscription
-  extends Promise<AsyncIterator<DaysaveItemMakeupAddiction>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemMalefashionadvice {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMalefashionadvicePromise
-  extends Promise<DaysaveItemMalefashionadvice>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemMalefashionadviceSubscription
-  extends Promise<AsyncIterator<DaysaveItemMalefashionadvice>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemManga {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMangaPromise
-  extends Promise<DaysaveItemManga>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemMangaSubscription
-  extends Promise<AsyncIterator<DaysaveItemManga>>,
+export interface DaysaveItemMadeMeSmileSubscription
+  extends Promise<AsyncIterator<DaysaveItemMadeMeSmile>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -11368,25 +8496,6 @@ export interface DaysaveItemMe_irlPromise
 
 export interface DaysaveItemMe_irlSubscription
   extends Promise<AsyncIterator<DaysaveItemMe_irl>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemMealPrepSunday {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMealPrepSundayPromise
-  extends Promise<DaysaveItemMealPrepSunday>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemMealPrepSundaySubscription
-  extends Promise<AsyncIterator<DaysaveItemMealPrepSunday>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -11563,44 +8672,6 @@ export interface DaysaveItemMurderedByWordSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemMusic {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemMusicPromise
-  extends Promise<DaysaveItemMusic>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemMusicSubscription
-  extends Promise<AsyncIterator<DaysaveItemMusic>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemNatureIsFuckingLit {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemNatureIsFuckingLitPromise
-  extends Promise<DaysaveItemNatureIsFuckingLit>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemNatureIsFuckingLitSubscription
-  extends Promise<AsyncIterator<DaysaveItemNatureIsFuckingLit>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemNatureismetal {
   com?: Int;
   found?: Int;
@@ -11634,6 +8705,25 @@ export interface DaysaveItemNbaPromise
 
 export interface DaysaveItemNbaSubscription
   extends Promise<AsyncIterator<DaysaveItemNba>>,
+    Fragmentable {
+  com: () => Promise<AsyncIterator<Int>>;
+  found: () => Promise<AsyncIterator<Int>>;
+}
+
+export interface DaysaveItemNevertellmetheodd {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemNevertellmetheoddPromise
+  extends Promise<DaysaveItemNevertellmetheodd>,
+    Fragmentable {
+  com: () => Promise<Int>;
+  found: () => Promise<Int>;
+}
+
+export interface DaysaveItemNevertellmetheoddSubscription
+  extends Promise<AsyncIterator<DaysaveItemNevertellmetheodd>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -11715,25 +8805,6 @@ export interface DaysaveItemNintendoSwitchSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemNononono {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemNonononoPromise
-  extends Promise<DaysaveItemNononono>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemNonononoSubscription
-  extends Promise<AsyncIterator<DaysaveItemNononono>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemNosleep {
   com?: Int;
   found?: Int;
@@ -11805,25 +8876,6 @@ export interface DaysaveItemOddlysatisfyingPromise
 
 export interface DaysaveItemOddlysatisfyingSubscription
   extends Promise<AsyncIterator<DaysaveItemOddlysatisfying>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemOldpeoplefacebook {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemOldpeoplefacebookPromise
-  extends Promise<DaysaveItemOldpeoplefacebook>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemOldpeoplefacebookSubscription
-  extends Promise<AsyncIterator<DaysaveItemOldpeoplefacebook>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -12000,25 +9052,6 @@ export interface DaysaveItemPokemonSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemPokemongo {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemPokemongoPromise
-  extends Promise<DaysaveItemPokemongo>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemPokemongoSubscription
-  extends Promise<AsyncIterator<DaysaveItemPokemongo>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemPolitic {
   com?: Int;
   found?: Int;
@@ -12057,25 +9090,6 @@ export interface DaysaveItemPrequelMemeSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemProgrammerHumor {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemProgrammerHumorPromise
-  extends Promise<DaysaveItemProgrammerHumor>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemProgrammerHumorSubscription
-  extends Promise<AsyncIterator<DaysaveItemProgrammerHumor>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemPS4 {
   com?: Int;
   found?: Int;
@@ -12109,25 +9123,6 @@ export interface DaysaveItemReactiongifPromise
 
 export interface DaysaveItemReactiongifSubscription
   extends Promise<AsyncIterator<DaysaveItemReactiongif>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemRealGirl {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemRealGirlPromise
-  extends Promise<DaysaveItemRealGirl>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemRealGirlSubscription
-  extends Promise<AsyncIterator<DaysaveItemRealGirl>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -12266,6 +9261,25 @@ export interface DaysaveItemSexSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
+export interface DaysaveItemShittyfoodporn {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemShittyfoodpornPromise
+  extends Promise<DaysaveItemShittyfoodporn>,
+    Fragmentable {
+  com: () => Promise<Int>;
+  found: () => Promise<Int>;
+}
+
+export interface DaysaveItemShittyfoodpornSubscription
+  extends Promise<AsyncIterator<DaysaveItemShittyfoodporn>>,
+    Fragmentable {
+  com: () => Promise<AsyncIterator<Int>>;
+  found: () => Promise<AsyncIterator<Int>>;
+}
+
 export interface DaysaveItemShowerthought {
   com?: Int;
   found?: Int;
@@ -12285,39 +9299,39 @@ export interface DaysaveItemShowerthoughtSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemSoccer {
+export interface DaysaveItemSkincareAddiction {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemSoccerPromise
-  extends Promise<DaysaveItemSoccer>,
+export interface DaysaveItemSkincareAddictionPromise
+  extends Promise<DaysaveItemSkincareAddiction>,
     Fragmentable {
   com: () => Promise<Int>;
   found: () => Promise<Int>;
 }
 
-export interface DaysaveItemSoccerSubscription
-  extends Promise<AsyncIterator<DaysaveItemSoccer>>,
+export interface DaysaveItemSkincareAddictionSubscription
+  extends Promise<AsyncIterator<DaysaveItemSkincareAddiction>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemSocialskill {
+export interface DaysaveItemSlowcooking {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemSocialskillPromise
-  extends Promise<DaysaveItemSocialskill>,
+export interface DaysaveItemSlowcookingPromise
+  extends Promise<DaysaveItemSlowcooking>,
     Fragmentable {
   com: () => Promise<Int>;
   found: () => Promise<Int>;
 }
 
-export interface DaysaveItemSocialskillSubscription
-  extends Promise<AsyncIterator<DaysaveItemSocialskill>>,
+export interface DaysaveItemSlowcookingSubscription
+  extends Promise<AsyncIterator<DaysaveItemSlowcooking>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -12399,20 +9413,39 @@ export interface DaysaveItemStarWarSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemTechnology {
+export interface DaysaveItemStreetwear {
   com?: Int;
   found?: Int;
 }
 
-export interface DaysaveItemTechnologyPromise
-  extends Promise<DaysaveItemTechnology>,
+export interface DaysaveItemStreetwearPromise
+  extends Promise<DaysaveItemStreetwear>,
     Fragmentable {
   com: () => Promise<Int>;
   found: () => Promise<Int>;
 }
 
-export interface DaysaveItemTechnologySubscription
-  extends Promise<AsyncIterator<DaysaveItemTechnology>>,
+export interface DaysaveItemStreetwearSubscription
+  extends Promise<AsyncIterator<DaysaveItemStreetwear>>,
+    Fragmentable {
+  com: () => Promise<AsyncIterator<Int>>;
+  found: () => Promise<AsyncIterator<Int>>;
+}
+
+export interface DaysaveItemTattoo {
+  com?: Int;
+  found?: Int;
+}
+
+export interface DaysaveItemTattooPromise
+  extends Promise<DaysaveItemTattoo>,
+    Fragmentable {
+  com: () => Promise<Int>;
+  found: () => Promise<Int>;
+}
+
+export interface DaysaveItemTattooSubscription
+  extends Promise<AsyncIterator<DaysaveItemTattoo>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -12508,25 +9541,6 @@ export interface DaysaveItemTherewasanattemptPromise
 
 export interface DaysaveItemTherewasanattemptSubscription
   extends Promise<AsyncIterator<DaysaveItemTherewasanattempt>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemTifu {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemTifuPromise
-  extends Promise<DaysaveItemTifu>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemTifuSubscription
-  extends Promise<AsyncIterator<DaysaveItemTifu>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -12665,25 +9679,6 @@ export interface DaysaveItemUnexpectedSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemUpliftingNew {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemUpliftingNewPromise
-  extends Promise<DaysaveItemUpliftingNew>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemUpliftingNewSubscription
-  extends Promise<AsyncIterator<DaysaveItemUpliftingNew>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemVideo {
   com?: Int;
   found?: Int;
@@ -12760,25 +9755,6 @@ export interface DaysaveItemWhatcouldgowrongSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemWhatisthisthing {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWhatisthisthingPromise
-  extends Promise<DaysaveItemWhatisthisthing>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemWhatisthisthingSubscription
-  extends Promise<AsyncIterator<DaysaveItemWhatisthisthing>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemWhitePeopleTwitter {
   com?: Int;
   found?: Int;
@@ -12817,25 +9793,6 @@ export interface DaysaveItemWholesomememeSubscription
   found: () => Promise<AsyncIterator<Int>>;
 }
 
-export interface DaysaveItemWoahdude {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWoahdudePromise
-  extends Promise<DaysaveItemWoahdude>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemWoahdudeSubscription
-  extends Promise<AsyncIterator<DaysaveItemWoahdude>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
 export interface DaysaveItemWoodworking {
   com?: Int;
   found?: Int;
@@ -12869,25 +9826,6 @@ export interface DaysaveItemWorldnewPromise
 
 export interface DaysaveItemWorldnewSubscription
   extends Promise<AsyncIterator<DaysaveItemWorldnew>>,
-    Fragmentable {
-  com: () => Promise<AsyncIterator<Int>>;
-  found: () => Promise<AsyncIterator<Int>>;
-}
-
-export interface DaysaveItemWow {
-  com?: Int;
-  found?: Int;
-}
-
-export interface DaysaveItemWowPromise
-  extends Promise<DaysaveItemWow>,
-    Fragmentable {
-  com: () => Promise<Int>;
-  found: () => Promise<Int>;
-}
-
-export interface DaysaveItemWowSubscription
-  extends Promise<AsyncIterator<DaysaveItemWow>>,
     Fragmentable {
   com: () => Promise<AsyncIterator<Int>>;
   found: () => Promise<AsyncIterator<Int>>;
@@ -13159,19 +10097,15 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItem4chan",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemAbandonedPorn",
-    embedded: true
-  },
-  {
     name: "DaysaveItemAdviceAnimal",
     embedded: true
   },
   {
     name: "DaysaveItemAndroid",
+    embedded: true
+  },
+  {
+    name: "DaysaveItemAnimalsBeingDerp",
     embedded: true
   },
   {
@@ -13184,10 +10118,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemApple",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemArt",
     embedded: true
   },
   {
@@ -13211,39 +10141,11 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemAtheism",
-    embedded: true
-  },
-  {
     name: "DaysaveItemAww",
     embedded: true
   },
   {
-    name: "DaysaveItemBackpacking",
-    embedded: true
-  },
-  {
     name: "DaysaveItemBaseball",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemBattlestation",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemBeAmazed",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemBestof",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemBetterEveryLoop",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemBikiniBottomTwitter",
     embedded: true
   },
   {
@@ -13252,10 +10154,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemBoardgame",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemBook",
     embedded: true
   },
   {
@@ -13271,23 +10169,11 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemChangemyview",
-    embedded: true
-  },
-  {
     name: "DaysaveItemChoosingBeggar",
     embedded: true
   },
   {
     name: "DaysaveItemComic",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemComicbook",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemConfession",
     embedded: true
   },
   {
@@ -13300,22 +10186,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemCrappyDesign",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemCreepy",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemCringe",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemCryptoCurrency",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemDamnthatsinteresting",
     embedded: true
   },
   {
@@ -13335,6 +10205,10 @@ export const models: Model[] = [
     embedded: true
   },
   {
+    name: "DaysaveItemDog",
+    embedded: true
+  },
+  {
     name: "DaysaveItemDrawing",
     embedded: true
   },
@@ -13347,14 +10221,6 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemEducationalgif",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemEntertainment",
-    embedded: true
-  },
-  {
     name: "DaysaveItemEurope",
     embedded: true
   },
@@ -13364,14 +10230,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemEyebleach",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemFacepalm",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemFemalefashionadvice",
     embedded: true
   },
   {
@@ -13392,10 +10250,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemFrugal",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemFrugalmalefashion",
     embedded: true
   },
   {
@@ -13427,19 +10281,7 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemGlobalOffensive",
-    embedded: true
-  },
-  {
     name: "DaysaveItemGonewild",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemHearthstone",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemHighQualityGif",
     embedded: true
   },
   {
@@ -13447,23 +10289,11 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemHmmm",
-    embedded: true
-  },
-  {
     name: "DaysaveItemHockey",
     embedded: true
   },
   {
-    name: "DaysaveItemHumansBeingBro",
-    embedded: true
-  },
-  {
     name: "DaysaveItemIamverysmart",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemInsanepeoplefacebook",
     embedded: true
   },
   {
@@ -13475,15 +10305,7 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemIphone",
-    embedded: true
-  },
-  {
     name: "DaysaveItemJoke",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemKeto",
     embedded: true
   },
   {
@@ -13499,15 +10321,7 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemLifehack",
-    embedded: true
-  },
-  {
     name: "DaysaveItemListentothi",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemLoseit",
     embedded: true
   },
   {
@@ -13515,23 +10329,11 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemMakeupAddiction",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemMalefashionadvice",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemManga",
+    name: "DaysaveItemMadeMeSmile",
     embedded: true
   },
   {
     name: "DaysaveItemMe_irl",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemMealPrepSunday",
     embedded: true
   },
   {
@@ -13567,19 +10369,15 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemMusic",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemNatureIsFuckingLit",
-    embedded: true
-  },
-  {
     name: "DaysaveItemNatureismetal",
     embedded: true
   },
   {
     name: "DaysaveItemNba",
+    embedded: true
+  },
+  {
+    name: "DaysaveItemNevertellmetheodd",
     embedded: true
   },
   {
@@ -13603,10 +10401,6 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemNononono",
-    embedded: true
-  },
-  {
     name: "DaysaveItemNosleep",
     embedded: true
   },
@@ -13620,10 +10414,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemOldSchoolCool",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemOldpeoplefacebook",
     embedded: true
   },
   {
@@ -13663,10 +10453,6 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemPokemongo",
-    embedded: true
-  },
-  {
     name: "DaysaveItemPolitic",
     embedded: true
   },
@@ -13675,15 +10461,7 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemProgrammerHumor",
-    embedded: true
-  },
-  {
     name: "DaysaveItemReactiongif",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemRealGirl",
     embedded: true
   },
   {
@@ -13715,15 +10493,19 @@ export const models: Model[] = [
     embedded: true
   },
   {
+    name: "DaysaveItemShittyfoodporn",
+    embedded: true
+  },
+  {
     name: "DaysaveItemShowerthought",
     embedded: true
   },
   {
-    name: "DaysaveItemSoccer",
+    name: "DaysaveItemSkincareAddiction",
     embedded: true
   },
   {
-    name: "DaysaveItemSocialskill",
+    name: "DaysaveItemSlowcooking",
     embedded: true
   },
   {
@@ -13743,7 +10525,11 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemTechnology",
+    name: "DaysaveItemStreetwear",
+    embedded: true
+  },
+  {
+    name: "DaysaveItemTattoo",
     embedded: true
   },
   {
@@ -13764,10 +10550,6 @@ export const models: Model[] = [
   },
   {
     name: "DaysaveItemTherewasanattempt",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemTifu",
     embedded: true
   },
   {
@@ -13799,10 +10581,6 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemUpliftingNew",
-    embedded: true
-  },
-  {
     name: "DaysaveItemVideo",
     embedded: true
   },
@@ -13823,10 +10601,6 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemWhatisthisthing",
-    embedded: true
-  },
-  {
     name: "DaysaveItemWhitePeopleTwitter",
     embedded: true
   },
@@ -13835,19 +10609,11 @@ export const models: Model[] = [
     embedded: true
   },
   {
-    name: "DaysaveItemWoahdude",
-    embedded: true
-  },
-  {
     name: "DaysaveItemWoodworking",
     embedded: true
   },
   {
     name: "DaysaveItemWorldnew",
-    embedded: true
-  },
-  {
-    name: "DaysaveItemWow",
     embedded: true
   },
   {

@@ -7,65 +7,45 @@ type Daysave @db(name: "daysaves") {
 }
 
 type DaysaveItem @embedded {
-  AbandonedPorn: DaysaveItemAbandonedPorn
   AdviceAnimals: DaysaveItemAdviceAnimal
   Android: DaysaveItemAndroid
+  AnimalsBeingDerps: DaysaveItemAnimalsBeingDerp
   AnimalsBeingJerks: DaysaveItemAnimalsBeingJerk
   anime: DaysaveItemAnime
   apple: DaysaveItemApple
-  Art: DaysaveItemArt
   AskMen: DaysaveItemAskMan
   AskReddit: DaysaveItemAskReddit
   askscience: DaysaveItemAskscience
   AskWomen: DaysaveItemAskWoman
   assholedesign: DaysaveItemAssholedesign
-  atheism: DaysaveItemAtheism
   aww: DaysaveItemAww
-  backpacking: DaysaveItemBackpacking
   baseball: DaysaveItemBaseball
-  battlestations: DaysaveItemBattlestation
-  BeAmazed: DaysaveItemBeAmazed
-  bestof: DaysaveItemBestof
-  BetterEveryLoop: DaysaveItemBetterEveryLoop
-  BikiniBottomTwitter: DaysaveItemBikiniBottomTwitter
   BlackPeopleTwitter: DaysaveItemBlackPeopleTwitter
   boardgames: DaysaveItemBoardgame
-  books: DaysaveItemBook
   buildapc: DaysaveItemBuildapc
   cars: DaysaveItemCar
   cats: DaysaveItemCat
-  changemyview: DaysaveItemChangemyview
   ChoosingBeggars: DaysaveItemChoosingBeggar
-  comicbooks: DaysaveItemComicbook
   comics: DaysaveItemComic
-  confession: DaysaveItemConfession
   conspiracy: DaysaveItemConspiracy
   Cooking: DaysaveItemCooking
   CrappyDesign: DaysaveItemCrappyDesign
-  creepy: DaysaveItemCreepy
-  cringe: DaysaveItemCringe
-  CryptoCurrency: DaysaveItemCryptoCurrency
-  Damnthatsinteresting: DaysaveItemDamnthatsinteresting
   dankmemes: DaysaveItemDankmeme
   DestinyTheGame: DaysaveItemDestinyTheGame
   DnD: DaysaveItemDnD
   Documentaries: DaysaveItemDocumentary
+  dogs: DaysaveItemDog
   drawing: DaysaveItemDrawing
   DunderMifflin: DaysaveItemDunderMifflin
   EarthPorn: DaysaveItemEarthPorn
-  educationalgifs: DaysaveItemEducationalgif
-  entertainment: DaysaveItemEntertainment
   europe: DaysaveItemEurope
   explainlikeimfive: DaysaveItemExplainlikeimfive
   Eyebleach: DaysaveItemEyebleach
-  facepalm: DaysaveItemFacepalm
-  femalefashionadvice: DaysaveItemFemalefashionadvice
   Fitness: DaysaveItemFitness
   food: DaysaveItemFood
   FoodPorn: DaysaveItemFoodPorn
   FortNiteBR: DaysaveItemFortNiteBR
   Frugal: DaysaveItemFrugal
-  frugalmalefashion: DaysaveItemFrugalmalefashion
   funny: DaysaveItemFunny
   Futurology: DaysaveItemFuturology
   gadgets: DaysaveItemGadget
@@ -73,32 +53,19 @@ type DaysaveItem @embedded {
   gaming: DaysaveItemGaming
   gardening: DaysaveItemGardening
   gifs: DaysaveItemGif
-  GlobalOffensive: DaysaveItemGlobalOffensive
   gonewild: DaysaveItemGonewild
-  hearthstone: DaysaveItemHearthstone
-  HighQualityGifs: DaysaveItemHighQualityGif
   hiphopheads: DaysaveItemHiphophead
-  hmmm: DaysaveItemHmmm
   hockey: DaysaveItemHockey
-  HumansBeingBros: DaysaveItemHumansBeingBro
   iamverysmart: DaysaveItemIamverysmart
-  insanepeoplefacebook: DaysaveItemInsanepeoplefacebook
   instant_regret: DaysaveItemInstant_regret
   interestingasfuck: DaysaveItemInterestingasfuck
-  iphone: DaysaveItemIphone
   Jokes: DaysaveItemJoke
-  keto: DaysaveItemKeto
   leagueoflegends: DaysaveItemLeagueoflegend
   legaladvice: DaysaveItemLegaladvice
-  lifehacks: DaysaveItemLifehack
   LifeProTips: DaysaveItemLifeProTip
   listentothis: DaysaveItemListentothi
-  loseit: DaysaveItemLoseit
-  MakeupAddiction: DaysaveItemMakeupAddiction
-  malefashionadvice: DaysaveItemMalefashionadvice
-  manga: DaysaveItemManga
+  MadeMeSmile: DaysaveItemMadeMeSmile
   me_irl: DaysaveItemMe_irl
-  MealPrepSunday: DaysaveItemMealPrepSunday
   MemeEconomy: DaysaveItemMemeEconomy
   memes: DaysaveItemMeme
   mildlyinfuriating: DaysaveItemMildlyinfuriating
@@ -108,20 +75,17 @@ type DaysaveItem @embedded {
   MovieDetails: DaysaveItemMovieDetail
   movies: DaysaveItemMovie
   MurderedByWords: DaysaveItemMurderedByWord
-  Music: DaysaveItemMusic
-  NatureIsFuckingLit: DaysaveItemNatureIsFuckingLit
   natureismetal: DaysaveItemNatureismetal
   nba: DaysaveItemNba
+  nevertellmetheodds: DaysaveItemNevertellmetheodd
   news: DaysaveItemNews
   nfl: DaysaveItemNfl
   niceguys: DaysaveItemNiceguy
   NintendoSwitch: DaysaveItemNintendoSwitch
-  nononono: DaysaveItemNononono
   nosleep: DaysaveItemNosleep
   NoStupidQuestions: DaysaveItemNoStupidQuestion
   nottheonion: DaysaveItemNottheonion
   oddlysatisfying: DaysaveItemOddlysatisfying
-  oldpeoplefacebook: DaysaveItemOldpeoplefacebook
   OldSchoolCool: DaysaveItemOldSchoolCool
   Overwatch: DaysaveItemOverwatch
   pcgaming: DaysaveItemPcgaming
@@ -131,13 +95,10 @@ type DaysaveItem @embedded {
   photography: DaysaveItemPhotography
   pics: DaysaveItemPic
   pokemon: DaysaveItemPokemon
-  pokemongo: DaysaveItemPokemongo
   politics: DaysaveItemPolitic
   PrequelMemes: DaysaveItemPrequelMeme
-  ProgrammerHumor: DaysaveItemProgrammerHumor
   PS4: DaysaveItemPS4
   reactiongifs: DaysaveItemReactiongif
-  RealGirls: DaysaveItemRealGirl
   relationship_advice: DaysaveItemRelationship_advice
   relationships: DaysaveItemRelationship
   rickandmorty: DaysaveItemRickandmorty
@@ -145,20 +106,21 @@ type DaysaveItem @embedded {
   RoastMe: DaysaveItemRoastMe
   science: DaysaveItemScience
   sex: DaysaveItemSex
+  shittyfoodporn: DaysaveItemShittyfoodporn
   Showerthoughts: DaysaveItemShowerthought
-  soccer: DaysaveItemSoccer
-  socialskills: DaysaveItemSocialskill
+  SkincareAddiction: DaysaveItemSkincareAddiction
+  slowcooking: DaysaveItemSlowcooking
   space: DaysaveItemSpace
   sports: DaysaveItemSport
   starterpacks: DaysaveItemStarterpack
   StarWars: DaysaveItemStarWar
-  technology: DaysaveItemTechnology
+  streetwear: DaysaveItemStreetwear
+  tattoos: DaysaveItemTattoo
   teenagers: DaysaveItemTeenager
   television: DaysaveItemTelevision
   thatHappened: DaysaveItemThatHappened
   The_Donald: DaysaveItemThe_Donald
   therewasanattempt: DaysaveItemTherewasanattempt
-  tifu: DaysaveItemTifu
   Tinder: DaysaveItemTinder
   todayilearned: DaysaveItemTodayilearned
   trashy: DaysaveItemTrashy
@@ -166,32 +128,18 @@ type DaysaveItem @embedded {
   trees: DaysaveItemTree
   TwoXChromosomes: DaysaveItemTwoXChromosome
   Unexpected: DaysaveItemUnexpected
-  UpliftingNews: DaysaveItemUpliftingNew
   videos: DaysaveItemVideo
   WatchPeopleDieInside: DaysaveItemWatchPeopleDieInside
   Wellthatsucks: DaysaveItemWellthatsuck
   Whatcouldgowrong: DaysaveItemWhatcouldgowrong
-  whatisthisthing: DaysaveItemWhatisthisthing
   WhitePeopleTwitter: DaysaveItemWhitePeopleTwitter
   wholesomememes: DaysaveItemWholesomememe
-  woahdude: DaysaveItemWoahdude
   woodworking: DaysaveItemWoodworking
   worldnews: DaysaveItemWorldnew
-  wow: DaysaveItemWow
   WritingPrompts: DaysaveItemWritingPrompt
   WTF: DaysaveItemWTF
   xboxone: DaysaveItemXboxone
   YouShouldKnow: DaysaveItemYouShouldKnow
-}
-
-type DaysaveItem4chan @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemAbandonedPorn @embedded {
-  com: Int
-  found: Int
 }
 
 type DaysaveItemAdviceAnimal @embedded {
@@ -200,6 +148,11 @@ type DaysaveItemAdviceAnimal @embedded {
 }
 
 type DaysaveItemAndroid @embedded {
+  com: Int
+  found: Int
+}
+
+type DaysaveItemAnimalsBeingDerp @embedded {
   com: Int
   found: Int
 }
@@ -215,11 +168,6 @@ type DaysaveItemAnime @embedded {
 }
 
 type DaysaveItemApple @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemArt @embedded {
   com: Int
   found: Int
 }
@@ -249,47 +197,12 @@ type DaysaveItemAssholedesign @embedded {
   found: Int
 }
 
-type DaysaveItemAtheism @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemAww @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemBackpacking @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemBaseball @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemBattlestation @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemBeAmazed @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemBestof @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemBetterEveryLoop @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemBikiniBottomTwitter @embedded {
   com: Int
   found: Int
 }
@@ -300,11 +213,6 @@ type DaysaveItemBlackPeopleTwitter @embedded {
 }
 
 type DaysaveItemBoardgame @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemBook @embedded {
   com: Int
   found: Int
 }
@@ -324,27 +232,12 @@ type DaysaveItemCat @embedded {
   found: Int
 }
 
-type DaysaveItemChangemyview @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemChoosingBeggar @embedded {
   com: Int
   found: Int
 }
 
 type DaysaveItemComic @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemComicbook @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemConfession @embedded {
   com: Int
   found: Int
 }
@@ -360,26 +253,6 @@ type DaysaveItemCooking @embedded {
 }
 
 type DaysaveItemCrappyDesign @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemCreepy @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemCringe @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemCryptoCurrency @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemDamnthatsinteresting @embedded {
   com: Int
   found: Int
 }
@@ -404,6 +277,11 @@ type DaysaveItemDocumentary @embedded {
   found: Int
 }
 
+type DaysaveItemDog @embedded {
+  com: Int
+  found: Int
+}
+
 type DaysaveItemDrawing @embedded {
   com: Int
   found: Int
@@ -419,16 +297,6 @@ type DaysaveItemEarthPorn @embedded {
   found: Int
 }
 
-type DaysaveItemEducationalgif @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemEntertainment @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemEurope @embedded {
   com: Int
   found: Int
@@ -440,16 +308,6 @@ type DaysaveItemExplainlikeimfive @embedded {
 }
 
 type DaysaveItemEyebleach @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemFacepalm @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemFemalefashionadvice @embedded {
   com: Int
   found: Int
 }
@@ -475,11 +333,6 @@ type DaysaveItemFortNiteBR @embedded {
 }
 
 type DaysaveItemFrugal @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemFrugalmalefashion @embedded {
   com: Int
   found: Int
 }
@@ -519,22 +372,7 @@ type DaysaveItemGif @embedded {
   found: Int
 }
 
-type DaysaveItemGlobalOffensive @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemGonewild @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemHearthstone @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemHighQualityGif @embedded {
   com: Int
   found: Int
 }
@@ -544,27 +382,12 @@ type DaysaveItemHiphophead @embedded {
   found: Int
 }
 
-type DaysaveItemHmmm @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemHockey @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemHumansBeingBro @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemIamverysmart @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemInsanepeoplefacebook @embedded {
   com: Int
   found: Int
 }
@@ -579,17 +402,7 @@ type DaysaveItemInterestingasfuck @embedded {
   found: Int
 }
 
-type DaysaveItemIphone @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemJoke @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemKeto @embedded {
   com: Int
   found: Int
 }
@@ -609,17 +422,7 @@ type DaysaveItemLifeProTip @embedded {
   found: Int
 }
 
-type DaysaveItemLifehack @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemListentothi @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemLoseit @embedded {
   com: Int
   found: Int
 }
@@ -629,27 +432,12 @@ type DaysaveItemMMA @embedded {
   found: Int
 }
 
-type DaysaveItemMakeupAddiction @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemMalefashionadvice @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemManga @embedded {
+type DaysaveItemMadeMeSmile @embedded {
   com: Int
   found: Int
 }
 
 type DaysaveItemMe_irl @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemMealPrepSunday @embedded {
   com: Int
   found: Int
 }
@@ -694,22 +482,17 @@ type DaysaveItemMurderedByWord @embedded {
   found: Int
 }
 
-type DaysaveItemMusic @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemNatureIsFuckingLit @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemNatureismetal @embedded {
   com: Int
   found: Int
 }
 
 type DaysaveItemNba @embedded {
+  com: Int
+  found: Int
+}
+
+type DaysaveItemNevertellmetheodd @embedded {
   com: Int
   found: Int
 }
@@ -739,11 +522,6 @@ type DaysaveItemNoStupidQuestion @embedded {
   found: Int
 }
 
-type DaysaveItemNononono @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemNosleep @embedded {
   com: Int
   found: Int
@@ -760,11 +538,6 @@ type DaysaveItemOddlysatisfying @embedded {
 }
 
 type DaysaveItemOldSchoolCool @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemOldpeoplefacebook @embedded {
   com: Int
   found: Int
 }
@@ -814,11 +587,6 @@ type DaysaveItemPokemon @embedded {
   found: Int
 }
 
-type DaysaveItemPokemongo @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemPolitic @embedded {
   com: Int
   found: Int
@@ -829,17 +597,7 @@ type DaysaveItemPrequelMeme @embedded {
   found: Int
 }
 
-type DaysaveItemProgrammerHumor @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemReactiongif @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemRealGirl @embedded {
   com: Int
   found: Int
 }
@@ -879,17 +637,22 @@ type DaysaveItemSex @embedded {
   found: Int
 }
 
+type DaysaveItemShittyfoodporn @embedded {
+  com: Int
+  found: Int
+}
+
 type DaysaveItemShowerthought @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemSoccer @embedded {
+type DaysaveItemSkincareAddiction @embedded {
   com: Int
   found: Int
 }
 
-type DaysaveItemSocialskill @embedded {
+type DaysaveItemSlowcooking @embedded {
   com: Int
   found: Int
 }
@@ -914,7 +677,12 @@ type DaysaveItemStarterpack @embedded {
   found: Int
 }
 
-type DaysaveItemTechnology @embedded {
+type DaysaveItemStreetwear @embedded {
+  com: Int
+  found: Int
+}
+
+type DaysaveItemTattoo @embedded {
   com: Int
   found: Int
 }
@@ -940,11 +708,6 @@ type DaysaveItemThe_Donald @embedded {
 }
 
 type DaysaveItemTherewasanattempt @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemTifu @embedded {
   com: Int
   found: Int
 }
@@ -984,11 +747,6 @@ type DaysaveItemUnexpected @embedded {
   found: Int
 }
 
-type DaysaveItemUpliftingNew @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemVideo @embedded {
   com: Int
   found: Int
@@ -1014,11 +772,6 @@ type DaysaveItemWhatcouldgowrong @embedded {
   found: Int
 }
 
-type DaysaveItemWhatisthisthing @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemWhitePeopleTwitter @embedded {
   com: Int
   found: Int
@@ -1029,22 +782,12 @@ type DaysaveItemWholesomememe @embedded {
   found: Int
 }
 
-type DaysaveItemWoahdude @embedded {
-  com: Int
-  found: Int
-}
-
 type DaysaveItemWoodworking @embedded {
   com: Int
   found: Int
 }
 
 type DaysaveItemWorldnew @embedded {
-  com: Int
-  found: Int
-}
-
-type DaysaveItemWow @embedded {
   com: Int
   found: Int
 }

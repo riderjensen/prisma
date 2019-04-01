@@ -4,8 +4,11 @@ Prisma server using pre-exisiting database
 
 ## Starting the db
 
-1. docker-compose up -d
-2. prisma deploy
+1. clone repo
+2. cd into directory
+3. run `docker-compose up -d`
+4. run `prisma deploy`
+5. server should be running on localhost:4466
 
 ## Sample Queries
 

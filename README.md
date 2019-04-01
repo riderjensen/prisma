@@ -6,16 +6,10 @@ Prisma server using pre-exisiting database
 
 1. clone repo
 2. cd into directory
-3. run `prisma deploy`
-4. run `npm start`
-5. run `prisma token`
-6. in the playground, select HTTP headers and add the following
-
-```
-{
-  "authorization": "[YOUR AUTH TOKEN HERE]"
-}
-```
+3. run `docker-compose up -d`
+4. run `prisma deploy`
+5. run `npm install`
+6. run `npm start`
 
 ## Sample Queries
 

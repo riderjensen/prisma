@@ -1,6 +1,5 @@
 type Daysave @db(name: "daysaves") {
   _id: ID! @id
-  __v: Int
   createdAt: DateTime
   items: DaysaveItem
   updatedAt: DateTime

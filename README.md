@@ -10,7 +10,6 @@ Prisma server using pre-exisiting database
 ## Sample Queries
 
 ```
-# Write your query or mutation here
 query findAskreddit {
   daysaves {
     _id

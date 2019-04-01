@@ -9,6 +9,14 @@ Prisma server using pre-exisiting database
 3. run `docker-compose up -d`
 4. run `prisma deploy`
 5. server should be running on localhost:4466
+6. run `prisma token`
+7. in the playground, select HTTP headers and add the following
+
+```
+{
+  "authorization": "[YOUR AUTH TOKEN HERE]"
+}
+```
 
 ## Sample Queries
 
